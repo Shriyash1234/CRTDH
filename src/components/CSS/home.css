@@ -1,0 +1,36 @@
+.CRTDH-name{
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    color: #fff;
+    font-family: Inter;
+}
+.CRTDH-main{
+    font-size: 10rem;
+}
+.CRTDH-full-form{
+    font-size: 3rem;
+}
+@media all and (max-width:768px) {
+    .CRTDH-name{
+        left: 12vw;
+    }
+    .CRTDH-main{
+        font-size: 10vw;
+    }
+    .CRTDH-full-form{
+        font-size: 3vw;
+    }
+}
+@media all and (max-width:479px) {
+    .CRTDH-name{
+        left: 12vw;
+        text-align: center;
+    }
+    .CRTDH-main{
+        font-size: 12vw;
+    }
+    .CRTDH-full-form{
+        font-size: 4vw;
+    }
+}
