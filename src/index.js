@@ -9,7 +9,7 @@ export default function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route index path="/CRTDH" element={<Home />} />
+        <Route index path="/" element={<Home />} />
       </Routes>
     </HashRouter>
   );
