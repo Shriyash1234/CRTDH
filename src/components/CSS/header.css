@@ -199,7 +199,16 @@
     .CRTDH-logo-phone{
         display: block;
     }
-
+	.clear-all,.cm-header-wrap{
+		background-color: #fff !important;
+	}
+	.cm-menu-inner > ul  li a,.searchbar,.search-text,.lucide-search,.CRTDH-logo-phone,.cm-menu-btn{
+		color: #000 !important;
+	}
+	.CRTDH-logo-phone{
+		z-index: 20;
+		position: fixed;
+	}
 }
 
 /* Banner*/
