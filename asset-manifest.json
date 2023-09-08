@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CRTDH/static/css/main.3351db19.css",
-    "main.js": "/CRTDH/static/js/main.5103ee59.js",
+    "main.css": "/CRTDH/static/css/main.9c2c5861.css",
+    "main.js": "/CRTDH/static/js/main.9944a16c.js",
     "static/js/787.8364e0a8.chunk.js": "/CRTDH/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-2.jpg": "/CRTDH/static/media/banner-2.eca00d9d1efe0b45fef4.jpg",
     "static/media/banner-3.jpg": "/CRTDH/static/media/banner-3.9c7ad727ff6b3bd91ab7.jpg",
@@ -10,12 +10,12 @@
     "static/media/CRTDH_labs.JPG": "/CRTDH/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/areas.JPG": "/CRTDH/static/media/areas.ff639e084f6e99876a92.JPG",
     "index.html": "/CRTDH/index.html",
-    "main.3351db19.css.map": "/CRTDH/static/css/main.3351db19.css.map",
-    "main.5103ee59.js.map": "/CRTDH/static/js/main.5103ee59.js.map",
+    "main.9c2c5861.css.map": "/CRTDH/static/css/main.9c2c5861.css.map",
+    "main.9944a16c.js.map": "/CRTDH/static/js/main.9944a16c.js.map",
     "787.8364e0a8.chunk.js.map": "/CRTDH/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3351db19.css",
-    "static/js/main.5103ee59.js"
+    "static/css/main.9c2c5861.css",
+    "static/js/main.9944a16c.js"
   ]
 }
