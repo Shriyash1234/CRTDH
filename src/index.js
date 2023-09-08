@@ -5,11 +5,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Home from './components/home'
+import Industry from './components/industry'
+
 export default function App() {
   return (
     <HashRouter>
       <Routes>
         <Route index path="/" element={<Home />} />
+        <Route index path="/Industry" element={<Industry />} />
       </Routes>
     </HashRouter>
   );

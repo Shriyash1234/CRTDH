@@ -36,27 +36,30 @@ function Header(){
                 <div className="cm-menu-inner">
                     <ul className="menu-ul clear-all" >
                         <li className="has-child">
-                            <a href="#" className ='links' style={{ color: linkbg }}>Home</a>
+                            <Link to="#" className ='links' style={{ color: linkbg }}>Home</Link>
                         </li>
                         <li className="has-child">
-                            <a href="#" className ='links' style={{ color: linkbg }}>About</a>
+                            <Link to="#" className ='links' style={{ color: linkbg }}>About</Link>
                         </li>
                         <li className="has-child">
-                            <a href="#" className ='links' style={{ color: linkbg }}>Research</a>
+                            <Link to="#" className ='links' style={{ color: linkbg }}>Research</Link>
                         </li>
                         <li className="has-child">
-                            <a href="#" className ='links' style={{ color: linkbg }}>Facilites</a>
+                            <Link to="Industry" className ='links' style={{ color: linkbg }}>Industry</Link>
                         </li>
                         <li className="has-child">
-                            <a href="#" className ='links' style={{ color: linkbg }}>Contact us</a>
+                            <Link to="#" className ='links' style={{ color: linkbg }}>Facilites</Link>
                         </li>
                         <li className="has-child">
-                            <a href="#" className ='links'>
+                            <Link to="#" className ='links' style={{ color: linkbg }}>Contact us</Link>
+                        </li>
+                        <li className="has-child">
+                            <Link to="#" className ='links'>
                                 <div className='searchbar'>
                                     <Search style={{ color: linkbg }}/> 
                                     <p className='search-text' style={{ color: linkbg }}>&nbsp;&nbsp;&nbsp;Search</p>
                                 </div>
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
