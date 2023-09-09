@@ -36,7 +36,7 @@ function Header(){
                 <div className="cm-menu-inner">
                     <ul className="menu-ul clear-all" >
                         <li className="has-child">
-                            <Link to="#" className ='links' style={{ color: linkbg }}>Home</Link>
+                            <Link to="/" className ='links' style={{ color: linkbg }}>Home</Link>
                         </li>
                         <li className="has-child">
                             <Link to="#" className ='links' style={{ color: linkbg }}>About</Link>

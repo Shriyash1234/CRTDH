@@ -5,15 +5,15 @@ import { ArrowRight } from 'lucide-react';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: '3rd International Conference on Nanomaterials in Biology', content: 'Venue: IIT Gandhinagar', info: "DATE: 19 - 22 Nov 2023", link: "" },
-    { id: 2, title: 'New Research on Nanoplasmonics by prof. ABC jain', content: 'Prof: ABC Jain' },
+    { id: 1, title: "Lorem ipsum dolor sit amet consectetur adipisicing", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
+    { id: 2, title: "Lorem ipsum dolor sit amet consectetur adipisicing", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
     { id: 3, title: 'Card 3', content: 'Content 3' },
     { id: 4, title: 'Card 4', content: 'Content 3' },
     { id: 5, title: 'Card 5', content: 'Content 3' },
     // Add more data as needed
 ];
 
-const Update = () => {
+const Recent_Training = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [cardsPerPage, setCardsPerPage] = useState(2);
 
@@ -58,7 +58,7 @@ const Update = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us'>Updates</h2>
+            <h2 className='about-us'>Recent Trainings</h2>
             <div className='separator_left'></div>
             <div className="carousel-container">
                 <div className="carousel-cards">
@@ -84,4 +84,4 @@ const Update = () => {
         </div>
     );
 };
-export default Update;
+export default Recent_Training;
