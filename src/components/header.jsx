@@ -4,19 +4,17 @@ import { Search } from 'lucide-react';
 
 import './headerloader'
 import './CSS/header.css'
-function Header(props){
+function Header(){
     const [headerBackground, setHeaderBackground] = useState('transparent');
-    const color = props.color;
-    const anticolor = color==='white'?'black':'white'
-    const [linkbg, setLinkbg] = useState(color);
+    const [linkbg, setLinkbg] = useState('#fff');
     useEffect(() => {
         const handleScroll = () => {
           if (window.scrollY > 100) {
-            setHeaderBackground("#fff");
-            color==='white'?setLinkbg(anticolor):setLinkbg(color)
+            setHeaderBackground('#fff');
+            setLinkbg("#000")
           } else {
-            color==='white'?setHeaderBackground('transparent'):setHeaderBackground('#fff');
-            setLinkbg(color)
+            setHeaderBackground('transparent');
+            setLinkbg("#fff")
           }
         };
     
@@ -47,10 +45,10 @@ function Header(props){
                             <Link to="#" className ='links' style={{ color: linkbg }}>Research</Link>
                         </li>
                         <li className="has-child">
-                            <Link to="Industry" className ='links' style={{ color: linkbg }}>Industry</Link>
+                            <Link to="/Industry" className ='links' style={{ color: linkbg }}>Industry</Link>
                         </li>
                         <li className="has-child">
-                            <Link to="#" className ='links' style={{ color: linkbg }}>Facilites</Link>
+                            <Link to="/Facilities" className ='links' style={{ color: linkbg }}>Facilites</Link>
                         </li>
                         <li className="has-child">
                             <Link to="#" className ='links' style={{ color: linkbg }}>Contact us</Link>

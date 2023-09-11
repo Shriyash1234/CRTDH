@@ -1,0 +1,22 @@
+.my-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; /* Center the table horizontally */
+  font-size: 2rem;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center; /* Center text within th and td elements */
+}

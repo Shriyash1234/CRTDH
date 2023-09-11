@@ -10,7 +10,7 @@ import ChatboxLogo from './Chatbox/chatboxLogo'
 const Home = () => {
   return (
     <section className='Home'>
-      <Header color={'white'}/>
+      <Header />
       <Carousel />
       <section className='CRTDH-name'>
         <h1 className='CRTDH-main'>CRTDH</h1>
