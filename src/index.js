@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Home from './components/home'
+import Facilities from './components/facilities';
 import Industry from './components/industry'
-
+import './index.css';
 export default function App() {
   return (
     <HashRouter>
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route index path="/Industry" element={<Industry />} />
+        <Route index path="/Facilities" element={<Facilities />} />
       </Routes>
     </HashRouter>
   );

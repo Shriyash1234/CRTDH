@@ -10,7 +10,7 @@ import Licensing from './licensing'
 const Industry = () => {
   return (
     <section className='Industry'>
-      <Header />
+      <Header color={'white'}/>
       <Carousel1 />
       <Training />
       <Recent_Training />

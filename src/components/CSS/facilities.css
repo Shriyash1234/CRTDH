@@ -1,0 +1,48 @@
+
+.list-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 100%;
+}
+.Facilities{
+    width: 80%;
+    margin: auto;
+}
+.facilites-page{
+    width: 100%;
+    margin-top: 80px;
+    background-color: #fff;
+}
+@media all and (max-width:991px) {
+    .Facilities{
+        width: 100%;
+        margin-right: 5%;
+    }
+    .list-text{
+        font-size: 2rem;
+    }
+}
+@media all and (max-width:768px) {
+    .excel-like-table {
+        font-size: 1.2rem;
+    }
+    .list-text{
+        font-size: 1.6rem;
+    }
+}
+@media all and (max-width:576px) {
+    .excel-like-table {
+        font-size: 0.8rem;
+    }
+    .list-text{
+        font-size: 1.4rem;
+    }
+}
+@media all and (max-width:479px) {
+    .excel-like-table {
+        font-size: 0.6rem;
+    }
+    .list-text{
+        font-size: 1.3rem;
+    }
+}
