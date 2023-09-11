@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './header'
-import Carousel from './carousel'
+import Carousel1 from './carousel1'
 import Footer from './footer'
 import Footer1 from './footer1'
 import Recent_Training from './recent_training'
@@ -11,10 +11,10 @@ const Industry = () => {
   return (
     <section className='Industry'>
       <Header />
-      <Carousel/>
-      <Training/>
-      <Recent_Training/>
-      <Licensing/>
+      <Carousel1 />
+      <Training />
+      <Recent_Training />
+      <Licensing />
       <Footer1 />
       <Footer />
     </section>

@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: 'Card 1', content: 'Content 3' },
-    { id: 2, title: 'Card 2', content: 'Content 3' },
-    { id: 3, title: 'Card 3', content: 'Content 3' },
-    { id: 4, title: 'Card 4', content: 'Content 3' },
-    { id: 5, title: 'Card 5', content: 'Content 3' },
+    { id: 1, title: 'License 1', link: '' },
+    { id: 2, title: 'License 2', link: '' },
+    { id: 3, title: 'License 3', link: '' },
+    { id: 4, title: 'License 4', link: '' },
+    { id: 5, title: 'License 5', link: '' },
+    { id: 6, title: 'License 6', link: '' },
+    { id: 7, title: 'License 7', link: '' },
     // Add more data as needed
 ];
 
@@ -35,12 +37,10 @@ const Licensing = () => {
                                 display: 'flex',
                                 flexDirection: 'row',
                                 alignContent: 'center',
-                                marginBottom: '10px',
+                                margin: '2px',
                             }}
                         >
                             <h2 className='card-title' style={{ margin: 'auto 0' }}>{item.title}</h2>
-                            <p className='card-content' style={{ margin: 'auto 0' }}>{item.content}</p>
-                            {item.info ? <p className='card-info' style={{ margin: 'auto 0' }}>{item.info}</p> : ""}
                             <Link to='' className='know-more'>Know more</Link>
                         </div>
                     ))}
