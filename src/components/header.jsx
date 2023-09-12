@@ -4,17 +4,19 @@ import { Search } from 'lucide-react';
 
 import './headerloader'
 import './CSS/header.css'
-function Header(){
+function Header(props){
     const [headerBackground, setHeaderBackground] = useState('transparent');
-    const [linkbg, setLinkbg] = useState('#fff');
+    const color = props.color;
+    const anticolor = color==='white'?'black':'white'
+    const [linkbg, setLinkbg] = useState(color);
     useEffect(() => {
         const handleScroll = () => {
           if (window.scrollY > 100) {
-            setHeaderBackground('#fff');
-            setLinkbg("#000")
+            setHeaderBackground("#fff");
+            color==='white'?setLinkbg(anticolor):setLinkbg(color)
           } else {
-            setHeaderBackground('transparent');
-            setLinkbg("#fff")
+            color==='white'?setHeaderBackground('transparent'):setHeaderBackground('#fff');
+            setLinkbg(color)
           }
         };
     

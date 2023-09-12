@@ -3,7 +3,7 @@ import React from 'react'
 import './CSS/about.css'
 const Training = () => {
     return (
-        <section className='about'>
+        <section className='about' style={{marginTop:'80px'}}>
             <h2 className='about-us'>Training </h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>

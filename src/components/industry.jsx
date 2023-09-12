@@ -10,8 +10,8 @@ import Licensing from './licensing'
 const Industry = () => {
   return (
     <section className='Industry'>
-      <Header />
-      <Carousel1 />
+      <Header color="black"/>
+      {/* <Carousel1 /> */}
       <Training />
       <Recent_Training />
       <Licensing />
