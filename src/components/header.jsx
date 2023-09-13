@@ -5,6 +5,7 @@ import { Search } from 'lucide-react';
 import './headerloader'
 import './CSS/header.css'
 function Header(props){
+    const Navigate = useNavigate();
     const [headerBackground, setHeaderBackground] = useState('transparent');
     const color = props.color;
     const anticolor = color==='white'?'black':'white'
@@ -26,6 +27,20 @@ function Header(props){
           window.removeEventListener('scroll', handleScroll);
         };
       }, []);
+      const handleAboutLink = () => {
+        const element = document.getElementsByClassName('about-us')[0];
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }else {
+          Navigate('/'); 
+          setTimeout(() => {
+            const updatedElement = document.getElementsByClassName('about-us')[0];
+            if (updatedElement) {
+              updatedElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }, 500); 
+        }
+      };  
     return(
     <section className='header'>
         <div className='logos'> 
@@ -41,10 +56,10 @@ function Header(props){
                             <Link to="/" className ='links' style={{ color: linkbg }}>Home</Link>
                         </li>
                         <li className="has-child">
-                            <Link to="#" className ='links' style={{ color: linkbg }}>About</Link>
+                            <div onClick={handleAboutLink} className ='about-link links' style={{ color: linkbg }}>About</div>
                         </li>
                         <li className="has-child">
-                            <Link to="#" className ='links' style={{ color: linkbg }}>Research</Link>
+                            <Link to="/Research" className ='links' style={{ color: linkbg }}>Research</Link>
                         </li>
                         <li className="has-child">
                             <Link to="/Industry" className ='links' style={{ color: linkbg }}>Industry</Link>

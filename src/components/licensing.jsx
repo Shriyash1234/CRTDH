@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: 'License 1', link: '' },
-    { id: 2, title: 'License 2', link: '' },
-    { id: 3, title: 'License 3', link: '' },
-    { id: 4, title: 'License 4', link: '' },
-    { id: 5, title: 'License 5', link: '' },
-    { id: 6, title: 'License 6', link: '' },
-    { id: 7, title: 'License 7', link: '' },
+    { id: 1, title: 'Technology 1', link: '' },
+    { id: 2, title: 'Technology 2', link: '' },
+    { id: 3, title: 'Technology 3', link: '' },
+    { id: 4, title: 'Technology 4', link: '' },
+    { id: 5, title: 'Technology 5', link: '' },
+    { id: 6, title: 'Technology 6', link: '' },
+    { id: 7, title: 'Technology 7', link: '' },
     // Add more data as needed
 ];
 
@@ -23,7 +23,7 @@ const Licensing = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us'>Licences</h2>
+            <h2 className='about-us licensing'>Licences/Technology avaliable with CRTDHs</h2>
             <div className='separator_left'></div>
             <div className="carousel-container">
                 <div className="carousel-cards">

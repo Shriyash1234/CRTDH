@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: "Lorem ipsum dolor sit amet consectetur adipisicing", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
+    { id: 1, title: "Workshop/ Training program", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
     { id: 2, title: "Lorem ipsum dolor sit amet consectetur adipisicing", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
     { id: 3, title: 'Card 3', content: 'Content 3' },
     { id: 4, title: 'Card 4', content: 'Content 3' },
@@ -58,8 +58,8 @@ const Recent_Training = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us'>Recent Trainings</h2>
-            <div className='separator_left'></div>
+            <h2 className='about-us' style={{fontSize:'2.8rem'}}>Upcoming Training/Industry Meet</h2>
+            {/* <div className='separator_left'></div> */}
             <div className="carousel-container">
                 <div className="carousel-cards">
                     {displayedCards.map((item) => (

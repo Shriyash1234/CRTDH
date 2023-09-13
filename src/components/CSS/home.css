@@ -17,7 +17,7 @@
 }
 @media all and (max-width:1200px) {
     .CRTDH-name{
-        top: 27vh;
+        top: 22vh;
     }
 }
 @media all and (max-width:768px) {
@@ -34,7 +34,7 @@
 @media all and (max-width:479px) {
     .CRTDH-name{
         top:27vh;
-        left: 12vw;
+        left: 4vw;
         text-align: center;
     }
     .CRTDH-main{

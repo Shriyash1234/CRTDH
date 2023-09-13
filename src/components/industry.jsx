@@ -6,15 +6,19 @@ import Footer1 from './footer1'
 import Recent_Training from './recent_training'
 import Training from './training'
 import Licensing from './licensing'
+import Testing from './testing'
+import Projects from './projects'
 
 const Industry = () => {
   return (
     <section className='Industry'>
       <Header color="black"/>
       {/* <Carousel1 /> */}
+      <Projects/>
+      <Licensing />
       <Training />
       <Recent_Training />
-      <Licensing />
+      <Testing/>
       <Footer1 />
       <Footer />
     </section>

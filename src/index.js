@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/home'
 import Industry from './components/industry'
 import Facilities from './components/facilities';
+import Research from './components/research';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route index path="/" element={<Home />} />
         <Route index path="/Industry" element={<Industry />} />
         <Route index path="/Facilities" element={<Facilities />} />
+        <Route index path="/Research" element={<Research />} />
       </Routes>
     </HashRouter>
   );

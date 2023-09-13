@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './chatbox.css'
 import {HelpCircle,X} from 'lucide-react'
 const ChatboxLogo = () => {
+     const Navigate = useNavigate();
       const openchatboxform = () => {
         document.getElementsByClassName('chatbox-logo')[0].style.display = 'none';
         if(window.innerWidth<768){
@@ -10,8 +12,35 @@ const ChatboxLogo = () => {
         else{
             document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(-20px)';
         }
-    }
-    
+      }
+    const handleTestingLink = () => {
+        const element = document.getElementsByClassName('training')[0];
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }else {
+          Navigate('/Industry'); 
+          setTimeout(() => {
+            const updatedElement = document.getElementsByClassName('training')[0];
+            if (updatedElement) {
+              updatedElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }, 500); 
+        }
+      };
+      const handleLicensingLink = () => {
+        const element = document.getElementsByClassName('licensing')[0];
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }else {
+          Navigate('/Industry'); 
+          setTimeout(() => {
+            const updatedElement = document.getElementsByClassName('licensing')[0];
+            if (updatedElement) {
+              updatedElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }, 500); 
+        }
+      };
     const closechatboxform = () => {
         document.getElementsByClassName('chatbox-logo')[0].style.display = 'block';
         document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(400px)';
@@ -29,11 +58,17 @@ const ChatboxLogo = () => {
         window1.style.display = 'none';
         window2.style.display = 'block';
     }
+    const otherClick = () =>{
+        const window2 = document.getElementsByClassName('window-2')[0];
+        const window3 = document.getElementsByClassName('window-3')[0];
+        window2.style.display = 'none';
+        window3.style.display = 'block';
+    }
     
   return (
     <div className='chatbox'>
         <div className='chatbox-logo' onClick={openchatboxform}>
-            <HelpCircle className='chatbox-icon' />
+            <p>Connect with CRTDH</p>
         </div>
         <div className='chatbox-form'>
             <div className='chat'>Chat</div>
@@ -50,9 +85,9 @@ const ChatboxLogo = () => {
                     <p className='chat-text'>Are you looking about this sections?</p>
                     <ol type="1">
                         <li className='chat-box-chat-but'>Testing</li>
-                        <li className='chat-box-chat-but'>Licensing</li>
-                        <li className='chat-box-chat-but'>Training</li>
-                        <li className='chat-box-chat-but'>Other</li>
+                        <li onClick={handleLicensingLink} className='chat-box-chat-but'>Licensing</li>
+                        <li onClick={handleTestingLink} className='chat-box-chat-but'>Training</li>
+                        <li onClick={otherClick} className='chat-box-chat-but'>Other</li>
                     </ol>
                 </div>
                 <div className='chat-window window-3'>
