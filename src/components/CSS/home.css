@@ -11,6 +11,15 @@
 .CRTDH-full-form{
     font-size: 3rem;
 }
+.item-label{
+    z-index: 100;
+    font-size: 2rem;
+}
+@media all and (max-width:1200px) {
+    .CRTDH-name{
+        top: 27vh;
+    }
+}
 @media all and (max-width:768px) {
     .CRTDH-name{
         left: 12vw;
@@ -24,6 +33,7 @@
 }
 @media all and (max-width:479px) {
     .CRTDH-name{
+        top:27vh;
         left: 12vw;
         text-align: center;
     }
@@ -32,5 +42,10 @@
     }
     .CRTDH-full-form{
         font-size: 4vw;
+    }
+}
+@media all and (max-height:670px) {
+    .CRTDH-name{
+        top:18vh;
     }
 }

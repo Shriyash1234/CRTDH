@@ -126,3 +126,6 @@
     bottom: 380px;
     cursor: pointer;
 }
+@media all and (max-width:479px) {
+    
+}

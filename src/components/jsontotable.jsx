@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTable } from 'react-table';
 import './CSS/table.css'
 function JsonToTable({ jsonData }) {
   // Check if jsonData is empty or null

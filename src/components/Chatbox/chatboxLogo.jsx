@@ -2,19 +2,14 @@ import React, { useState } from 'react'
 import './chatbox.css'
 import {HelpCircle,X} from 'lucide-react'
 const ChatboxLogo = () => {
-    const [isVisible, setIsVisible] = useState(true);
-    const toggleVisibility = () => {
-        const display = document.getElementsByClassName('chatbox-logo')[0].style.display
-        if(display === 'none'){
-            document.getElementsByClassName('chatbox-logo')[0].style.display = 'block';
-        }
-        else{
-            document.getElementsByClassName('chatbox-logo')[0].style.display = 'none';
-        }
-      };  
       const openchatboxform = () => {
         document.getElementsByClassName('chatbox-logo')[0].style.display = 'none';
-        document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(-20px)';
+        if(window.innerWidth<768){
+            document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(1vh)';
+        }
+        else{
+            document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(-20px)';
+        }
     }
     
     const closechatboxform = () => {
