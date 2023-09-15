@@ -24,7 +24,6 @@ const About = () => {
         by MSMEs.
         </p>
         <img src={require('./Assests/Images/CRTDH_labs.JPG')} className='CRTDH-labs-img'></img>
-        <img src={require('./Assests/Images/areas.JPG')} className='CRTDH-labs-img'></img>
     </section>
   )
 }

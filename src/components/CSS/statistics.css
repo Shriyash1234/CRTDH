@@ -2,7 +2,7 @@
     position: absolute;
     bottom: 10vh;
     left:calc(80vw - 300px);
-    background-color: #fff;
+    background-color: #ffffff00;
     width: 420px;
     height: 550px;
     border-radius: 15px;
@@ -14,7 +14,13 @@
     align-items: center;
 }
 .statistics-head{
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+    text-align: center;
     font-size: 2.5rem;
+    padding: 0.5rem 0;
+    border-radius: 15px;
 }
 .statistics-div{
     width: 100%;

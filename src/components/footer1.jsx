@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {ArrowRight} from 'lucide-react';
-import {Home} from 'lucide-react';
-import {Phone} from 'lucide-react';
-import {Mail} from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { Home } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 const Footer1 = () => {
     return (
         <footer1 style={styles.footer1}>
@@ -14,23 +14,25 @@ const Footer1 = () => {
             </div>
             <div className="quick-links-block" style={styles.quickLinks}>
                 <h4 className='CRTDH-name-footer1'>Quick Links</h4>
-                  <Link to='' className='quick-links-link'> <p className='quick-links'><ArrowRight /> &nbsp;Home</p></Link>
-                  <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;About us</p></Link>
-                  <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Research</p></Link> 
-                  <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Facilities</p></Link> 
-                  <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;CRTDH Guidelines</p></Link>  
-                  <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Contact</p></Link> 
+                <Link to='' className='quick-links-link'> <p className='quick-links'><ArrowRight /> &nbsp;Home</p></Link>
+                <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;About us</p></Link>
+                <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Research</p></Link>
+                <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Facilities</p></Link>
+                <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;CRTDH Guidelines</p></Link>
             </div>
             <div style={styles.reachUs}>
                 <h4 className='CRTDH-name-footer1'>Reach Us</h4>
-                    <p className='Head-office'><Home />&nbsp;&nbsp;HEAD OFFICE</p>
-                    <p className='head-office-address'>Co-ordinator CRTDH Business Development Officer CSIR-IMMT, Bhubaneswar Acharya Vihar, Bhubaneswar-751013 P: +91-674-237-9294/9160</p>
+                <p className='Head-office'><Home />&nbsp;&nbsp;Get In Touch</p>
+                <p className='head-office-address'>
+                    <Link to="https://www.google.com/maps/dir//Indian+Institute+Of+Technology+Gandhinagar+(IIT+Gandhinagar)+Indian+Institute+of+Technology+Palaj,+Gujarat+382355/@23.2114236,72.6842489,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x395c2adec1f16d8d:0xdc447b8706689bc3" target='_blank' style={{color:'white',textDecoration:'none'}}>
+                    Dr. Chinmay Ghoroi, Academic Block 4/405, IIT Gandhinagar, Palaj, Gandhinagar,
+                    Gujarat – 382355</Link> </p>
                 <hr></hr>
-                    <p className='Head-office'><Phone />&nbsp;&nbsp;CALL US</p>
-                    <p className='head-office-address'>+91-674-237-9294/9160</p>
+                <p className='Head-office'><Phone />&nbsp;&nbsp;CALL US</p>
+                <p className='head-office-address'>+91-9925029889 (M)</p>
                 <hr></hr>
-                    <p className='Head-office'><Mail />&nbsp;&nbsp;Email</p>
-                    <p className='head-office-address'>abc@crtdh.ac.in</p>
+                <p className='Head-office'><Mail />&nbsp;&nbsp;Email</p>
+                <p className='head-office-address'>crtdh@iitgn.ac.in</p>
             </div>
         </footer1>
     );
@@ -53,9 +55,9 @@ const styles = {
         padding: '20px',
     },
     quickLinks: {
-        display:'flex',
+        display: 'flex',
         // justifyContent:'center',
-        flexDirection:'column',
+        flexDirection: 'column',
         // alignItems:'center',
         flex: '1 1 30%',
         padding: '20px 20px 20px 70px',
@@ -63,10 +65,10 @@ const styles = {
     reachUs: {
         flex: '1 1 30%',
         marginBottom: '20px',
-        display:'flex',
+        display: 'flex',
         // justifyContent:'center',
-        flexDirection:'column',
-        alignItems:'left',
+        flexDirection: 'column',
+        alignItems: 'left',
         padding: '20px',
     }
 };

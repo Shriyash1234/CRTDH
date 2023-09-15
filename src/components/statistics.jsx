@@ -3,7 +3,7 @@ import './CSS/statistics.css'
 const Statistics = () => {
   return (
     <section className='statistics-page'>
-      <p className='statistics-head'>CRTDH statistics</p>
+      <p className='statistics-head'>CRTDH Statistics</p>
       <div className='statistics'>
         <div className='statistics-div stat-1'>
           <img src={require('./Assests/Images/icons/place.png')} className='stat-img'></img>
