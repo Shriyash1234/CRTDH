@@ -1,0 +1,20 @@
+.CRTDH-img{
+    position: relative;
+    /* top:100px; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.CRTDH-center-research-areas{
+    width: fit-content;
+    padding: 30px;
+    background-color: #fff;
+    position: absolute;
+    font-family: 'open sans';
+    bottom: 100px;
+    left: 50px;
+    border-radius: 5px;
+}
+.research-area-name{
+    font-size: 2rem;
+}
