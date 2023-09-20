@@ -13,18 +13,19 @@ import Sections from './sections'
 const Home = () => {
   return (
     <section className='Home'>
-      <Header color="white"/>
+      <Header color="white" />
       <Carousel />
       <section className='CRTDH-name'>
+        <p className='CRTDH-full-form'>Network - </p>
         <h1 className='CRTDH-main'>CRTDH</h1>
         <p className='CRTDH-full-form'>Commonn Rseserach <br />& Technology Developement Hub</p>
         <p className='CRTDH-full-form'>Department of Scientific and Industrial Research</p>
       </section>
-      <Statistics/>
-      <Update/>
+      <Statistics />
+      <Update />
       <About />
-      <Sections/>
-      <ChatboxLogo/>
+      <Sections />
+      <ChatboxLogo />
       <Footer1 />
       <Footer />
     </section>

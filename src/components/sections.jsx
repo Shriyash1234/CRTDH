@@ -45,7 +45,7 @@ const Sections = () => {
                 InstituteName: 'CSIR- Central Mechanical Engineering Research Institute (CMERI), Durgapur',
             },
         ],
-        'New Material & Chemical Process': [
+        'Chemical Processes & New Materials': [
             {
                 InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
             },
