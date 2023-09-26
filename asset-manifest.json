@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/CRTDH/static/css/main.b5303fa6.css",
-    "main.js": "/CRTDH/static/js/main.b352f010.js",
+    "main.css": "/CRTDH/static/css/main.0e98cf68.css",
+    "main.js": "/CRTDH/static/js/main.a7c818f2.js",
     "static/js/787.8364e0a8.chunk.js": "/CRTDH/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-1.jpg": "/CRTDH/static/media/banner-1.1761471f66a83934bb5a.jpg",
     "static/media/IITGN.jpeg": "/CRTDH/static/media/IITGN.571824b778999971b30c.jpeg",
     "static/media/banner-2.jpg": "/CRTDH/static/media/banner-2.7f77f7ab2d0fe40c2629.jpg",
     "static/media/banner-3.jpg": "/CRTDH/static/media/banner-3.9e3c4c0a1df569724727.jpg",
     "static/media/environmental-itervention.jpg": "/CRTDH/static/media/environmental-itervention.cd400836501aee0c2595.jpg",
+    "static/media/IITR.jpg": "/CRTDH/static/media/IITR.d7e4c4fdc47662ef7fdb.jpg",
     "static/media/low-cost-machining.jpg": "/CRTDH/static/media/low-cost-machining.0ab414728f194a32035b.jpg",
     "static/media/renewable-energy.webp": "/CRTDH/static/media/renewable-energy.defaaa2f56622d015023.webp",
     "static/media/company-logo.png": "/CRTDH/static/media/company-logo.74fc338f0f530aa9d7ad.png",
     "static/media/healthcare.webp": "/CRTDH/static/media/healthcare.91846f17433ea86bc274.webp",
+    "static/media/IITGN.jpg": "/CRTDH/static/media/IITGN.a85c1f837ec1f8aacd94.jpg",
     "static/media/CRTDH_labs.JPG": "/CRTDH/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/chemical-processes.jpg": "/CRTDH/static/media/chemical-processes.9219b298dc714a383730.jpg",
     "index.html": "/CRTDH/index.html",
-    "main.b5303fa6.css.map": "/CRTDH/static/css/main.b5303fa6.css.map",
-    "main.b352f010.js.map": "/CRTDH/static/js/main.b352f010.js.map",
+    "main.0e98cf68.css.map": "/CRTDH/static/css/main.0e98cf68.css.map",
+    "main.a7c818f2.js.map": "/CRTDH/static/js/main.a7c818f2.js.map",
     "787.8364e0a8.chunk.js.map": "/CRTDH/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5303fa6.css",
-    "static/js/main.b352f010.js"
+    "static/css/main.0e98cf68.css",
+    "static/js/main.a7c818f2.js"
   ]
 }
