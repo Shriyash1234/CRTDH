@@ -26,7 +26,7 @@ function JsonToTable({ jsonData }) {
           {data.map((item, rowIndex) => (
             <tr key={rowIndex}>
               {columns.map((column, colIndex) => (
-                <td key={colIndex}>{item[column]}</td>
+                <td key={colIndex} id={item[column] +" " +rowIndex} style={{scrollMarginTop: '160px'}}>{item[column]}</td>
               ))}
             </tr>
           ))}
