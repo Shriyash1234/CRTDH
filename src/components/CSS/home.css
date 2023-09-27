@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
-.CRTDH-name{
+.CRTDH-name {
     position: absolute;
     top: 40vh;
     left: 10vw;
@@ -7,57 +6,56 @@
     font-family: Inter;
 }
 .CRTDH-main{
-    margin-top: 10px;
     font-size: 10rem;
-    font-family: 'Inclusive Sans';
 }
-.CRTDH-full-form{
+
+.CRTDH-full-form {
     font-size: 3rem;
     font-family: 'Inclusive Sans';
 }
-.item-label{
+
+.item-label {
     z-index: 100;
     font-size: 2rem;
 }
-.highlight {
-    background-color: yellow; 
-  }
-.network{
-    margin-left: 10px;
-    margin-bottom: 0px;
-    font-family: 'Inclusive Sans';
-}
 @media all and (max-width:1200px) {
-    .CRTDH-name{
+    .CRTDH-name {
         top: 22vh;
     }
 }
+
 @media all and (max-width:768px) {
-    .CRTDH-name{
+    .CRTDH-name {
         left: 12vw;
     }
-    .CRTDH-main{
+
+    .CRTDH-main {
         font-size: 10vw;
     }
-    .CRTDH-full-form{
+
+    .CRTDH-full-form {
         font-size: 3vw;
     }
 }
+
 @media all and (max-width:479px) {
-    .CRTDH-name{
-        top:27vh;
+    .CRTDH-name {
+        top: 27vh;
         left: 4vw;
         text-align: center;
     }
-    .CRTDH-main{
+
+    .CRTDH-main {
         font-size: 12vw;
     }
-    .CRTDH-full-form{
+
+    .CRTDH-full-form {
         font-size: 4vw;
     }
 }
+
 @media all and (max-height:670px) {
-    .CRTDH-name{
-        top:18vh;
+    .CRTDH-name {
+        top: 18vh;
     }
 }
