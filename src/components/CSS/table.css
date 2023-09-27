@@ -37,22 +37,25 @@
     border-bottom: 2px solid #000; /* Black border */
   }
 @media all and (max-width:991px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 1.5rem;
+    } */
+    .list-text{
+      padding: 30px;
     }
 }
 @media all and (max-width:768px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 1.2rem;
-    }
+    } */
 }
 @media all and (max-width:576px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 0.8rem;
-    }
+    } */
 }
 @media all and (max-width:479px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 0.6rem;
-    }
+    } */
 }

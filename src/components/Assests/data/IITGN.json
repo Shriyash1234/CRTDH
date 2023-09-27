@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "Sr. No": 1,
         "Instruments": "Refrigerator 01",
@@ -242,4 +243,222 @@
         "Location": "IITGN",
         " ":"https://your-google-form-link-here"
     }
+=======
+ {
+  "Sr. No": 1,
+  "Instruments": "Refrigerator 01",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/01",
+  "Brand \/ Model": "Samsung RT39M5538S8\/TL",
+  "Function": "For cool samples and Chemicals for preservation",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 2,
+  "Instruments": "Digital Thermometer",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/02",
+  "Brand \/ Model": "102030394, R-Tek",
+  "Function": "To check temperature in sample",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 3,
+  "Instruments": "Glass Thermometer",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/03",
+  "Brand \/ Model": "VA6505, V&A",
+  "Function": "To check temperature in sample",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 4,
+  "Instruments": "ICP-MS System",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/04",
+  "Brand \/ Model": "PerkinElmer NexION 2000, Avio200, USA",
+  "Function": "Detection of trace metals and isotope analysis",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 5,
+  "Instruments": "ICP-OES System",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/05",
+  "Brand \/ Model": "PerkinElmer NexION 2000, Avio200, USA",
+  "Function": "Detection of trace metals and isotope analysis",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 6,
+  "Instruments": "UV-Vis Spectrophotomete r",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/06",
+  "Brand \/ Model": "Analytik Jena Specord 210 plus, Germany",
+  "Function": "Optical properties",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 7,
+  "Instruments": "TOC & TNb",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/07",
+  "Brand \/ Model": "Analytik Jena Multi N\/C 21005 BU, Germany",
+  "Function": "Total organic carbon analyzer",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 8,
+  "Instruments": "BOD Incubator",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/08",
+  "Brand \/ Model": "VELP Scientifica BOD system 6, Italy",
+  "Function": "Biological Oxygen demand analyzer",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 9,
+  "Instruments": "Total Suspended Solid Meter",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/09",
+  "Brand \/ Model": "Lovibond Tintometer, UK",
+  "Function": "To measure the suspended solid in the water sample",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 10,
+  "Instruments": "Muffle furnace",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/10",
+  "Brand \/ Model": "Holy Scientific, Ahmedabad",
+  "Function": "High temperature testing applications",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 11,
+  "Instruments": "Hot air Oven",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/11",
+  "Brand \/ Model": "Patel Scientific Instruments 24''x24\"x24\"  ,",
+  "Function": "Drying the materials\/glasswares",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 12,
+  "Instruments": "Microwave Oven",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/12",
+  "Brand \/ Model": "Samsung MW73AD- BXTL",
+  "Function": "synthesis purpose",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 13,
+  "Instruments": "Micropipette (10μl)",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/13",
+  "Brand \/ Model": "Gilson Pipetteman, US",
+  "Function": "Measure the accurate volume of liquid",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 14,
+  "Instruments": "Micropipette (200μl)",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/14",
+  "Brand \/ Model": "Gilson Pipetteman, US",
+  "Function": "Measure the accurate volume of liquid",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 15,
+  "Instruments": "Micropipette (1000μl)",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/15",
+  "Brand \/ Model": "Gilson Pipetteman, US",
+  "Function": "Measure the accurate volume of liquid",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 16,
+  "Instruments": "Micropipette (5ml)",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/16",
+  "Brand \/ Model": "Gilson Pipetteman, US",
+  "Function": "Measure the accurate volume of liquid",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 17,
+  "Instruments": "Magnetic Stirrer",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/17",
+  "Brand \/ Model": "Remi 5 MLH plus, Mumbai",
+  "Function": "Magnetic bar immersed in a liquid to Spin",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 18,
+  "Instruments": "pH meter",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/18",
+  "Brand \/ Model": "Eutech ECPHTUTOR-D,",
+  "Function": "Measure the hydrogen ion activity (acidity or alkanity) in solution",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 19,
+  "Instruments": "TDS Meter",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/19",
+  "Brand \/ Model": "Milwaukee Mi306, USA",
+  "Function": "Concentration of total dissolved solid particles",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 20,
+  "Instruments": "DO Meter",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/20",
+  "Brand \/ Model": "Hanna Instruments, US",
+  "Function": "For dissolved oxygen measure",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 21,
+  "Instruments": "Quick COD analyzer",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/21",
+  "Brand \/ Model": "LAR, Germany",
+  "Function": "Quick COD measurement",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 22,
+  "Instruments": "Refrigerator 02",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/22",
+  "Brand \/ Model": "Samsung, RT30T37225S8\/HL\/2021",
+  "Function": "To slow down the activity of bacteria \/ increases the durability of sample",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 23,
+  "Instruments": "Weighing Balance",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/23",
+  "Brand \/ Model": "Shimadzu ATX224, Japan",
+  "Function": "Measure the amount of chemicals",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 24,
+  "Instruments": "Microwave digestion system",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/24",
+  "Brand \/ Model": "Titan MPS 16, Perkin Elmer, USA",
+  "Function": "For digestion of ICP sample",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 25,
+  "Instruments": "Merck Millipore system",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/25",
+  "Brand \/ Model": "Type 1 Ultrapure, Merck, Germany",
+  "Function": "Milli-Q water for instrument calibration",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 26,
+  "Instruments": "COD Digester 01",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/26",
+  "Brand \/ Model": "Patel Scientific Instruments Pvt ltd, Ahmedabad",
+  "Function": "To digest and process water samples to determine the COD, TOC, total phosphate and total nitrogen",
+  "Location": "IIT Gandhinagar"
+ },
+ {
+  "Sr. No": 27,
+  "Instruments": "Hot Plate",
+  "Equipment ID": "CRTDH\/NABL\/EQP\/27",
+  "Brand \/ Model": "Remi 5 MLH plus, Mumbai",
+  "Function": "To perform reaction at a certain temperature",
+  "Location": "IIT Gandhinagar"
+ }
+>>>>>>> 7cc18914fb9530f557e33e9f55ae96c5f7c10d26
 ]

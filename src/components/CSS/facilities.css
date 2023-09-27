@@ -13,36 +13,59 @@
     margin-top: 80px;
     background-color: #fff;
 }
+.excel-table{
+    overflow-x: scroll;
+}
+.search-input{
+    width: 300px;
+    font-size: 1.7rem;
+}
+.search-div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.search-btn{
+    border: 0px;
+    margin: 0px 10px;
+    background-image: linear-gradient(180deg,#2bbe60,#0f9d58);
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
 @media all and (max-width:991px) {
     .Facilities{
         width: 100%;
         margin-right: 5%;
     }
-    .list-text{
+    /* .list-text{
         font-size: 2rem;
-    }
+    } */
 }
 @media all and (max-width:768px) {
-    .excel-like-table {
+    .search-input{
+        width: 200px;
+    }
+    /* .excel-like-table {
         font-size: 1.2rem;
     }
     .list-text{
         font-size: 1.6rem;
-    }
+    } */
 }
 @media all and (max-width:576px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 0.8rem;
     }
     .list-text{
         font-size: 1.4rem;
-    }
+    } */
 }
 @media all and (max-width:479px) {
-    .excel-like-table {
+    /* .excel-like-table {
         font-size: 0.6rem;
     }
     .list-text{
         font-size: 1.3rem;
-    }
+    } */
 }

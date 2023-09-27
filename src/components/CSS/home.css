@@ -1,25 +1,49 @@
+<<<<<<< HEAD
 .CRTDH-name {
+=======
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+.CRTDH-name{
+>>>>>>> 7cc18914fb9530f557e33e9f55ae96c5f7c10d26
     position: absolute;
     top: 40vh;
     left: 10vw;
     color: #fff;
     font-family: Inter;
 }
+<<<<<<< HEAD
 
 .CRTDH-main {
     font-size: 10rem;
     margin: 0;
+=======
+.CRTDH-main{
+    margin-top: 10px;
+    font-size: 10rem;
+    font-family: 'Inclusive Sans';
+>>>>>>> 7cc18914fb9530f557e33e9f55ae96c5f7c10d26
 }
 
 .CRTDH-full-form {
     font-size: 3rem;
+    font-family: 'Inclusive Sans';
 }
 
 .item-label {
     z-index: 100;
     font-size: 2rem;
 }
+<<<<<<< HEAD
 
+=======
+.highlight {
+    background-color: yellow; 
+  }
+.network{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: 'Inclusive Sans';
+}
+>>>>>>> 7cc18914fb9530f557e33e9f55ae96c5f7c10d26
 @media all and (max-width:1200px) {
     .CRTDH-name {
         top: 22vh;
