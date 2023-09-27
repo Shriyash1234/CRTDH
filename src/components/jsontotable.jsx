@@ -23,11 +23,19 @@ function JsonToTable({ jsonData }) {
           </tr>
         </thead>
         <tbody>
-          {data.map((item, rowIndex) => (
-            <tr key={rowIndex}>
-              {columns.map((column, colIndex) => (
-                <td key={colIndex} id={item[column] +" " +rowIndex} style={{scrollMarginTop: '160px'}}>{item[column]}</td>
-              ))}
+          {jsonData.map((item, index) => (
+            <tr key={index}>
+              <td>{item["Sr. No"]}</td>
+              <td>{item["Instruments"]}</td>
+              <td>{item["Equipment ID"]}</td>
+              <td>{item["Brand / Model"]}</td>
+              <td>{item["Function"]}</td>
+              <td>{item["Location"]}</td>
+              <td>
+                <a href={item[" "]} target="_blank" rel="noopener noreferrer">
+                  Book Now
+                </a>
+              </td>
             </tr>
           ))}
         </tbody>

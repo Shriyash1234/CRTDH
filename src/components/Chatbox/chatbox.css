@@ -1,4 +1,4 @@
-.chatbox-logo{
+.chatbox-logo {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -10,16 +10,19 @@
     cursor: pointer;
     z-index: 25;
 }
-.chatbox-logo p{
+
+.chatbox-logo p {
     margin: 0px;
     font-size: 2rem;
     font-weight: 500;
 }
-.chatbox-icon{
+
+.chatbox-icon {
     height: 35px;
     width: 35px;
 }
-.chatbox-form{
+
+.chatbox-form {
     transform: translateX(400px);
     position: fixed;
     bottom: 30px;
@@ -32,7 +35,8 @@
     padding: 20px;
     transition: 300ms all;
 }
-.chat{
+
+.chat {
     background-color: #19C37D;
     color: #f7f7f8;
     width: 150px;
@@ -42,7 +46,8 @@
     font-size: 2.1rem;
     border-radius: 15px;
 }
-.chat-screen{
+
+.chat-screen {
     background-color: #f7f7f8;
     width: 100%;
     height: 320px;
@@ -53,17 +58,20 @@
     overflow-y: scroll;
     transition: 300ms all;
 }
-.chat-text{
+
+.chat-text {
     font-size: 2rem;
 }
-.yes-no-buttons{
+
+.yes-no-buttons {
     display: flex;
     flex-direction: row;
     width: 90%;
     justify-content: space-between;
     margin-top: 30px;
 }
-.but{
+
+.but {
     color: #fff;
     width: 100px;
     padding: 10px;
@@ -72,17 +80,22 @@
     border-radius: 15px;
     cursor: pointer;
 }
-.yes-but{
+
+.yes-but {
     background-color: #19C37D;
-    
+
 }
-.no-but{
+
+.no-but {
     background-color: #f00;
 }
-.window-2,.window-3{
+
+.window-2,
+.window-3 {
     display: none;
 }
-.chat-box-chat-but{
+
+.chat-box-chat-but {
     margin-bottom: 10px;
     width: 60%;
     font-size: 1.8rem;
@@ -92,10 +105,12 @@
     font-size: 400;
     cursor: pointer;
 }
-.form-name{
+
+.form-name {
     font-size: 2rem;
 }
-.name-input{
+
+.name-input {
     border: 1px solid #000;
     width: 100%;
     height: 40px;
@@ -103,13 +118,15 @@
     padding: 10px;
     font-size: 1.8rem;
 }
-.query-input{
+
+.query-input {
     border: 1px solid #000;
     border-radius: 20px;
     padding: 10px;
     font-size: 1.8rem;
 }
-.form-submit-but{
+
+.form-submit-but {
     margin-top: 10px;
     border: none;
     padding: 7px 15px;
@@ -119,19 +136,21 @@
     background-color: #19C37D;
     color: #fff;
 }
+
 .chat-screen::-webkit-scrollbar {
     width: 10px;
 }
-.inVisible{
-   transform: translateX(400px);
-   transition: 300ms all;
+
+.inVisible {
+    transform: translateX(400px);
+    transition: 300ms all;
 }
-.close-button{
+
+.close-button {
     position: fixed;
     right: 15px;
     bottom: 380px;
     cursor: pointer;
 }
-@media all and (max-width:479px) {
-    
-}
+
+@media all and (max-width:479px) {}
