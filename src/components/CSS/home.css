@@ -1,4 +1,5 @@
-.CRTDH-name {
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+.CRTDH-name{
     position: absolute;
     top: 40vh;
     left: 10vw;
@@ -6,7 +7,9 @@
     font-family: Inter;
 }
 .CRTDH-main{
+    margin-top: 10px;
     font-size: 10rem;
+    font-family: 'Inclusive Sans';
 }
 
 .CRTDH-full-form {
@@ -17,6 +20,14 @@
 .item-label {
     z-index: 100;
     font-size: 2rem;
+}
+.highlight {
+    background-color: yellow; 
+  }
+.network{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: 'Inclusive Sans';
 }
 @media all and (max-width:1200px) {
     .CRTDH-name {
