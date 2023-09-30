@@ -17,7 +17,6 @@ const Home = () => {
       <Carousel />
       <section className='CRTDH-name'>
         <h2 className='network'>Network</h2>
-        <p className='CRTDH-full-form'>Network - </p>
         <h1 className='CRTDH-main'>CRTDH</h1>
         <p className='CRTDH-full-form'>Common Rseserach <br />& Technology Developement Hub</p>
         <p className='CRTDH-full-form'>Department of Scientific and Industrial Research</p>

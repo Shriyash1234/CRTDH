@@ -15,7 +15,7 @@ function Facilities() {
     <div className='facilites-page'>
       <Header color={'black'} />
       <div className="Facilities">
-        <p className='list-text'>The list of equipements available at IITGN-CRTDH<br />Instruments under NABL</p>
+        <p className='list-text'>The list of equipements available at IITGN-CRTDH</p>
         <SearchBar />
         <div className='excel-table'>
           <JsonToTable jsonData={jsonData} />

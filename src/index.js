@@ -9,6 +9,7 @@ import Industry from './components/industry'
 import Facilities from './components/facilities';
 import Research from './components/research';
 import Contact_Us from './components/contact';
+import WorkshopPost from './components/workshopPost';
 import Center from './components/center';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
         <Route index path="/Facilities" element={<Facilities />} />
         <Route index path="/Research" element={<Research />} />
         <Route index path="/Center" element={<Center />} />
+        <Route index path="/workshopPost" element={<WorkshopPost />} />
         <Route index path="/Contact" element={<Contact_Us />} />
       </Routes>
     </HashRouter>
