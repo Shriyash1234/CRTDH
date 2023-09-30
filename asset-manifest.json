@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CRTDH/static/css/main.0e98cf68.css",
-    "main.js": "/CRTDH/static/js/main.a7c818f2.js",
+    "main.css": "/CRTDH/static/css/main.57ee103b.css",
+    "main.js": "/CRTDH/static/js/main.04c99465.js",
     "static/js/787.8364e0a8.chunk.js": "/CRTDH/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-1.jpg": "/CRTDH/static/media/banner-1.1761471f66a83934bb5a.jpg",
     "static/media/IITGN.jpeg": "/CRTDH/static/media/IITGN.571824b778999971b30c.jpeg",
@@ -11,18 +11,19 @@
     "static/media/IITR.jpg": "/CRTDH/static/media/IITR.d7e4c4fdc47662ef7fdb.jpg",
     "static/media/low-cost-machining.jpg": "/CRTDH/static/media/low-cost-machining.0ab414728f194a32035b.jpg",
     "static/media/renewable-energy.webp": "/CRTDH/static/media/renewable-energy.defaaa2f56622d015023.webp",
+    "static/media/workshop-post.jpg": "/CRTDH/static/media/workshop-post.17f354834f00495248f7.jpg",
     "static/media/company-logo.png": "/CRTDH/static/media/company-logo.74fc338f0f530aa9d7ad.png",
     "static/media/healthcare.webp": "/CRTDH/static/media/healthcare.91846f17433ea86bc274.webp",
     "static/media/IITGN.jpg": "/CRTDH/static/media/IITGN.a85c1f837ec1f8aacd94.jpg",
     "static/media/CRTDH_labs.JPG": "/CRTDH/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/chemical-processes.jpg": "/CRTDH/static/media/chemical-processes.9219b298dc714a383730.jpg",
     "index.html": "/CRTDH/index.html",
-    "main.0e98cf68.css.map": "/CRTDH/static/css/main.0e98cf68.css.map",
-    "main.a7c818f2.js.map": "/CRTDH/static/js/main.a7c818f2.js.map",
+    "main.57ee103b.css.map": "/CRTDH/static/css/main.57ee103b.css.map",
+    "main.04c99465.js.map": "/CRTDH/static/js/main.04c99465.js.map",
     "787.8364e0a8.chunk.js.map": "/CRTDH/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e98cf68.css",
-    "static/js/main.a7c818f2.js"
+    "static/css/main.57ee103b.css",
+    "static/js/main.04c99465.js"
   ]
 }
