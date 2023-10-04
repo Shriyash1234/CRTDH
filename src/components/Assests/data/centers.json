@@ -16,7 +16,23 @@
          "Information-para-3": "The DSIR-IITGN-CRTDH is working towards the development and customization of different dye and textile industries. A Process Technology Lab along with the pilot plant facility is developed for the dye and textile MSMEs. A multidisciplinary approach is taking to enhance the capabilities of MSMEs. The CRTDH is developing technological know-how for effluent treatment, waste reduction, process improvement, and testing products/raw materials. The help from CRTDH will strengthen MSME in the competitive market and expand their business. The DSIR-IITGN-CRTDH is expected to leverage the existence of different centres, high-quality labs, and Research Park at IITGN. The facility is a one-stop solution for many of chemical industries in the country."
       },
       "Facilities": "In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose. Here is the list of items that are available with CRTDH IITGN.",
+      "SomeFacilities":{
+         "Facility1":"ICP-MS- Trace elements",
+         "Facility2":"Fluorescence Spectrometer- Concentration of dye",
+         "Facility3":"Plate Reader- Micro-organism growth study",
+         "Facility4":"Spray Dryer- Drying",
+         "Facility5":"TOC- Total Carbon Content",
+         "Facility6":"BOD- Water quality",
+         "Facility7":"GC- Analysis of gases",
+         "Facility8":"Fermentor- Microorganism growth",
+         "Facility9":"HPTLC- Dye separation",
+         "Facility10":"Incubator- Micro-organism growth",
+         "Facility11":"Spectrophotometer- Quantification of dye",
+         "Facility12":"TNb, COD, TDS, TSS and pH measuring units"
+      },
       "FacilitiesLink": "/Facilities",
+      "ServiceChargesLink": "https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2019/11/Service_charges_DSIR.pdf",
+      "PilotPlantLink": "https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2021/10/Equipment-list-for-DSIR-IITGN-CRTDH-Pilot-Plant-Facilities.pdf",
       "CurrentResearch": {
          "Research-1": "Physical Treatment followed by Catalytic Oxidation Treatment of Industrial effluent.",
          "Research-2": "Bio/Electro Coagulation Treatment followed by adsorption technique for complex dye industrial effluent.",
@@ -32,6 +48,19 @@
          "Research-12": "Sewage Water Treatment by using phytoremediation",
          "Research-13": "Anode preparation for advance Li-Ion Battery.",
          "Research-14": "Metal Recovery from Li-Ion Battery using Liquid-Liquid Extraction."
+      },
+      "ResearchLink":"https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2022/07/DSIR-IIT-Gandhinagar-CRTDH-for-Startups.pdf",
+      "Workshops":"CRTDH IIT Gandhinagar has been actively organizing workshops and events to promote collaboration between the academic and industrial sectors. These workshops cover a wide range of topics, including high-performance thin-layer chromatography (HPTLC) for industrial product analysis, process hazard analysis for chemical industries, and industry interactions. These initiatives aim to enhance the capabilities of MSMEs and other chemical industries in areas such as effluent treatment, waste reduction, process improvement, and research on new products. The recent Exhibition in Green & Sustainable Chemistry Conference showcased the Common Research & Technology Development Hub (CRTDH) at Bharuch, further highlighting CRTDH IIT Gandhinagar's commitment to advancing sustainable and green chemistry practices in collaboration with industry partners",
+      "WorkShopsLink":"/WorkshopIITGN",
+      "ListOfWorkShops":{
+         "Workshop1":"Use of High-Performance Thin Layer Chromatography (HPTLC) for Industrial Product Analysis",
+         "Workshop2":"Reducing Discharge of Hazardous Chemicals",
+         "Workshop3":"On ICP-MS Training",
+         "Workshop4":"One-day Training Workshop on HPTLC for Industrial Product Analysis",
+         "Workshop5":"Process Hazard Analysis for Chemical Industries Workshop",
+         "Workshop6":"Industry Interactions with DSIR-IITGN-CRTDH@Nandesari",
+         "Workshop7":"Industry Interactions with DSIR-IITGN-CRTDH@VAPI",
+         "Workshop8":"Two Days Exhibition in Green & Sustainable Chemistry Conference"
       },
       "Contacts": {
          "POC": {
@@ -60,7 +89,22 @@
          "Information-para-3": "The DSIR-IITGN-CRTDH is working towards the development and customization of different dye and textile industries. A Process Technology Lab along with the pilot plant facility is developed for the dye and textile MSMEs. A multidisciplinary approach is taking to enhance the capabilities of MSMEs. The CRTDH is developing technological know-how for effluent treatment, waste reduction, process improvement, and testing products/raw materials. The help from CRTDH will strengthen MSME in the competitive market and expand their business. The DSIR-IITGN-CRTDH is expected to leverage the existence of different centres, high-quality labs, and Research Park at IITGN. The facility is a one-stop solution for many of chemical industries in the country."
       },
       "Facilities": "In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose. Here is the list of items that are available with CRTDH IITGN.",
+      "SomeFacilities":{
+         "Facility1":"ICP-MS- Trace elements",
+         "Facility2":"Fluorescence Spectrometer- Concentration of dye",
+         "Facility3":"Plate Reader- Micro-organism growth study",
+         "Facility4":"Spray Dryer- Drying",
+         "Facility5":"TOC- Total Carbon Content",
+         "Facility6":"BOD- Water quality",
+         "Facility7":"GC- Analysis of gases",
+         "Facility8":"Fermentor- Microorganism growth",
+         "Facility9":"HPTLC- Dye separation",
+         "Facility10":"Incubator- Micro-organism growth",
+         "Facility11":"Spectrophotometer- Quantification of dye",
+         "Facility12":"TNb, COD, TDS, TSS and pH measuring units"
+      },
       "FacilitiesLink": "http://localhost:3000/CRTDH#/Facilities",
+      "ServiceChargesLink": "https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2019/11/Service_charges_DSIR.pdf",
       "CurrentResearch": {
          "Research-1": "Physical Treatment followed by Catalytic Oxidation Treatment of Industrial effluent.",
          "Research-2": "Bio/Electro Coagulation Treatment followed by adsorption technique for complex dye industrial effluent.",

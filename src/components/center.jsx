@@ -5,7 +5,7 @@ import CRTDHdata from './Assests/data/centers.json'
 import './CSS/center.css'
 
 const Center = () => {
-  const CenterCode = "IITR";
+  const CenterCode = "IITGN";
   const [data, setData] = useState([]);
   function collectCRTDHdata() {
     for (let i = 0; i < CRTDHdata.length; i++) {
@@ -62,13 +62,37 @@ const Center = () => {
         <h2 className='about-us'>Facilities </h2>
         <div className='separator_left'></div>
         <p className='about-us-text'>
+        {data["SomeFacilities"] && (
+          <ul>
+            {Object.values(data["SomeFacilities"]).map((researchArea, index) => (
+              <li key={index} className='research-area-name'>
+                {researchArea}
+              </li>
+            ))}
+          </ul>
+        )}
           {data.Facilities}
-          <br />
-          <Link to={data.FacilitiesLink}>Link to the Equipments</Link>
-          <hr />
+          <br/>
+          {
+            data["FacilitiesLink"] && (
+              <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-IITGN-CRTDH</Link>
+            )
+          }
+          <br/>
+          {
+            data["ServiceChargesLink"] && (
+              <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-IITGN-CRTDH FACILITIES</Link>
+            )
+          }
+          <br/>
+          {
+            data["PilotPlantLink"] && (
+              <Link to={data.PilotPlantLink} className='pilot-plant-btn'>PILOT PLANT FACILITIES AVAILABLE WITH DSIR-IITGN-CRTDH</Link>
+            )
+          }
         </p>
       </section>
-      <section className='Current Research about training'>
+      <section className='Current Research about training' style={{marginTop:"50px"}}>
         <h2 className='about-us'>Current Research </h2>
         <div className='separator_left'></div>
         <p className='about-us-text'>
@@ -83,6 +107,39 @@ const Center = () => {
             </ol>
           )}
         </p>
+        {
+            data["ResearchLink"] && (
+              <Link to={data.ResearchLink} className='instruments-btn'style={{width:"fit-content"}}>CRTDH A PLACE FOR INCUBATION</Link>
+            )
+          }
+      </section>
+      <section className='CRTDH-center-workshops about training'>
+        <h2 className='about-us'>Workshops/Conferences </h2>
+        <div className='separator_left'></div>
+          {
+            data["Workshops"] && (
+              <p className='about-us-text'>{data.Workshops}
+              <br/>
+              {data["ListOfWorkShops"] && (
+                <>
+                <br/>
+                <p className='about-us-text'>Here is the list of workshops/conferences conducted by {CenterCode}</p>
+                <ol>
+                  {Object.values(data["ListOfWorkShops"]).map((research) => (
+                    <li>
+                      {research}
+                    </li>
+                  ))}
+                </ol>
+                </>
+              )}
+              <Link to={data.WorkShopsLink} className='instruments-btn'style={{width:"fit-content"}}>Detailed List Of workshops conducted by CRTDH-IITGN</Link>
+
+              </p>
+              
+            )
+          }
+          
       </section>
       <section className='CRTDH-center-Contacts about training'>
         <h2 className='about-us'>Contacts </h2>
