@@ -1,31 +1,95 @@
-import React from 'react'
-import Header from './header'
+import React,{useEffect} from 'react';
+import Header from './header';
+import workshopData from './Assests/data/workshopsIITGN.json';
+import './CSS/workshopPost.css';
 
-import './CSS/workshopPost.css'
 const WorkshopPost = () => {
+  useEffect(() => {
+    // Function to handle window resize
+    const handleResize = () => {
+      const evenDivs = document.getElementsByClassName('even');
+      const oddDivs = document.getElementsByClassName('odd');
+
+      if (window.innerWidth < 991) {
+        for (let i = 0; i < evenDivs.length; i++) {
+          evenDivs[i].style.flexDirection = 'column-reverse';
+        }
+        for (let i = 0; i < oddDivs.length; i++) {
+          oddDivs[i].style.flexDirection = 'column';
+        }
+      } else {
+        for (let i = 0; i < evenDivs.length; i++) {
+          evenDivs[i].style.flexDirection = 'row';
+        }
+        for (let i = 0; i < oddDivs.length; i++) {
+          oddDivs[i].style.flexDirection = 'row';
+        }
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <section className='workshopPost-page'>
       <Header color="black"/>
-      <div className='workshop'>
-        <div className='workshopPost-left'>
-          <div className='workshopPost-heading'>
-            <p>Exhibition in Green & Sustainable Chemistry Conference</p>
-          </div>
-          <div className='workshopPost-date-place'>
-            <p>12th & 13th October 2022 at Bharuch</p>
-          </div>
-          <div className='workshopPost-info'>
-            <p>Department of Scientific & Industrial Research (DSIR) and IIT Gandhinagar (IITGN) together established a Common Research & Technology Development Hub (DSIR-IITGN-CRTDH) on Chemical Processes at IIT Gandhinagar (IITGN), Palaj, Gandhinagar. The initiative aims to engage MSMEs and other chemical industries to enhance their capabilities in technology know-how on effluent treatment, waste reduction, process improvement, research on new products and testing products/raw materials/effluents etc. Industry partners can be benefited from the state-of-the-art laboratory facilities as well as the interdisciplinary knowledge base at IIT Gandhinagar. The CRTDH at Bharuch is exhibited at the “Two days Exhibition in Green & Sustainable Chemistry Conference” for industry partners.</p>
-          </div>
-          <a href="/#" className='workshopPost-link'>Click for more information</a>
+      {/* Render the workshops */}
+      {workshopData.map((workshop, index) => (
+        <div className={`workshop ${index % 2 === 0 ? 'even' : 'odd'}`} key={index} id={index}>
+          {index % 2 === 0 ? (
+            <>
+              <div className='workshopPost-left'>
+                <div className='workshopPost-heading'>
+                  <p>{workshop.title}</p>
+                </div>
+                <div className='workshopPost-date-place'>
+                  <p>{workshop.datePlace}</p>
+                </div>
+                <div className='workshopPost-info'>
+                  <p>{workshop.description}</p>
+                </div>
+                <a href={workshop.link} className='workshopPost-link'>
+                  Click for more information
+                </a>
+              </div>
+              <div className='workshopPost-right'>
+                <img
+                  className='workshoPost-img'
+                  src={require(`${workshop.ImageLink}`)}
+                  alt='Workshop'
+                />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className='workshopPost-left'>
+                <img
+                  className='workshoPost-img'
+                  src={require(`${workshop.ImageLink}`)}
+                  alt='Workshop'
+                />
+              </div>
+              <div className='workshopPost-right'>
+                <div className='workshopPost-heading'>
+                  <p>{workshop.title}</p>
+                </div>
+                <div className='workshopPost-date-place'>
+                  <p>{workshop.datePlace}</p>
+                </div>
+                <div className='workshopPost-info'>
+                  <p>{workshop.description}</p>
+                </div>
+                <a href={workshop.link} className='workshopPost-link'>
+                  Click for more information
+                </a>
+              </div>
+            </>
+          )}
         </div>
-        <div className='workshopPost-right'>
-          <img className='workshoPost-img' src={require('./Assests/Images/workshop-post.jpg')}></img>
-        </div>
-      </div>
-      
+      ))}
     </section>
-  )
-}
+  );
+};
 
-export default WorkshopPost
+export default WorkshopPost;

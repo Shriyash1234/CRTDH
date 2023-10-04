@@ -5,7 +5,6 @@ function JsonToTable({ jsonData }) {
   if (!jsonData) {
     return <div>No data to display.</div>;
   }
-
   // Assuming the JSON data is an array of objects
   const data = Array.isArray(jsonData) ? jsonData : [jsonData];
 
@@ -26,7 +25,7 @@ function JsonToTable({ jsonData }) {
           {jsonData.map((item, index) => (
             <tr key={index}>
               <td>{item["Sr. No"]}</td>
-              <td>{item["Instruments"]}</td>
+              <td id= {item["Instruments"]} className='Instruments'>{item["Instruments"]}</td>
               <td>{item["Equipment ID"]}</td>
               <td>{item["Brand / Model"]}</td>
               <td>{item["Function"]}</td>

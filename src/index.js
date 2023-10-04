@@ -21,7 +21,7 @@ export default function App() {
         <Route index path="/Facilities" element={<Facilities />} />
         <Route index path="/Research" element={<Research />} />
         <Route index path="/Center" element={<Center />} />
-        <Route index path="/workshopPost" element={<WorkshopPost />} />
+        <Route index path="/workshopIITGn" element={<WorkshopPost />} />
         <Route index path="/Contact" element={<Contact_Us />} />
       </Routes>
     </HashRouter>
