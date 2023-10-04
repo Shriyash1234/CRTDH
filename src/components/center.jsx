@@ -3,6 +3,7 @@ import Header from './header'
 import { Link } from 'react-router-dom'
 import CRTDHdata from './Assests/data/centers.json'
 import './CSS/center.css'
+
 const Center = () => {
   const CenterCode = "IITR";
   const [data, setData] = useState([]);

@@ -69,6 +69,21 @@ function Header(props) {
       }, 500);
     }
   };
+  const handleSearch = () => {
+    const element = document.getElementsByClassName('list-text')[0];
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      Navigate('/Facilities');
+      setTimeout(() => {
+        const updatedElement = document.getElementsByClassName('list-text')[0];
+        console.log(updatedElement)
+        if (updatedElement) {
+          updatedElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 500);
+    }
+  };
   return (
     <section className='header'>
       <div className='logos'>
@@ -99,12 +114,13 @@ function Header(props) {
                 <div onClick={handleAboutLink2} className='about-link links' style={{ color: linkbg }}> <Link to="/" className='links' style={{ color: linkbg }}>Contact us</Link></div>
               </li>
               <li className="has-child">
-                <Link to="#" className='links'>
+                <div onClick={handleSearch} className='about-link links' style={{ color: linkbg }}><Link to="/Facilities" className='links'>
                   <div className='searchbar'>
                     <Search style={{ color: linkbg }} />
                     <p className='search-text' style={{ color: linkbg }}>&nbsp;&nbsp;&nbsp;Search</p>
                   </div>
                 </Link>
+                </div>
               </li>
             </ul>
           </div>
