@@ -9,7 +9,34 @@
 
 /*Global Styles*/
 
+.centers-dropdown {
+	max-height: 400px; /* Set the maximum height for the dropdown */
+	overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+  }
+  
+  .centers-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .centers-list li {
+	padding: 8px 0;
+  }
+  
+  .centers-list a {
+	text-decoration: none;
+	color: black; /* Set the text color to black */
+  }
+  
+  .centers-list a:hover {
+	background-color: #f0f0f0; /* Optional: Add a hover background color */
+  }
 
+  .scrollable-item{
+color: #000;
+  }
+  
 
 *, :after, :before {
 	box-sizing: border-box;
