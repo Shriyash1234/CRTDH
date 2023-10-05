@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CRTDH/static/css/main.bceae918.css",
-    "main.js": "/CRTDH/static/js/main.253a1765.js",
+    "main.css": "/CRTDH/static/css/main.2979607d.css",
+    "main.js": "/CRTDH/static/js/main.8f82c044.js",
     "static/js/787.8364e0a8.chunk.js": "/CRTDH/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-1.jpg": "/CRTDH/static/media/banner-1.1761471f66a83934bb5a.jpg",
     "static/media/IITGN.jpeg": "/CRTDH/static/media/IITGN.571824b778999971b30c.jpeg",
@@ -20,20 +20,22 @@
     "static/media/IITGN-workshop-5.png": "/CRTDH/static/media/IITGN-workshop-5.33e6d10056a6efdab340.png",
     "static/media/IITGN-workshop-6.jpg": "/CRTDH/static/media/IITGN-workshop-6.dd78432d41fb27756349.jpg",
     "static/media/healthcare.webp": "/CRTDH/static/media/healthcare.91846f17433ea86bc274.webp",
+    "static/media/IITKGP.jpeg": "/CRTDH/static/media/IITKGP.5b7ec5cb90d4026424c3.jpeg",
     "static/media/IITGN.jpg": "/CRTDH/static/media/IITGN.a85c1f837ec1f8aacd94.jpg",
     "static/media/IITGN-workshop-2.png": "/CRTDH/static/media/IITGN-workshop-2.f61ae5a7959db273920c.png",
+    "static/media/IITKGP.webp": "/CRTDH/static/media/IITKGP.607b10326f738d246afe.webp",
     "static/media/CRTDH_labs.JPG": "/CRTDH/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/areas.JPG": "/CRTDH/static/media/areas.ff639e084f6e99876a92.JPG",
     "static/media/chemical-processes.jpg": "/CRTDH/static/media/chemical-processes.9219b298dc714a383730.jpg",
-    "static/media/company-logo.jpeg": "/CRTDH/static/media/company-logo.f71e0c8900ce1d264cc8.jpeg",
     "static/media/CRTDH_logo.png": "/CRTDH/static/media/CRTDH_logo.650d3df6968c861d32c0.png",
+    "static/media/employement1.png": "/CRTDH/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/CRTDH/index.html",
-    "main.bceae918.css.map": "/CRTDH/static/css/main.bceae918.css.map",
-    "main.253a1765.js.map": "/CRTDH/static/js/main.253a1765.js.map",
+    "main.2979607d.css.map": "/CRTDH/static/css/main.2979607d.css.map",
+    "main.8f82c044.js.map": "/CRTDH/static/js/main.8f82c044.js.map",
     "787.8364e0a8.chunk.js.map": "/CRTDH/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bceae918.css",
-    "static/js/main.253a1765.js"
+    "static/css/main.2979607d.css",
+    "static/js/main.8f82c044.js"
   ]
 }
