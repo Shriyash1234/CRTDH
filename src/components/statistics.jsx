@@ -10,20 +10,20 @@ const Statistics = () => {
           <p className='stat-text'>Total centers<br/> 18</p> 
         </div>
         <div className='statistics-div stat-2'>
-          <img src={require('./Assests/Images/icons/employment.png')} className='stat-img'></img>
-          <p className='stat-text'>Employed people<br/> 50000</p>
+          <img src={require('./Assests/Images/icons/employement1.png')} className='stat-img'></img>
+          <p className='stat-text'>Employed people<br/> 150</p>
         </div>
         <div className='statistics-div stat-3'>
           <img src={require('./Assests/Images/icons/patent.png')} className='stat-img'></img>
-          <p className='stat-text'>Patents filed<br/> 617</p>
+          <p className='stat-text'>Patents filed<br/> 70</p>
         </div>
         <div className='statistics-div stat-4'>
           <img src={require('./Assests/Images/icons/projects.png')} className='stat-img'></img>
-          <p className='stat-text'>Developed projects<br/> 167</p>
+          <p className='stat-text'>Developed projects<br/> 200</p>
         </div>
         <div className='statistics-div stat-5'>
           <img src={require('./Assests/Images/icons/technology.png')} className='stat-img'></img>
-          <p className='stat-text'>Technologies developed<br/> 245</p>
+          <p className='stat-text'>Technologies developed<br/> 280</p>
         </div>
       </div>
     </section>

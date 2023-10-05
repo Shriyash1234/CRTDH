@@ -19,6 +19,7 @@ const Home = () => {
         <h2 className='network'>Network</h2>
         <h1 className='CRTDH-main'>CRTDH</h1>
         <p className='CRTDH-full-form'>Common Rseserach <br />& Technology Developement Hub</p>
+        <p className='CRTDH-full-form' style={{lineHeight:'5px'}}>------------------------------------------</p>
         <p className='CRTDH-full-form'>Department of Scientific and Industrial Research</p>
       </section>
       <Statistics />

@@ -8,6 +8,7 @@ import Training from './training'
 import Licensing from './licensing'
 import Testing from './testing'
 import Projects from './projects'
+import ChatboxLogo from './Chatbox/chatboxLogo'
 
 const Industry = () => {
   return (
@@ -19,6 +20,7 @@ const Industry = () => {
       <Training />
       <Recent_Training />
       <Testing/>
+      <ChatboxLogo />
       <Footer1 />
       <Footer />
     </section>
