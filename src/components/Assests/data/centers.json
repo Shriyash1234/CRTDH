@@ -4,11 +4,11 @@
       "CenterName": "CRTDH IIT Gandhinagar",
       "ImagePath": "IITGN.jpeg",
       "ResearchAreas": {
-         "Research-Area-1": "Nanomaterials",
-         "Research-Area-2": "Advanced Polymers",
-         "Research-Area-3": "Materials for Energy Storage",
-         "Research-Area-4": "Sustainable Chemistry",
-         "Research-Area-5": "Additive Manufacturing (3D Printing)"
+         "Research-Area-1": "Reducing dye industry's water and chemical usage",
+         "Research-Area-2": "Implementing wastewater treatment solutions",
+         "Research-Area-3": "Establishing Chemical Process Technology Lab",
+         "Research-Area-4": "Conducting MSME training sessions",
+         "Research-Area-5": "Engaging with dye industry"
       },
       "Information": {
          "Information-para-1": "Gujarat is home to number of chemical based Micro, Small and Medium Enterprises (MSMEs). However, there is no institutional mechanism for industries to interact with academic institutions for Research and Technology Development. The establishment of the Common Research and Technology Development Hub sponsored by Department of Scientific and Industrial Research (DSIR) and Indian Institute of Technology Gandhinagar, IITGN (DSIR-IITGN-CRTDH) on Chemical Processes is one of the important initiatives for chemical industries.",
@@ -64,7 +64,7 @@
       },
       "Contacts": {
          "POC": {
-            "Name": "Chinmay Ghoroi",
+            "Name": "Prof. Chinmay Ghoroi",
             "Designation": "Principle Investigator of DSIR-IITGN-CRTDH, Professor of Chemical Engineering"
          },
          "Address": "Academic Block 4/405, IIT Gandhinagar, Palaj, Gandhinagar, Gujarat - 382355",
@@ -129,6 +129,80 @@
          "Address": "Academic Block 4/405, IIT Gandhinagar, Palaj, Gandhinagar, Gujarat - 382355",
          "PhoneNumber": "+79-2395-2405 (O) +79-2395-2254 (O) +91-9925029889 (M)",
          "Email": "crtdh.iitgn.ac.in"
+      }
+   },
+   {
+      "CenterCode": "IITKGP",
+      "CenterName": "CRTDH IIT Kharagpur",
+      "ImagePath": "IITKGP.jpeg",
+      "ResearchAreas": {
+         "Research-Area-1": "Medical devices & diagnostic",
+         "Research-Area-2": "Sensors materials",
+         "Research-Area-3": "System modeling,",
+         "Research-Area-4": "Technology for affordable healthcare",
+         "Research-Area-5": "digital convergence in medical technology"
+      },
+      "Information": {
+         "Information-para-1": "CRTDH hub at Indian Institute of Technology Kharagpur, Kharagpur has beenworking and facilitating / addressing the problems related to medical devices & diagnostic, sensors materials, system modeling, technology for affordable healthcare, digital convergence in medical technology, interconnection of bio systems, system modeling etc.",
+         "Information-para-2": "The is playing a significant role is startup ecosystem and entrepreneurship. The mission of this CRTDH is to make health technologies more accessible and affordable. CRTDH has crafted various programs and established state-of-the-art facilities to empower MSMEs. It provides a multitude of services, including R&amp;D support, access to sophisticated infrastructure and a manufacturing plant, as well as assistance with regulatory licensing.Being a niche sector, not many nearby MSMEs are working in this areas, thus Hub is addressing the requirement of innovation hub at IIT-Kgp and JSV innovation Pvt ltd for training &amp; skill development.",
+         "Information-para-3": "Focus Areas: CRTDH at IIT Kharagpur, Kharagpur is mainly focused to strengthen the collaborative research between academia and industries. To facilitate the MSMEs/Startups with newer technologies, infrastructure support, knowledge transfer. To &#39;democratize&#39; disease management by bringing high-end procedures to the ambit of the bottom of the community pyramid in the green field with no differential treatment of the rich and the poor. To generate local small-scale enterprises, stimulating localized economy of small-scale jobs across spectrum of skills. "
+      },
+      "SomeFacilities": {
+         "Facility1": "Pilot plant for manufacturing paper-based diagnostic kits",
+         "Facility2": "COVIRAP kit manufacturing and preparation unit",
+         "Facility3": "Data Science R&D unit",
+         "Facility4": "Device prototype fabrication unit",
+         "Facility5": "Lateral flow strip manufacturing unit",
+         "Facility6": "Bio-Safety labs (L2)",
+         "Facility7": "Rapid prototyping unit",
+         "Facility8": "Microfluidic cell culture and analysis unit",
+         "Facility9": "Blood sample processing and analytics",
+         "Facility10": "Mobile healthcare launch",
+         "Facility11": "Pathology and Imaging lab"
+       },
+      "Technologies":"CRTDH at IIT Kharagpur, Kharagpur has been instrumental in developing 14 core and all of the technologies / knowhow was transferred / licensed to MSMEs and startups for being implemented at rural e-health clincs.",
+      "ListOfTechnologies": {
+         "Technology1": "Paper-based diagnostic device for detecting multiple blood parameters (glucose, haemoglobin, creatinine concentration)",
+         "Technology2": "Primary healthcare clinical decision support system software and algorithm",
+         "Technology3": "Electronic Health Record system based telemedicine software",
+         "Technology4": "Portable spinning disc for complete blood count and other haematological examination",
+         "Technology5": "Nucleic Acid Based Rapid Diagnostic Device platform technology for infectious disease detection",
+         "Technology6": "Portable hand-held device for early screening of oral cancer and pre-cancer",
+         "Technology7": "Paper-based device for antibiotic drug resistance evaluation",
+         "Technology8": "Tumour on a chip for cancer cell analysis",
+         "Technology9": "COVICUBE - a all in one solution for temperature and pulse oximetry based screening",
+         "Technology10": "Lateral Flow device technology - design and fabrication",
+         "Technology11": "Electricity generation technology from wet textile",
+         "Technology12": "ChestXAI",
+         "Technology13": "'Lipidest' - Lipid profile, Hematocrit and Hemoglobin Test (Electrochemical Detection)",
+         "Technology14": "An AI-based anemia detection device"
+       },
+       "Services":"CRTDH at IIT Kharagpur, Kharagpur is playing an active role by offering a bouquet of services to the MSMEs, Startups, rural entrepreneurs and frontline workers engaged in the healthcare delivery space. The specific supports include:",
+       "ListOfServices": {
+         "service1": "Enterprise incubation",
+         "service2": "Technology-centric mentoring and training",
+         "service3": "Technology transfer",
+         "service4": "Facilitation towards lab-to-market translation",
+         "service5": "Infrastructure facilitation and laboratory space support",
+         "service6": "Technical advisory for product development-centric R&D",
+         "service7": "Training and consultancy",
+         "service8": "Co-development of products and processes with domain experts",
+         "service9": "Industry-Academia partnership support",
+         "service10": "Field Trials and Clinical Validation",
+         "service11": "Joint IP creation",
+         "service12": "Regulatory compliance activities",
+         "service13": "Educational and Social Outreach",
+         "service14": "Community Health Support"
+       },
+       "SocialImpact":"DSIR-CRTDH at IIT Kharagpur, Kharagpur has greatly contributed to society and nation building by offering bouquet of services to the MSMEs, Startups, rural entrepreneurs and frontline workers engaged in the healthcare delivery space. The specific supports include: enterprise incubation, technology-centric mentoring and training, technology transfer and facilitation towards lab-to- market translation. Till date, 18 MSMEs/enterprises and more than 140 rural entrepreneurs have been trained on different technologies at CRTDH. The  various initiatives under CRTDH have thus promised to create a variety of new jobs and self-employment opportunities locally, thereby reducing the need for mass migration of the population to centralized hotspots for machinery manufacturing, consumables and pharmaceutics, software, information systems and analytics etc. CRTDH not only developed several healthcare technologies but as a part of the activities, several health products including sanitizers, face masks etc. were also developed to strengthen the revenue streams of e-health clinics at rural settings.By engaging women power as frontline health workers in a sustainable ecosystem and bringing them in the ambit of rural employment generation, the CRTDH has shown a specific approach of establishing gender equality in the underserved community by promoting healthy and economically- supportive livelihood for all, with a dream of nullifying any differential access to quality primary healthcare of the haves’ and the have-nots’.",
+       "Contacts": {
+         "POC": {
+            "Name": "",
+            "Designation": ""
+         },
+         "Address": "",
+         "PhoneNumber": "",
+         "Email": ""
       }
    }
 ]

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './CSS/section.css';
+import { Link } from 'react-router-dom';
 
 const Sections = () => {
     // Define state to keep track of which circle is clicked
@@ -27,6 +28,7 @@ const Sections = () => {
             },
             {
                 InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
+                Link:"/IITKGP"
             },
             {
                 InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
@@ -48,9 +50,11 @@ const Sections = () => {
         'Chemical Processes & New Materials': [
             {
                 InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
+                Link:"/IITR"
             },
             {
                 InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
+                Link:"/IITGN"
             },
             {
                 InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
@@ -100,7 +104,7 @@ const Sections = () => {
                         <ul>
                             {circleToListMap[selectedCircle].map((item, index) => (
                                 <li key={index}>
-                                    <strong>Institute Name:</strong> {item.InstituteName}
+                                   <Link to={item.Link}><strong>Institute Name:</strong> {item.InstituteName}</Link> 
                                 </li>
                             ))}
                         </ul>
