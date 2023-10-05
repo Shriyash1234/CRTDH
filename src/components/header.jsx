@@ -89,13 +89,13 @@ function Header(props) {
     };
   }, []);
   const handleAboutLink = () => {
-    const element = document.getElementsByClassName('about-us')[0];
+    const element = document.getElementsByClassName('about-us-text')[0];
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     } else {
       Navigate('/');
       setTimeout(() => {
-        const updatedElement = document.getElementsByClassName('about-us')[0];
+        const updatedElement = document.getElementsByClassName('about-us-text')[0];
         if (updatedElement) {
           updatedElement.scrollIntoView({ behavior: 'smooth' });
         }
