@@ -5,12 +5,11 @@ import { ArrowRight } from 'lucide-react';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: '3rd International Conference on Nanomaterials in Biology', content: 'Venue: IIT Gandhinagar', info: "DATE: 19 - 22 Nov 2023", link: "" },
-    { id: 2, title: 'New Research on Nanoplasmonics by prof. ABC jain', content: 'Prof: ABC Jain' },
-    { id: 3, title: 'Card 3', content: 'Content 3' },
-    { id: 4, title: 'Card 4', content: 'Content 3' },
-    { id: 5, title: 'Card 5', content: 'Content 3' },
-    // Add more data as needed
+    { id: 1, title: '', content: '', info: "", img: require('./Assests/Images/update1.png') },
+    { id: 2, title: 'Exhibition in Green & Sustainable Chemistry Conference', date: '12th & 13th October 2022', location: 'Bharuch', content: 'Department of Scientific & Industrial Research (DSIR) and IIT Gandhinagar (IITGN) together established a Common Research & Technology Development Hub (DSIR-IITGN-CRTDH) on Chemical Processes at IIT Gandhinagar (IITGN), Palaj, Gandhinagar. The initiative aims to engage MSMEs and other chemical industries to enhance their capabilities in technology know-how on effluent treatment, waste reduction, process improvement, research on new products and testing products/raw materials/effluents etc. Industry partners can be benefited from the state-of-the-art laboratory facilities as well as the interdisciplinary knowledge base at IIT Gandhinagar. The CRTDH at Bharuch is exhibited at the “Two days Exhibition in Green & Sustainable Chemistry Conference” for industry partners.' },
+    { id: 3, title: 'One-day training workshop on HPTLC for Industrial Product Analysis', date: '20th July, 2022', location: '', content: 'Department of Scientific & Industrial Research (DSIR) and IIT Gandhinagar (IITGN) together established a Common Research & Technology Development Hub (DSIR-IITGN-CRTDH) on Chemical Processes at IIT Gandhinaagr (IITGN), Palaj, Gandhinagar. The initiative aims to engage MSMEs and other chemical industries to enhance their capabilities in technology know-how on effluent treatment, waste reduction, process improvement, research on new products and testing products/raw materials/effluents etc. Industry partners can be benefited from the state-of-the-art laboratory facilities as well as the interdisciplinary knowledge base at IIT Gandhinagar. The CRTDH at IITGN is arranging a one-day training workshop on “One-day training workshop on HPTLC for Industrial Product Analysis” for industry partners.' },
+    { id: 4, title: 'Process Hazard Analysis for Chemical Industries', date: '29-30 December, 2021', location: '', content: 'Common Research & Technology Development Hub (CRTDH) in association with Centre for Safety Engineering at IIT Gandhinagar announces a two-day workshop on the “Process Hazard Analysis for Chemical Industries (PHA)” for plant practitioners, engineers, regulators and policymakers of Chemical industries. As part of this workshop, PHA tools such as HAZOP and Risk Analysis etc. would be discussed with practical case studies and group exercises etc. This workshop aims to train the participants on various risk reduction strategies to enhance process safety in chemical process industries. It will help professionals understand the challenges and best methods for a safer and healthy workplace by addressing the process hazard analysis.' },
+    { id: 5, title: 'One-day training workshop on HPTLC for Industrial Product Analysis', date: '20th July, 2022', location: '', content: 'Department of Scientific & Industrial Research (DSIR) and IIT Gandhinagar (IITGN) together established a Common Research & Technology Development Hub (DSIR-IITGN-CRTDH) on Chemical Processes at IIT Gandhinaagr (IITGN), Palaj, Gandhinagar. The initiative aims to engage MSMEs and other chemical industries to enhance their capabilities in technology know-how on effluent treatment, waste reduction, process improvement, research on new products and testing products/raw materials/effluents etc. Industry partners can be benefited from the state-of-the-art laboratory facilities as well as the interdisciplinary knowledge base at IIT Gandhinagar. The CRTDH at IITGN is arranging a one-day training workshop on “One-day training workshop on HPTLC for Industrial Product Analysis” for industry partners.' },
 ];
 
 const Update = () => {
@@ -64,18 +63,15 @@ const Update = () => {
                 <div className="carousel-cards">
                     {displayedCards.map((item) => (
                         <div key={item.id} className="carousel-card">
+                            <img src={item.img} alt="" />
                             <h2 className='card-title'>{item.title}</h2>
+                            <p className='card-content'>{item.date}</p>
+                            <p className='card-content'>{item.location}</p>
                             <p className='card-content'>{item.content}</p>
                             {item.info ? <p className='card-info'>{item.info}</p> : ""}
-                            <Link to='' className='know-more'>Know more</Link>
                         </div>
                     ))}
                 </div>
-                {/* <div className="carousel-buttons">
-                    <button onClick={showPreviousPage}>Previous</button>
-                    <span className="page-indicator">{`Page ${currentPage}/${totalPages}`}</span>
-                    <button onClick={showNextPage}>Next</button>
-                </div> */}
                 <div className='buttons-carousel'>
                     <button onClick={showPreviousPage} className='previous-carousel-button'><ArrowLeft /></button>
                     <button onClick={showNextPage} className='next-carousel-button'><ArrowRight /></button>
