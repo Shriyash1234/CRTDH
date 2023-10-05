@@ -195,7 +195,7 @@ function Header(props) {
   return (
     <section className='header'>
       <div className='logos'>
-        <Link to='/'> <img className='comapny-logo' src={require('./Assests/Images/company-logo.png')} /></Link>
+        <Link to='/'> <img className='comapny-logo' src={require('./Assests/Images/dsir.jpg')} /></Link>
         <p className='CRTDH-logo-phone'> CRTDH</p>
       </div>
       <div className="cm-header-wrap" style={{ backgroundColor: headerBackground }}>
