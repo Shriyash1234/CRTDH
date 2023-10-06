@@ -159,6 +159,10 @@ function Header(props) {
     const dropdownStyles = {
       color: 'black', // Change the color to black
       flexDirection: 'column', // Display the list vertically
+      backgroundColor:"white"
+    };
+    const dropdown = {
+      color: 'black', // Change the color to black
     };
 
     if (isCentersDropdownOpen) {
@@ -166,11 +170,13 @@ function Header(props) {
       const scrollableItems = centersOptions.slice(5); // The rest of the items are scrollable
   
       return (
-        <ul className="centers-dropdown" style={{flexDirection: 'column',}}>
+        <ul className="centers-dropdown" style={dropdownStyles}>
           {/* Map and render the visible items */}
           {visibleItems.map((institute, index) => (
-            <li key={index}>
-              <Link to={`/Centers/${institute.InstituteName}`}>
+            <li 
+            key={index}
+            >
+              <Link to={institute.Link} style={dropdown}>
                 {institute.InstituteName}
               </Link>
             </li>
@@ -180,8 +186,9 @@ function Header(props) {
             {scrollableItems.map((institute, index) => (
               <Link
                 key={index}
-                to={`/Centers/${institute.InstituteName}`}
+                to={institute.Link}
                 className="scrollable-item"
+                style={dropdown}
               >
                 {institute.InstituteName}
               </Link>
