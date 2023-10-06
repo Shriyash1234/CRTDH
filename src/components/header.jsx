@@ -10,6 +10,7 @@ import './CSS/header.css'
 const centersOptions = [
   {
     InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
+    Link:"/IITGN"
   },
   {
     InstituteName: 'CSIR- Central Electronics Engineering Research Institute (CEERI), Pilani',
@@ -28,6 +29,7 @@ const centersOptions = [
   },
   {
     InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
+    Link:"/IITKGP"
   },
   {
     InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
@@ -43,6 +45,7 @@ const centersOptions = [
   },
   {
     InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
+    Link:"/IITR"
   },
   {
     InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
@@ -155,7 +158,11 @@ function Header(props) {
   const renderCentersDropdown = () => {
     const dropdownStyles = {
       color: 'black', // Change the color to black
+      backgroundColor:"white",
       flexDirection: 'column', // Display the list vertically
+    };
+    const dropdown = {
+      color: 'black', // Change the color to black
     };
 
     if (isCentersDropdownOpen) {
@@ -166,8 +173,10 @@ function Header(props) {
         <ul className="centers-dropdown" style={dropdownStyles}>
           {/* Map and render the visible items */}
           {visibleItems.map((institute, index) => (
-            <li key={index}>
-              <Link to={`/Centers/${institute.InstituteName}`}>
+            <li 
+            key={index}
+            >
+              <Link style={dropdown} to={institute.Link}>
                 {institute.InstituteName}
               </Link>
             </li>
@@ -177,7 +186,8 @@ function Header(props) {
             {scrollableItems.map((institute, index) => (
               <Link
                 key={index}
-                to={`/Centers/${institute.InstituteName}`}
+                style={dropdown}
+                to={institute.Link}
                 className="scrollable-item"
               >
                 {institute.InstituteName}
@@ -223,7 +233,7 @@ function Header(props) {
                 {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
               <li className="has-child">
-                <div onClick={handleAboutLink2} className='about-link links' style={{ color: linkbg }}> <Link to="/" className='links' style={{ color: linkbg }}>Contact us</Link></div>
+                <div onClick={handleAboutLink2} className='about-link links' style={{ color: linkbg }}> Contact us</div>
               </li>
               <li className="has-child">
                 <div onClick={handleSearch} className='about-link links' style={{ color: linkbg }}><Link to="/Facilities" className='links'>
