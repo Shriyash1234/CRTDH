@@ -10,6 +10,7 @@ import './CSS/header.css'
 const centersOptions = [
   {
     InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
+    Link:"/IITGN"
   },
   {
     InstituteName: 'CSIR- Central Electronics Engineering Research Institute (CEERI), Pilani',
@@ -28,6 +29,7 @@ const centersOptions = [
   },
   {
     InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
+    Link:"/IITKGP"
   },
   {
     InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
@@ -43,6 +45,7 @@ const centersOptions = [
   },
   {
     InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
+    Link:"/IITR"
   },
   {
     InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
@@ -153,21 +156,17 @@ function Header(props) {
   };
 
   const renderCentersDropdown = () => {
-    const dropdownStyles = {
-      color: 'black', // Change the color to black
-      flexDirection: 'column', // Display the list vertically
-    };
 
     if (isCentersDropdownOpen) {
       const visibleItems = centersOptions.slice(0, 5); // Display the first 5 items
       const scrollableItems = centersOptions.slice(5); // The rest of the items are scrollable
   
       return (
-        <ul className="centers-dropdown" style={dropdownStyles}>
+        <ul className="centers-dropdown" style={{flexDirection: 'column',}}>
           {/* Map and render the visible items */}
           {visibleItems.map((institute, index) => (
             <li key={index}>
-              <Link to={`/Centers/${institute.InstituteName}`}>
+              <Link to={`${institute.Link}`} style={{color:'black'}}>
                 {institute.InstituteName}
               </Link>
             </li>
@@ -177,7 +176,7 @@ function Header(props) {
             {scrollableItems.map((institute, index) => (
               <Link
                 key={index}
-                to={`/Centers/${institute.InstituteName}`}
+                to={`${institute.Link}`} style={{color:'black'}}
                 className="scrollable-item"
               >
                 {institute.InstituteName}
