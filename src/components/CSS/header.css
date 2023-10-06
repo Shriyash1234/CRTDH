@@ -1,4 +1,5 @@
 /*Font Import*/
+/*Font Import*/
 
 @import url('https://fonts.googleapis.com/css?family=Merienda|Oswald:600,700|Roboto');
 
@@ -100,7 +101,7 @@
 .comapny-logo {
 	position: fixed;
 	z-index: 100;
-	width: 190px;
+	width: 170px;
 	top: 10px;
 	/* left: 30px;
 	top:25px; */
