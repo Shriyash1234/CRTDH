@@ -72,7 +72,7 @@ const Update = () => {
                         </div>
                     ))}
                 </div>
-                <div className='buttons-carousel'>
+                <div className='carousel-buttons'>
                     <button onClick={showPreviousPage} className='previous-carousel-button'><ArrowLeft /></button>
                     <button onClick={showNextPage} className='next-carousel-button'><ArrowRight /></button>
                 </div>
