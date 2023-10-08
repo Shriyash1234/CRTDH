@@ -75,10 +75,10 @@ const ChatboxLogo = () => {
         <X className='close-button' onClick={closechatboxform} />
         <div className='chat-screen'>
           <div className='chat-window window-1'>
-            <p className='chat-text'>Welcome!<br />Did you find what you were looking for?</p>
+            <p className='chat-text'>Welcome!<br />to DSIR - CRTDH Labs</p>
             <div className='yes-no-buttons'>
-              <div className='yes-but but' onClick={yesClick}>YES</div>
-              <div className='no-but but' onClick={noClick}>NO</div>
+              <div className='yes-but but' onClick={yesClick}>Your Details & Help Required</div>
+              {/* <div className='no-but but' onClick={noClick}>NO</div> */}
             </div>
           </div>
           <div className='chat-window window-2'>
@@ -99,9 +99,9 @@ const ChatboxLogo = () => {
               <input className='name-input' type="email" name='entry.64733621'></input>
               <p className='form-name'>Phone</p>
               <input className='name-input' type="tel" name='entry.1221224977'></input>
-              <p className='form-name'>Related field</p>
+              <p className='form-name'>Related Area(s)</p>
               <input className='name-input' type="text" name='entry.1723803182'></input>
-              <p className='form-name'>Your query</p>
+              <p className='form-name'>Help expected</p>
               <textarea className='query-input' rows="6" cols="26" name='entry.1592288433'></textarea>
               <button type='submit' className='form-submit-but' >Submit</button>
             </form>

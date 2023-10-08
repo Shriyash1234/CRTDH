@@ -1,7 +1,7 @@
 .statistics-page{
     position: absolute;
-    bottom: 10vh;
-    left:calc(80vw - 300px);
+    bottom: calc(50vh - 275px);
+    left:calc(80vw - 250px);
     background-color: #ffffff00;
     width: 420px;
     height: 550px;

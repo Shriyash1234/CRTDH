@@ -126,14 +126,22 @@
 
   .card-info,
   .card-content {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .know-more {
     font-size: 1.6rem;
   }
 }
-
+@media all and (max-width:768px) {
+ 
+  .carousel-card{
+    justify-content: flex-start;
+    height: 350px;
+    overflow-y: scroll;
+    padding: 30px 20px;
+  }
+}
 @media all and (max-width:576px) {
   .carousel-card {
     width: 80%;

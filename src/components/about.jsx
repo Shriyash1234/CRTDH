@@ -6,22 +6,10 @@ const About = () => {
       <h2 className='about-us'>About us</h2>
       <div className='separator_left'></div>
       <p className='about-us-text'>
-        DSIR undertakes programmes to promote R&D by the industries and to support the industrial
-        units develop state-of-the-art globally competitive technologies of high commercial value,
-        catalyzing faster commercialization of laboratory-scale R&D, augment technology transfer
-        capabilities, enhance the share of technology intensive exports in overall exports, strengthen
-        industrial consultancy and establish a user-friendly information network to facilitate scientific
-        and industrial research in the country.
+      The innovation capacity of the Indian industry depends not only on large enterprises having access to financial and other resources, but crucially on Micro Small and Medium Enterprises targeting radical innovation and new product development. Micro and Small enterprises (MSEs) particularly, even though steered by talented individuals, often find it difficult to invest in R&D and technology development due to lack of access to suitable equipment, skill-sets, instruments, and other such resources.
         <br />
         <hr />
-        MSMEs in India contribute about 29 per cent to the country's GDP. MSME sector is therefore,
-        often referred as the backbone of Indian economy. To remain competitive, MSMEs need to
-        adopt new technologies and make efforts to do meaningful Research & Development.
-        However, MSMEs often find it difficult to invest in R&D and technology development activities
-        due to lack of access to suitable equipment and infrastructure. In view of this requirement of
-        MSMEs, DSIR has initiated a program aimed at creation of Common Research & Technology
-        Development Hubs or CRTDHs, to encourage research and technology development activities
-        by MSMEs.
+        Keeping this in view, DSIR has initiated a programme aimed at creation of Common Research and Technology Development Hubs (CRTDHs) to encourage research and technology development activities by MSEs. Partial financial support would be provided to eligible institutions as grant-in aid to establish CRTDHs for enabling MSEs conduct industrial R&D and innovation activities. These hubs would facilitate MSEs to undertake new/improved product/process development and skill enhancement activities. The collaborating institutions would extend hands-on training, skill development and research information facilities to the MSEs, apart from research and technology development infrastructure. Creation of these CRTDHs will enhance productivity, increase the innovative skills of the MSEs and help them become globally competitive, and also generate more employment.
       </p>
       <img src={require('./Assests/Images/CRTDH_labs.JPG')} className='CRTDH-labs-img'></img>
     </section>

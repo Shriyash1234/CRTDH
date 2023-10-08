@@ -73,7 +73,7 @@
 
 .but {
     color: #fff;
-    width: 100px;
+    width: fit-content;
     padding: 10px;
     text-align: center;
     font-size: 1.8rem;
