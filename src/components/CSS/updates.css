@@ -74,7 +74,14 @@
   justify-content: center;
   align-items: center;
 }
-
+.update-img{
+  height: 95%;
+}
+.ytVideo{
+  width: 90%;
+  height: 70%;
+  margin: auto;
+}
 /* button {
     padding: 10px 20px;
     background-color: #007bff;

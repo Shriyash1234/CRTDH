@@ -11,68 +11,86 @@ const Sections = () => {
         'Electronics & Renewable Energy': [
             {
                 InstituteName: 'CSIR- Central Electronics Engineering Research Institute (CEERI), Pilani',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'CSIR - Central Scientific Instruments Organization (CSIO) (Madras Complex), Chennai',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'National Institute of Technology-Andhra Pradesh, Tadepalligudem',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
         ],
         'Affordable Health': [
             {
                 InstituteName: 'CSIR- Centre for Cellular and Molecular Biology (CCMB), Hyderabad',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'CSIR- Institute of Himalayan Bioresource Technology (IHBT), Palampur',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
                 Link:"/IITKGP"
             },
             {
                 InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
+                Img:require('./Assests/Images/CRTDH-logos/DPSRU.jpg')
             },
         ],
         'Environmental Intervention': [
             {
                 InstituteName: 'CSIR-National Institute for Interdisciplinary Science and Technology (NIIST), Thiruvanthapuram',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'CSIR - Indian Institute of Toxicology Research (IITR), Lucknow',
+                Img:require('./Assests/Images/CRTDH-logos/CSIR-IIT.png')
             },
         ],
         'Low cost Machining': [
             {
                 InstituteName: 'CSIR- Central Mechanical Engineering Research Institute (CMERI), Durgapur',
+                Img:require('./Assests/Images/CRTDH-logos/CMERI.jpg')
             },
         ],
         'Chemical Processes & New Materials': [
             {
                 InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
                 Link:"/IITR"
             },
             {
                 InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
+                Img:require('./Assests/Images/CRTDH-logos/CRTDH-IITGN.png'),
                 Link:"/IITGN"
             },
             {
                 InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'CSIR- Institute of Minerals & Materials Technology (IMMT), Bhubaneswar',
+                Img:require('./Assests/Images/CRTDH-logos/IMMT.jpg')
             },
             {
                 InstituteName: 'CSIR- National Chemical Laboratory (NCL), Pune',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
-                InstituteName: 'National Institute of Pharmaceutical Education and Research (NIPER) Mohali, Mohali',
+                InstituteName: 'National Institute of Pharmaceutical Education and Research (NIPER), Mohali',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
             {
                 InstituteName: 'Indian Institute of Technology Bhilai, Bhilai',
+                Img:require('./Assests/Images/CRTDH-logos/IIT-Bhilai.jpg')
             },
             {
                 InstituteName: 'Indian Institute of Technology Guwahati, Guwahati',
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
             },
         ],
     };
@@ -103,8 +121,8 @@ const Sections = () => {
                         <h2>{selectedCircle}</h2>
                         <ul>
                             {circleToListMap[selectedCircle].map((item, index) => (
-                                <li key={index}>
-                                   <Link to={item.Link}><strong>Institute Name:</strong> {item.InstituteName}</Link> 
+                                <li key={index} className='CRTDH-logo-name'>
+                                   <Link to={item.Link} ><img className='CRTDHS-logos' src={item.Img}/> {item.InstituteName}</Link> 
                                 </li>
                             ))}
                         </ul>

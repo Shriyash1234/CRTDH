@@ -20,7 +20,13 @@
     text-align: center;
     font-weight: bold;
 }
-
+.CRTDHS-logos{ 
+    width: 50px;
+}
+.CRTDH-logo-name{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 1100px) {
     .Sections {
         flex-direction: column;

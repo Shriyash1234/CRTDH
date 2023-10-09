@@ -9,61 +9,61 @@ import './CSS/header.css'
 
 const centersOptions = [
   {
-    InstituteName: 'IITGN',
+    InstituteName: 'IITGN-CRTDH',
     Link: "/IITGN"
   },
   {
-    InstituteName: 'CEERI, Pilani',
+    InstituteName: 'CEERI-CRTDH',
   },
   {
-    InstituteName: 'CSIO (Madras Complex), Chennai',
+    InstituteName: 'CSIO-CRTDH',
   },
   {
-    InstituteName: 'NIT-AP, Tadepalligudem',
+    InstituteName: 'NITAP-CRTDH',
   },
   {
-    InstituteName: 'CCMB, Hyderabad',
+    InstituteName: 'CCMB-CRTDH',
   },
   {
-    InstituteName: 'IHBT, Palampur',
+    InstituteName: 'IHBT-CRTDH',
   },
   {
-    InstituteName: 'IITKGP',
+    InstituteName: 'IITKGP-CRTDH',
     Link: "/IITKGP"
   },
   {
-    InstituteName: 'DPSRU, New Delhi',
+    InstituteName: 'DPSRU-CRTDH',
   },
   {
-    InstituteName: 'NIIST, Thiruvanthapuram',
+    InstituteName: 'NIIST-CRTDH',
   },
   {
-    InstituteName: 'IITR, Lucknow',
+    InstituteName: 'IITRes-CRTDH',
   },
   {
-    InstituteName: 'CMERI, Durgapur',
+    InstituteName: 'CMERI-CRTDH',
   },
   {
-    InstituteName: 'IITR',
+    InstituteName: 'IITR-CRTDH',
     Link: "/IITR"
   },
   {
-    InstituteName: 'CDRI, Lucknow',
+    InstituteName: 'CDRI-CRTDH',
   },
   {
-    InstituteName: 'IMMT, Bhubaneswar',
+    InstituteName: 'IMMT-CRTDH',
   },
   {
-    InstituteName: 'NCL, Pune',
+    InstituteName: 'NCL-CRTDH',
   },
   {
-    InstituteName: 'NIPER Mohali, Mohali',
+    InstituteName: 'NIPER-CRTDH',
   },
   {
-    InstituteName: 'IIT Bhilai, Bhilai',
+    InstituteName: 'IIT Bhilai-CRTDH',
   },
   {
-    InstituteName: 'IIT Guwahati, Guwahati',
+    InstituteName: 'IITG-CRTDH',
   },
 ];
 
@@ -229,7 +229,7 @@ function Header(props) {
                 <Link to="/Facilities" className='links' style={{ color: linkbg }}>Facilites</Link>
               </li>
               <li className="has-child" onClick={handleCentersDropdownClick}>
-                <div className='about-link links' style={{ color: linkbg }}>Centers</div>
+                <div className='about-link links' style={{ color: linkbg }}>CRTDHs</div>
                 {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
               <li className="has-child">
