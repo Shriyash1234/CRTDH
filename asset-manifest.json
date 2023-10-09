@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRTDH/static/css/main.c2f888b3.css",
-    "main.js": "/CRTDH/static/js/main.b498c48b.js",
+    "main.js": "/CRTDH/static/js/main.47a1c8ff.js",
     "static/js/787.8364e0a8.chunk.js": "/CRTDH/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-1.jpg": "/CRTDH/static/media/banner-1.7f77f7ab2d0fe40c2629.jpg",
     "static/media/IITGN.jpeg": "/CRTDH/static/media/IITGN.571824b778999971b30c.jpeg",
@@ -34,6 +34,7 @@
     "static/media/3.png": "/CRTDH/static/media/3.ebcb2e8c0cad05439044.png",
     "static/media/IITGN-workshop-2.png": "/CRTDH/static/media/IITGN-workshop-2.f61ae5a7959db273920c.png",
     "static/media/8.png": "/CRTDH/static/media/8.e2b47ebffb1fec6ac08e.png",
+    "static/media/update2.jpg": "/CRTDH/static/media/update2.e80e073799ddf911a068.jpg",
     "static/media/10.png": "/CRTDH/static/media/10.ad29a4ea8ad3e95e20dc.png",
     "static/media/IITKGP.webp": "/CRTDH/static/media/IITKGP.607b10326f738d246afe.webp",
     "static/media/12.png": "/CRTDH/static/media/12.abafd73fcb618a11c160.png",
@@ -44,11 +45,11 @@
     "static/media/employement1.png": "/CRTDH/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/CRTDH/index.html",
     "main.c2f888b3.css.map": "/CRTDH/static/css/main.c2f888b3.css.map",
-    "main.b498c48b.js.map": "/CRTDH/static/js/main.b498c48b.js.map",
+    "main.47a1c8ff.js.map": "/CRTDH/static/js/main.47a1c8ff.js.map",
     "787.8364e0a8.chunk.js.map": "/CRTDH/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2f888b3.css",
-    "static/js/main.b498c48b.js"
+    "static/js/main.47a1c8ff.js"
   ]
 }
