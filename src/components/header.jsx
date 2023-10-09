@@ -9,61 +9,61 @@ import './CSS/header.css'
 
 const centersOptions = [
   {
-    InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
-    Link:"/IITGN"
+    InstituteName: 'IITGN',
+    Link: "/IITGN"
   },
   {
-    InstituteName: 'CSIR- Central Electronics Engineering Research Institute (CEERI), Pilani',
+    InstituteName: 'CEERI, Pilani',
   },
   {
-    InstituteName: 'CSIR - Central Scientific Instruments Organization (CSIO) (Madras Complex), Chennai',
+    InstituteName: 'CSIO (Madras Complex), Chennai',
   },
   {
-    InstituteName: 'National Institute of Technology-Andhra Pradesh, Tadepalligudem',
+    InstituteName: 'NIT-AP, Tadepalligudem',
   },
   {
-    InstituteName: 'CSIR- Centre for Cellular and Molecular Biology (CCMB), Hyderabad',
+    InstituteName: 'CCMB, Hyderabad',
   },
   {
-    InstituteName: 'CSIR- Institute of Himalayan Bioresource Technology (IHBT), Palampur',
+    InstituteName: 'IHBT, Palampur',
   },
   {
-    InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
-    Link:"/IITKGP"
+    InstituteName: 'IITKGP',
+    Link: "/IITKGP"
   },
   {
-    InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
+    InstituteName: 'DPSRU, New Delhi',
   },
   {
-    InstituteName: 'CSIR-National Institute for Interdisciplinary Science and Technology (NIIST), Thiruvanthapuram',
+    InstituteName: 'NIIST, Thiruvanthapuram',
   },
   {
-    InstituteName: 'CSIR - Indian Institute of Toxicology Research (IITR), Lucknow',
+    InstituteName: 'IITR, Lucknow',
   },
   {
-    InstituteName: 'CSIR- Central Mechanical Engineering Research Institute (CMERI), Durgapur',
+    InstituteName: 'CMERI, Durgapur',
   },
   {
-    InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
-    Link:"/IITR"
+    InstituteName: 'IITR',
+    Link: "/IITR"
   },
   {
-    InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
+    InstituteName: 'CDRI, Lucknow',
   },
   {
-    InstituteName: 'CSIR- Institute of Minerals & Materials Technology (IMMT), Bhubaneswar',
+    InstituteName: 'IMMT, Bhubaneswar',
   },
   {
-    InstituteName: 'CSIR- National Chemical Laboratory (NCL), Pune',
+    InstituteName: 'NCL, Pune',
   },
   {
-    InstituteName: 'National Institute of Pharmaceutical Education and Research (NIPER) Mohali, Mohali',
+    InstituteName: 'NIPER Mohali, Mohali',
   },
   {
-    InstituteName: 'Indian Institute of Technology Bhilai, Bhilai',
+    InstituteName: 'IIT Bhilai, Bhilai',
   },
   {
-    InstituteName: 'Indian Institute of Technology Guwahati, Guwahati',
+    InstituteName: 'IIT Guwahati, Guwahati',
   },
 ];
 
@@ -174,7 +174,7 @@ function Header(props) {
           {/* Map and render the visible items */}
           {visibleItems.map((institute, index) => (
             <li 
-            key={index}
+            key={index} style={{width:'100%'}}
             >
               <Link to={institute.Link} style={dropdown}>
                 {institute.InstituteName}
