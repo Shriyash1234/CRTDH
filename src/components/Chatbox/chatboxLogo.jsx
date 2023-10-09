@@ -71,13 +71,13 @@ const ChatboxLogo = () => {
         <p>Connect with CRTDH</p>
       </div>
       <div className='chatbox-form'>
-        <div className='chat'>Chat</div>
+        <div className='chat'>Contact</div>
         <X className='close-button' onClick={closechatboxform} />
         <div className='chat-screen'>
           <div className='chat-window window-1'>
             <p className='chat-text'>Welcome!<br />to DSIR - CRTDH Labs</p>
             <div className='yes-no-buttons'>
-              <div className='yes-but but' onClick={yesClick}>Your Details & Help Required</div>
+              <div className='yes-but but' onClick={yesClick}>Your Details & Requirements</div>
               {/* <div className='no-but but' onClick={noClick}>NO</div> */}
             </div>
           </div>
