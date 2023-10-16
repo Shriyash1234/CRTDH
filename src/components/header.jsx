@@ -13,6 +13,10 @@ const centersOptions = [
     Link: "/IITGN"
   },
   {
+    InstituteName: 'IITKGP-CRTDH',
+    Link: "/IITKGP"
+  },
+  {
     InstituteName: 'CEERI-CRTDH',
   },
   {
@@ -27,10 +31,7 @@ const centersOptions = [
   {
     InstituteName: 'IHBT-CRTDH',
   },
-  {
-    InstituteName: 'IITKGP-CRTDH',
-    Link: "/IITKGP"
-  },
+  
   {
     InstituteName: 'DPSRU-CRTDH',
   },

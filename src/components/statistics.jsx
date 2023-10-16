@@ -22,7 +22,7 @@ const Statistics = () => {
           <p className='stat-text'>Manpower Trained<br/> 2518</p>
         </div>
         <div className='statistics-div stat-6'>
-          <img src={require('./Assests/Images/icons/employement1.png')} className='stat-img'></img>
+          <img src={require('./Assests/Images/icons/projects.png')} className='stat-img'></img>
           <p className='stat-text'>MESME Sensitized<br/> 1976</p>
         </div>
         <div className='statistics-div stat-1'>

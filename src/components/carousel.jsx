@@ -14,7 +14,16 @@ function Carousel() {
           <li data-target="#carousel-2" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner" role="listbox">
-          <div className="item active">
+        <div className="item active">
+            <a>
+              <img
+                src={require("./Assests/Images/banner/banner-4.jpg")}
+                alt="responsive image"
+                className="d-block img-fluid"
+              />
+            </a>
+          </div>
+          <div className="item">
             <a>
               <img
                 src={require("./Assests/Images/banner/banner-1.jpg")}
@@ -23,11 +32,10 @@ function Carousel() {
               />
             </a>
           </div>
-
           <div className="item">
             <a>
               <img
-                src={require("./Assests/Images/banner/banner-2.jpg")}
+                src={require("./Assests/Images/banner/banner-7.jpg")}
                 alt="responsive image"
                 className="d-block img-fluid"
               />
@@ -37,12 +45,34 @@ function Carousel() {
           <div className="item">
             <a>
               <img
-                src={require("./Assests/Images/banner/banner-3.jpg")}
+                src={require("./Assests/Images/banner/banner-8.jpg")}
                 alt="responsive image"
                 className="d-block img-fluid"
               />
             </a>
           </div>
+
+          
+          <div className="item">
+            <a>
+              <img
+                src={require("./Assests/Images/banner/banner-5.jpg")}
+                alt="responsive image"
+                className="d-block img-fluid"
+              />
+            </a>
+          </div>
+          <div className="item">
+            <a>
+              <img
+                src={require("./Assests/Images/banner/banner-6.jpg")}
+                alt="responsive image"
+                className="d-block img-fluid"
+              />
+            </a>
+          </div>
+          
+          
         </div>
 
         <a

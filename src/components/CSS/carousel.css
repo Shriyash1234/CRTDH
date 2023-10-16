@@ -7,7 +7,7 @@
     height: 100vh !important;
     width: 100vw;
     object-fit: fill;
-    filter: brightness(60%);
+    /* filter: brightness(60%); */
   }
 
   .carousel-control-prev-icon,.carousel-control-next-icon{

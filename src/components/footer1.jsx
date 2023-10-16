@@ -33,7 +33,7 @@ const Footer1 = () => {
                 <div onClick={handleAboutLink} style={{cursor:'pointer'}} className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;About us</p></div>
                 <Link to='/Research' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Research</p></Link>
                 <Link to='/Facilities' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Facilities</p></Link>
-                <Link to='' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;CRTDH Compendium 2022</p></Link>
+                <a href="https://drive.google.com/file/d/1_RZNMAtuBe9MiNe_EQGBCMnagGQQ12j1/view?usp=sharing" target="_blank" className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;CRTDH Compendium 2022</p></a>
             </div>
             <div style={styles.reachUs}>
                 <h4 className='CRTDH-name-footer1'>Reach Us</h4>
@@ -49,6 +49,8 @@ const Footer1 = () => {
                 <hr></hr>
                 <p className='Head-office'><Mail />&nbsp;&nbsp;Email</p>
                 <p className='head-office-address'><a href="mailto:vipin.shukla@gov.in">vipin.shukla@gov.in</a></p>
+                <p className='head-office-address'><a href="mailto:crtdh@iitgn.ac.in">crtdh@iitgn.ac.in</a></p>
+
             </div>
         </footer1>
     );

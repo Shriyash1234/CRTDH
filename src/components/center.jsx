@@ -30,7 +30,7 @@ const Center = () => {
       </div>
       <div className='CRTDH-center-research-areas'>
         <h1 className='CRTDH-center-name'>{data.CenterName}</h1>
-        <h2 className='research-areas'>Objectives/ Research Areas</h2>
+        <h2 className='research-areas'>Research Areas</h2>
 
         {data["ResearchAreas"] && (
           <ul>
