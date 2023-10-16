@@ -267,6 +267,9 @@
 		z-index: 20;
 		position: fixed;
 	}
+	.CRTDHs-link{
+		color: #000 !important;
+	}
 }
 
 /* Banner*/

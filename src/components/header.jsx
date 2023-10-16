@@ -215,10 +215,10 @@ function Header(props) {
           <div className="cm-menu-inner">
             <ul className="menu-ul clear-all" >
               <li className="has-child">
-                <div onClick={handleAboutLink1} className='about-link links' style={{ color: linkbg }}><Link to="/" className='links' style={{ color: linkbg }}>Home</Link></div>
+                <div onClick={handleAboutLink1} className='links' style={{ color: linkbg,marginRight:"10px" }}><Link to="/" style={{ color: linkbg }}>Home</Link></div>
               </li>
               <li className="has-child">
-                <div onClick={handleAboutLink} className='about-link links' style={{ color: linkbg }}><Link to="/" className='links' style={{ color: linkbg }}>About</Link></div>
+                <div onClick={handleAboutLink} className='links' style={{ color: linkbg,marginRight:"10px" }}><Link to="/" style={{ color: linkbg }}>About</Link></div>
               </li>
               <li className="has-child">
                 <Link to="/Research" className='links' style={{ color: linkbg }}>Research</Link>
@@ -230,14 +230,14 @@ function Header(props) {
                 <Link to="/Facilities" className='links' style={{ color: linkbg }}>Facilites</Link>
               </li>
               <li className="has-child" onClick={handleCentersDropdownClick}>
-                <div className='about-link links' style={{ color: linkbg }}>CRTDHs</div>
+                <div className='about-link links CRTDHs-link' style={{ color: linkbg }}>CRTDHs</div>
                 {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
               <li className="has-child">
-                <div onClick={handleAboutLink2} className='about-link links' style={{ color: linkbg }}> Contact us</div>
+                <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: linkbg }}> Contact us</div>
               </li>
               <li className="has-child">
-                <div onClick={handleSearch} className='about-link links' style={{ color: linkbg }}><Link to="/Facilities" className='links'>
+                <div onClick={handleSearch} className='about-link links ' style={{ color: linkbg }}><Link to="/Facilities" className='links'>
                   <div className='searchbar'>
                     <Search style={{ color: linkbg }} />
                     <p className='search-text' style={{ color: linkbg }}>&nbsp;&nbsp;&nbsp;Search</p>
