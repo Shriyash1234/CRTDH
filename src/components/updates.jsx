@@ -7,7 +7,7 @@ import './CSS/updates.css';
 const data = [
     { id: 1, img: require('./Assests/Images/update1.jpg'),Link:"http://tiny.cc/DSIR-CRTDH" },
     { id: 2, img: require('./Assests/Images/update2.jpg'),Link:"https://dpsru.edu.in/chintan-shivir/"},
-    { id: 3, title: 'Affordable New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
+    { id: 3, title: 'New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
     { id: 4, title: 'Anaemia Diagnosis At Rs 1: How Does This Paper Strip Test Work? | The Quint', location: 'Technology Development by CRTDH-IIT Kharagpur',ytLink:'yes' },
     { id: 5, img: require('./Assests/Images/update3.jpg')},
 ];

@@ -122,7 +122,7 @@ const Sections = () => {
                         <ul>
                             {circleToListMap[selectedCircle].map((item, index) => (
                                 <li key={index} className='CRTDH-logo-name'>
-                                   <Link to={item.Link} ><img className='CRTDHS-logos' src={item.Img}/> {item.InstituteName}</Link> 
+                                   <Link to={item.Link} >{item.InstituteName}</Link> 
                                 </li>
                             ))}
                         </ul>

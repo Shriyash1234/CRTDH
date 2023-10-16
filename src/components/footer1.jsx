@@ -25,7 +25,7 @@ const Footer1 = () => {
             <div style={styles.description}>
                 <h4 className='CRTDH-name-footer1'>CRTDH</h4>
                 <hr></hr>
-                <p className='CRTDH-desc'>DSIR, Government of India, has supported a couple of research-driven academic institutions and labs, across the country in setting up CRTDHs. These CRTDHs provide common infrastructural facilities, pilot facilities, technology support, training, and access to specialized services for MSMEs and Startups in the areas of  Affordable healthcare, New Materials/Chemical Processes, Electronics/Renewable Energy,   Environmental Interventions,    and Low-cost Machining. This multi-institutional national effort by DSIR has engaged several MSMEs and Startups across the country. </p>
+                <p className='CRTDH-desc'>DSIR, Government of India, has supported a couple of research-driven academic institutions and labs across the country in setting up CRTDHs. These CRTDHs provide common infrastructural facilities, pilot facilities, technology support, and training to MSMEs and Startups in Affordable Healthcare, New Materials/Chemical Processes, Electronics/Renewable Energy, Environmental Interventions, and Low-cost Machining. This multi-institutional national effort by DSIR has engaged several MSMEs/Startups across the country and undertaken new/improved product and process development and skill enhancement activities. More MSMEs and Startups are encouraged to connect with DSIR - CRTDHs.</p>
             </div>
             <div className="quick-links-block" style={styles.quickLinks}>
                 <h4 className='CRTDH-name-footer1'>Quick Links</h4>

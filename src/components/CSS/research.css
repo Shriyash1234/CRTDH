@@ -9,7 +9,7 @@
 .research-div{
     width: 400px;
     height: 500px;
-    margin: 30px 0px;
+    margin: 30px 20px;
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,6 +53,11 @@
     font-family: Inter;
     color: #fff;
 }
+.research-text{
+    width: 80vw;
+    margin: auto;
+    padding: 30px;
+}
 @media all and (max-width:768px) {
     .research-div{
         width: 400px;
@@ -63,6 +68,10 @@
     }
     .reserach-subarea-name{
         font-size: 1.7rem;
+    }
+    .research-text{
+        width: 90vw;
+        padding: 10px;
     }
 }
 @media all and (max-width:479px) {
