@@ -44,6 +44,10 @@ const ChatboxLogo = () => {
   const closechatboxform = () => {
     document.getElementsByClassName('chatbox-logo')[0].style.display = 'block';
     document.getElementsByClassName('chatbox-form')[0].style.transform = 'translateX(400px)';
+    const window1 = document.getElementsByClassName('window-1')[0];
+    const window3 = document.getElementsByClassName('window-3')[0];
+    window1.style.display = 'block';
+    window3.style.display = 'none';
   }
 
   const yesClick = () => {
@@ -68,7 +72,7 @@ const ChatboxLogo = () => {
   return (
     <div className='chatbox'>
       <div className='chatbox-logo' onClick={openchatboxform}>
-        <p>Connect with CRTDH</p>
+        <p><span className = "connect-with" >Connect with</span> DSIR | CRTDH</p>
       </div>
       <div className='chatbox-form'>
         <div className='chat'>Contact</div>

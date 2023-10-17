@@ -5,8 +5,9 @@
     margin: 0px;
     background-color: green;
     color: #fff;
-    padding: 20px 15px 15px 20px;
-    height: 70px;
+    padding: 20px 20px 20px 40px;
+    width: 200px;
+    height: 60px;
     border-radius: 10px;
     cursor: pointer;
     z-index: 25;

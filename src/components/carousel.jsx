@@ -17,7 +17,17 @@ function Carousel() {
           <li data-target="#carousel-2" data-slide-to="5"></li>
         </ol>
         <div className="carousel-inner" role="listbox">
-        <div className="item active">
+          <div className="item active">
+            <a>
+              <img
+                src={require("./Assests/Images/banner/banner-8.jpg")}
+                alt="responsive image"
+                className="d-block img-fluid"
+              />
+            </a>
+          </div>
+
+          <div className="item">
             <a>
               <img
                 src={require("./Assests/Images/banner/banner-4.jpg")}
@@ -45,17 +55,6 @@ function Carousel() {
             </a>
           </div>
 
-          <div className="item">
-            <a>
-              <img
-                src={require("./Assests/Images/banner/banner-8.jpg")}
-                alt="responsive image"
-                className="d-block img-fluid"
-              />
-            </a>
-          </div>
-
-          
           <div className="item">
             <a>
               <img

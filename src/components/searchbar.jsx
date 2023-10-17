@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import stringSimilarity from 'string-similarity';
 import { MDBInput } from 'mdb-react-ui-kit';
 
@@ -29,9 +29,9 @@ window.addEventListener("scroll", function() {
   const stickyElement = document.querySelector(".search-div");
 
   // Calculate the threshold position where the element should become sticky
-  const threshold = headerHeight;
-
-  if (this.scrollY > threshold) {
+  const threshold = 30;
+ if(stickyElement){
+    if (this.scrollY > threshold) {
       // Element becomes sticky
       stickyElement.style.position = "fixed";
       stickyElement.style.top = headerHeight + "px";
@@ -39,6 +39,8 @@ window.addEventListener("scroll", function() {
       // Element returns to its normal position
       stickyElement.style.position = "static";
   }
+ }
+ 
 });
 
 const handleSearch = () => {
@@ -46,41 +48,45 @@ const handleSearch = () => {
 
   // Get all elements with IDs and their IDs as an array
   const elementsWithIds = document.querySelectorAll('[id]');
-  const elementIds = Array.from(elementsWithIds, (element) => {
-    // Clean up the ID to remove unwanted characters (e.g., td#phMeter => phMeter)
-    return element.id.replace(/[^a-zA-Z0-9-_]/g, '').trim().toLowerCase();
-  });
-
-  // Find the closest matching ID
-  const { bestMatchIndex } = stringSimilarity.findBestMatch(inputText, elementIds);
-
-  // Define the offset (adjust this value as needed)
-  const offset = 50; // You can change this value to control the scroll offset
-
-  // Remove the "highlight" class from any previously highlighted elements
-  const highlightedElements = document.querySelectorAll('.highlight');
-  highlightedElements.forEach((el) => {
-    el.classList.remove('highlight');
-  });
-
-  // Scroll to the closest matching element with the specified offset
-  const closestMatchId = elementsWithIds[bestMatchIndex].id;
-  const closestMatchElement = document.getElementById(closestMatchId);
-
-  if (closestMatchElement) {
-    closestMatchElement.classList.add('highlight');
-    closestMatchElement.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'nearest',
-      offsetTop: -offset,
+  if(elementsWithIds){
+    const elementIds = Array.from(elementsWithIds, (element) => {
+      // Clean up the ID to remove unwanted characters (e.g., td#phMeter => phMeter)
+      return element.id.replace(/[^a-zA-Z0-9-_]/g, '').trim().toLowerCase();
     });
-
-    // Update the highlighted index
-    setHighlightedIndex(bestMatchIndex);
-  } else {
-    alert(`No close match found for "${searchTerm}".`);
+  
+    // Find the closest matching ID
+    const { bestMatchIndex } = stringSimilarity.findBestMatch(inputText, elementIds);
+  
+    // Define the offset (adjust this value as needed)
+    const offset = 50; // You can change this value to control the scroll offset
+  
+    // Remove the "highlight" class from any previously highlighted elements
+    const highlightedElements = document.querySelectorAll('.highlight');
+    highlightedElements.forEach((el) => {
+      el.classList.remove('highlight');
+    });
+  
+    // Scroll to the closest matching element with the specified offset
+    const closestMatchId = elementsWithIds[bestMatchIndex].id;
+    const closestMatchElement = document.getElementById(closestMatchId);
+  
+    if (closestMatchElement) {
+      closestMatchElement.classList.add('highlight');
+      closestMatchElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+        offsetTop: -offset,
+      });
+  
+      // Update the highlighted index
+      setHighlightedIndex(bestMatchIndex);
+    } else {
+      alert(`No close match found for "${searchTerm}".`);
+    }
+    
   }
+  
 };
 
 const scrollToNextMatch = () => {
@@ -125,6 +131,26 @@ const scrollToNextMatch = () => {
     }
   }
 };
+const handleKeyPress = (e) => {
+  if (e.key === 'Enter') {
+    handleSearch();
+  }
+};
+
+useEffect(() => {
+  // Add the event listener to the input element
+  const inputElement = document.querySelector('.search-input');
+  if (inputElement) {
+    inputElement.addEventListener('keydown', handleKeyPress);
+  }
+
+  // Remove the event listener when the component unmounts
+  return () => {
+    if (inputElement) {
+      inputElement.removeEventListener('keydown', handleKeyPress);
+    }
+  };
+}, []);
 
   return (
     <div className='search-div'>
@@ -134,6 +160,7 @@ const scrollToNextMatch = () => {
         placeholder="Enter the name of the instrument"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        onKeyPress={handleSearch}
       />
       <button onClick={handleSearch} className='search-btn'>Search</button>
       <button onClick={scrollToNextMatch} className='search-btn'>Next</button>

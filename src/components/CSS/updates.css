@@ -82,6 +82,12 @@
   height: 70%;
   margin: auto;
 }
+.connect-with{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-size: smaller;
+}
 /* button {
     padding: 10px 20px;
     background-color: #007bff;

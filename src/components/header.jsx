@@ -209,42 +209,42 @@ function Header(props) {
         <Link to='/'> <img className='comapny-logo' src={require('./Assests/Images/dsir.jpg')} /></Link>
         <p className='CRTDH-logo-phone'> CRTDH</p>
       </div>
-      <div className="cm-header-wrap" style={{ backgroundColor: headerBackground }}>
+      <div className="cm-header-wrap" style={{ backgroundColor: "white" }}>
         <div className="cm-menu-wrap">
           <div className="cm-menu-btn fa fa-bars"></div>
           <div className="cm-menu-inner">
             <ul className="menu-ul clear-all" >
               <li className="has-child">
-                <div onClick={handleAboutLink1} className='links' style={{ color: linkbg,marginRight:"10px" }}><Link to="/" style={{ color: linkbg }}>Home</Link></div>
+                <div onClick={handleAboutLink1} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>Home</Link></div>
               </li>
               <li className="has-child">
-                <div onClick={handleAboutLink} className='links' style={{ color: linkbg,marginRight:"10px" }}><Link to="/" style={{ color: linkbg }}>About</Link></div>
+                <div onClick={handleAboutLink} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>About</Link></div>
               </li>
               <li className="has-child">
-                <Link to="/Research" className='links' style={{ color: linkbg }}>Research</Link>
+                <Link to="/Research" className='links' style={{ color: "black" }}>Research</Link>
               </li>
               <li className="has-child">
-                <Link to="/Industry" className='links' style={{ color: linkbg }}>Industry</Link>
+                <Link to="/Industry" className='links' style={{ color: "black" }}>Industry</Link>
               </li>
               <li className="has-child">
-                <Link to="/Facilities" className='links' style={{ color: linkbg }}>Facilites</Link>
+                <Link to="/Facilities" className='links' style={{ color: "black" }}>Facilites</Link>
               </li>
               <li className="has-child" onClick={handleCentersDropdownClick}>
-                <div className='about-link links CRTDHs-link' style={{ color: linkbg }}>CRTDHs</div>
+                <div className='about-link links CRTDHs-link' style={{ color: "black" }}>CRTDHs</div>
                 {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
               <li className="has-child">
-                <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: linkbg }}> Contact us</div>
+                <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact us</div>
               </li>
-              <li className="has-child">
-                <div onClick={handleSearch} className='about-link links ' style={{ color: linkbg }}><Link to="/Facilities" className='links'>
+              {/* <li className="has-child">
+                <div onClick={handleSearch} className='about-link links ' style={{ color: "black" }}><Link to="/Facilities" className='links'>
                   <div className='searchbar'>
-                    <Search style={{ color: linkbg }} />
-                    <p className='search-text' style={{ color: linkbg }}>&nbsp;&nbsp;&nbsp;Search</p>
+                    <Search style={{ color: "black" }} />
+                    <p className='search-text' style={{ color: "black" }}>&nbsp;&nbsp;&nbsp;Search</p>
                   </div>
                 </Link>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
