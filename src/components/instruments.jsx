@@ -41,7 +41,7 @@ class Instruments extends Component {
                             <tr>
                                 <th>Sr. No</th>
                                 <th>Instruments</th>
-                                <th>Equipment ID</th>
+                                {/* <th>Equipment ID</th> */}
                                 <th>Brand / Model</th>
                                 <th>Function</th>
                                 <th>Location</th>

@@ -92,17 +92,17 @@ const ChatboxLogo = () => {
           </div>
           <div className='chat-window window-3'>
             <p className='chat-text'>If you have any questions or query, contact us.</p>
-            <form action='https://docs.google.com/forms/d/e/1FAIpQLSfFJ2v78aYPAvS3cvJLLy8mqVkF5c1rphxPrwuezgT6QMmQfg/formResponse'>
+            <form action='https://docs.google.com/forms/d/e/1FAIpQLSe0mK4aFg78sEmrb0WwDq4tm6TZQgV0rLJdJJy4A-Y_bfx3zQ/formResponse'>
               <p className='form-name'>Name</p>
-              <input className='name-input' type="text" name='entry.1328098496'></input>
+              <input className='name-input' type="text" name='entry.379228942'></input>
               <p className='form-name'>Email</p>
-              <input className='name-input' type="email" name='entry.64733621'></input>
+              <input className='name-input' type="email" name='entry.216861817'></input>
               <p className='form-name'>Phone</p>
-              <input className='name-input' type="tel" name='entry.1221224977'></input>
+              <input className='name-input' type="tel" name='entry.1868777862'></input>
               <p className='form-name'>Related Area(s)</p>
-              <input className='name-input' type="text" name='entry.1723803182'></input>
+              <input className='name-input' type="text" name='entry.1748510637'></input>
               <p className='form-name'>Help expected</p>
-              <textarea className='query-input' rows="6" cols="26" name='entry.1592288433'></textarea>
+              <textarea className='query-input' rows="6" cols="26" name='entry.916994720'></textarea>
               <button type='submit' className='form-submit-but' >Submit</button>
             </form>
           </div>

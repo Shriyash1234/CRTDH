@@ -26,7 +26,7 @@ function JsonToTable({ jsonData }) {
             <tr key={index}>
               <td>{item["Sr. No"]}</td>
               <td id= {item["Instruments"]} className='Instruments'>{item["Instruments"]}</td>
-              <td>{item["Equipment ID"]}</td>
+              {/* <td>{item["Equipment ID"]}</td> */}
               <td>{item["Brand / Model"]}</td>
               <td>{item["Function"]}</td>
               <td>{item["Location"]}</td>

@@ -15,15 +15,15 @@ function Facilities() {
     <div className='facilites-page'>
       <Header color={'black'} />
       <div className="Facilities">
-        <p className='list-text'>The list of equipements available at IITGN-CRTDH</p>
+        <p className='list-text'>The list of equipements available at N-CRTDH</p>
         <SearchBar />
         <div className='excel-table'>
           <JsonToTable jsonData={jsonData} />
         </div>
-        <p className='list-text'>Rest of the instruments in DSIR-IITGN-CRTDH</p>
+        {/* <p className='list-text'>Rest of the instruments in DSIR-IITGN-CRTDH</p>
         <div className='excel-table'>
           <JsonToTable jsonData={jsonData2} />
-        </div>
+        </div> */}
       </div>
       <Footer1 />
       <Footer />
