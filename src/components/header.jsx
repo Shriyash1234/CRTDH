@@ -220,18 +220,18 @@ function Header(props) {
               <li className="has-child">
                 <div onClick={handleAboutLink} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>About</Link></div>
               </li>
+              <li className="has-child" onClick={handleCentersDropdownClick}>
+                <div className='about-link links CRTDHs-link' style={{ color: "black" }}>CRTDHs</div>
+                {renderCentersDropdown()} {/* Render the dropdown menu */}
+              </li>
               <li className="has-child">
-                <Link to="/Research" className='links' style={{ color: "black" }}>Research</Link>
+                <Link to="/Research" className='links' style={{ color: "black" }}>R&D</Link>
               </li>
               <li className="has-child">
                 <Link to="/Industry" className='links' style={{ color: "black" }}>Industry</Link>
               </li>
               <li className="has-child">
                 <Link to="/Facilities" className='links' style={{ color: "black" }}>Facilites</Link>
-              </li>
-              <li className="has-child" onClick={handleCentersDropdownClick}>
-                <div className='about-link links CRTDHs-link' style={{ color: "black" }}>CRTDHs</div>
-                {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
               <li className="has-child">
                 <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact us</div>
