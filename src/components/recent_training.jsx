@@ -25,7 +25,7 @@ const Recent_Training = () => {
                 display: 'flex',
                 flexDirection: 'column',
             }}
-        ><h2 className='about-us' style={{ fontSize: '2.8rem' }}>Upcoming Training/Industry Meet</h2>
+        ><h2 className='about-us'>Upcoming Training/Industry Meet</h2>
             <div className='separator_left'></div>
             <div className="list-container">
                 <ul className="list">
