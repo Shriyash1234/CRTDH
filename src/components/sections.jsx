@@ -26,7 +26,8 @@ const Sections = () => {
         'Affordable Health': [
             {
                 InstituteName: 'CSIR- Centre for Cellular and Molecular Biology (CCMB), Hyderabad',
-                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
+                Link:"/CCMB"
             },
             {
                 InstituteName: 'CSIR- Institute of Himalayan Bioresource Technology (IHBT), Palampur',

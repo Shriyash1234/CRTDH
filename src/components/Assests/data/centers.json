@@ -250,5 +250,56 @@
          "PhoneNumber": "+91-9674857330",
          "Email": "sanjib.banerjee@iitbhilai.ac.in"
       }
+   },
+   {
+      "CenterCode": "CCMB",
+      "CenterName": "CRTDH CCMB",
+      "ImagePath": "CCMB.jpg",
+      "ResearchAreas": {
+         "Research-Area-1": "Diagnostics and biopharmaceuticals."
+      },
+      "Information": {
+         "Information-para-1": "Innovation creates entrepreneurship - building enterprises that drive economic development of the nation. With the right facilities, ecosystem and investment, an innovative idea can be translated into a marketable products and services. With this objective, Department of Scientific and Industrial Research (DSIR) set up the Common Research and Technology Development Hub (CRTDH) at CSIR – CCMB. Under this scheme, CCMB has created the CRTDH facility where Startups & MSMEs in life- sciences can utilise sophisticated testing facilities, equipment & infrastructure, intellectual support necessary to test and validate their idea. Besides providing analytical services and advanced research equipment, CRTDH also facilitates industry-institution interactions and assists MSMEs & Startups get access to already developed technologies available in the CSIR laboratories for taking their ideas to market.",
+         "Information-para-2": "Our Mission:Enabling high quality R&D in diagnostics and biopharmaceuticals through the right ecosystem where MSMEs & startups can successfully translate ideas into marketable products and services that add value to the health and wealth of the nation",
+         "Information-para-3": "Our Vision:CTRDH-CCMB aims to be a bridge between basic research and translation. By empowering startups and MSMEs to become competitive and productive through world class scientific research facilities, we want to help them build scalable proof of concepts that can be successfully translated into viable business models. "
+      },
+      "ListOfServices": {
+         "service1": "10,000 sq. ft air-conditioned space for MSES to present physically or virtually",
+         "service2": "Open lab facilities with access to industrial biological equipment",
+         "service3": "Customizable plug and play wet lab space with access to high speed internet, basic utilities, parking space, security etc.",
+         "service4": "Modular movable tables with granite top and wheels, desk tables/ carols with lock and key",
+         "service5": "Round tables for discussions to up to 20 people",
+         "service6": "30 seater conference room",
+         "service7": "Subsidized canteen facility for staff",
+         "service8": "Access to affiliated labs and industries"
+       },
+      "SomeFacilities": {
+         "Facility1": "Analytical Ultracentrifuge",
+         "Facility2": "Dynamic Light Scattering",
+         "Facility3": "Fluorimeter",
+         "Facility4": "High Speed Centrifuge ",
+         "Facility5": "High Performance Liquid Chromatography",
+         "Facility6": "Water purification system",
+         "Facility7": "Spectropolarimeter",
+         "Facility8": "Speed Vac Concentrator",
+         "Facility9": "Table Top Ultracentrifuge",
+         "Facility10": "Fast Protein Liquid Chromatography",
+         "Facility11": "Lyophilizer",
+         "Facility12": "Circular dichroisra",
+         "Facility13": "3D printer",
+         "Facility14": "Laser cutter",
+         "Facility15": "AKTA Protein Purification"
+       },
+       "Services":"CRTDH offers a range of analytical infrastructure facilities and services to startups, academic institutes, R&D organizations, industries and MSMEs in carrying out advanced research activities in the field of healthcare, diagnostic kits, biopharmaceuticals and medical devices. By providing affordable access to sophisticated equipment testing facilities, infrastructure, intellectual support, this centre is actively contributing to building a sustaining ecosystem for nurturing improvements in life sciences.",
+      "FacilitiesLink": "https://crtdh.ccmb.res.in/pdf/charges_for_ccmb_facilities.pdf",
+       "Contacts": {
+         "POC": {
+            "Name": "Dr A Vijaya Lakshmi",
+            "Designation": "Coordinator CRTDH"
+         },
+         "Address": "4th Floor, Medical Biotechnology Complex, CCMB Annex ll, Genpact Road, IDA Uppal,Habsiguda,Hyderabad, Telangana 500039",
+         "PhoneNumber": "040-27195610",
+         "Email": "viji@ccmb.res.in"
+      }
    }
 ]
