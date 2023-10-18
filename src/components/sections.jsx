@@ -87,7 +87,8 @@ const Sections = () => {
             },
             {
                 InstituteName: 'Indian Institute of Technology Bhilai, Bhilai',
-                Img:require('./Assests/Images/CRTDH-logos/IIT-Bhilai.jpg')
+                Img:require('./Assests/Images/CRTDH-logos/IIT-Bhilai.jpg'),
+                Link:"/IITBHILAI"
             },
             {
                 InstituteName: 'Indian Institute of Technology Guwahati, Guwahati',

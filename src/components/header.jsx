@@ -17,6 +17,14 @@ const centersOptions = [
     Link: "/IITKGP"
   },
   {
+    InstituteName: 'IITR-CRTDH',
+    Link: "/IITR"
+  },
+  {
+    InstituteName: 'IIT Bhilai-CRTDH',
+    Link:"/IITBHILAI"
+  },
+  {
     InstituteName: 'CEERI-CRTDH',
   },
   {
@@ -45,10 +53,6 @@ const centersOptions = [
     InstituteName: 'CMERI-CRTDH',
   },
   {
-    InstituteName: 'IITR-CRTDH',
-    Link: "/IITR"
-  },
-  {
     InstituteName: 'CDRI-CRTDH',
   },
   {
@@ -59,9 +63,6 @@ const centersOptions = [
   },
   {
     InstituteName: 'NIPER-CRTDH',
-  },
-  {
-    InstituteName: 'IIT Bhilai-CRTDH',
   },
   {
     InstituteName: 'IITG-CRTDH',

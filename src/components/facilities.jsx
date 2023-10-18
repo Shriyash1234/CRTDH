@@ -9,8 +9,9 @@ import jsonData2 from './Assests/data/IITGN-Rest.json'
 
 import './CSS/facilities.css'
 function Facilities() {
-
-
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
   return (
     <div className='facilites-page'>
       <Header color={'black'} />

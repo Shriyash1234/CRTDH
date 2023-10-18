@@ -78,16 +78,20 @@ const Center = () => {
           <br/>
           {
             data["FacilitiesLink"] && (
+              <div>
               <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-CRTDH, {CenterCode}</Link>
+              <br/>
+              </div>
             )
           }
-          <br/>
           {
             data["ServiceChargesLink"] && (
+              <div>
               <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-CRTDH, {CenterCode} FACILITIES</Link>
+              <br/>
+              </div>
             )
           }
-          <br/>
           {
             data["PilotPlantLink"] && (
               <Link to={data.PilotPlantLink} className='pilot-plant-btn'>PILOT PLANT FACILITIES AVAILABLE WITH DSIR-CRTDH, {CenterCode}</Link>

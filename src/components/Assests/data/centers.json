@@ -109,23 +109,21 @@
          "service4": "Development of indigenous R&D and proprietary technology for the testing with reduced costs and upgraded production systems.",
          "service5": "Reduce outsourcing of technology and products."
        },
-      "Facilities": "In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose. Here is the list of items that are available with CRTDH IITGN.",
       "SomeFacilities":{
-         "Facility1":"ICP-MS- Trace elements",
-         "Facility2":"Fluorescence Spectrometer- Concentration of dye",
-         "Facility3":"Plate Reader- Micro-organism growth study",
-         "Facility4":"Spray Dryer- Drying",
-         "Facility5":"TOC- Total Carbon Content",
-         "Facility6":"BOD- Water quality",
-         "Facility7":"GC- Analysis of gases",
-         "Facility8":"Fermentor- Microorganism growth",
-         "Facility9":"HPTLC- Dye separation",
-         "Facility10":"Incubator- Micro-organism growth",
-         "Facility11":"Spectrophotometer- Quantification of dye",
-         "Facility12":"TNb, COD, TDS, TSS and pH measuring units"
+         "Facility1":"Materials Testing:- Vector Network Analyzer (Measurement of complex permitivity,permeability)",
+         "Facility2":"Coaxial waveguide-powder sample in pallet form:- Specification: 2-18 GHz; Approx. Time required is 3-5 days.",
+         "Facility3":"Rectangular wave guide-powder sample in pellet form:- Specification: C,X and Ku band ,4-8 GHz ,8-12 GHz , 12-18 GHz; Approx. Time Required is 1 day.",
+         "Facility4":"Coaxial probe-liquids:- Specification: 2-18 GHz; Approx. Time required is 1 day.",
+         "Facility5":"Reflection Loss:- Specification: 0.8-18 GHz; Approx. Time Required is 3-5 days.",
+         "Facility6":"Transmission Loss:- Specification: 0.8-18 GHz; Approx. Time Required is 3-5 days.",
+         "Facility7":"Radiation Pattern:- Specification: 5-26.5 kHz; Approx. Time Required is 3-5 days.",
+         "Facility8":"Gain Measurement:- Specification: 5-26.5 kHz; Approx. Time Required is 3-5 days.",
+         "Facility9":"Return Loss:- Specification: 5-26.5 kHz; Approx. Time Required is 3-5 days.",
+         "Facility10":"Radar Cross Section Testing:-Specification: 2-18 GHz; Approx. Time Required is 7 days.",
+         "Facility11":" Free Space Measurement:-Flat Parallel Based samples,Sample in non-reactive region,Beam spot is contained in sample,Known Thickness 20/360",
+         "Facility12":"TNb, COD, TDS, TSS and pH measuring units",
+         "Facility13":"Upcoming Facility: Radar Cross Section Measurement and Imaging Set-up"
       },
-      "FacilitiesLink": "http://localhost:3000/CRTDH#/Facilities",
-      "ServiceChargesLink": "https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2019/11/Service_charges_DSIR.pdf",
       "CurrentResearch": {
          "Research-1": "Microwave Absorbing Materials (MAMs) have a vital role in stealth and communication field.",
          "Research-2": "The adverse health effects of electromagnetic waves on human body turned the attention of researchers towards a possible solution through the coating of microwave absorbing shield.",
@@ -136,12 +134,12 @@
       },
       "Contacts": {
          "POC": {
-            "Name": "Chinmay Ghoroi",
-            "Designation": "Principle Investigator of DSIR-IITGN-CRTDH, Professor of Chemical Engineering"
+            "Name": "Dr. Dharmendra Singh,",
+            "Designation": "Head Of Department, Department of Computer Science & Engineering,"
          },
-         "Address": "Academic Block 4/405, IIT Gandhinagar, Palaj, Gandhinagar, Gujarat - 382355",
-         "PhoneNumber": "+79-2395-2405 (O) +79-2395-2254 (O) +91-9925029889 (M)",
-         "Email": "crtdh.iitgn.ac.in"
+         "Address": "Microwave Imaging & Space Technology Application Lab, Indian Institute of Technology Roorkee, Roorkee-247667, Uttarakhand, INDIA",
+         "PhoneNumber": "Phone: +91-(0)1332-285695",
+         "Email": "dharmfec@gmail.com"
       }
    },
    {
@@ -216,6 +214,41 @@
          "Address": "Mechanical Engineering, IIT Kharagpur",
          "PhoneNumber": " +91-3222-282990",
          "Email": "suman@mech.iitkgp.ac.in"
+      }
+   },
+   {
+      "CenterCode": "IITBHILAI",
+      "CenterName": "CRTDH IIT Bhilai",
+      "ImagePath": "IITBHILAI.png",
+      "ResearchAreas": {
+         "Research-Area-1": "Organic pollutant/dye removal",
+         "Research-Area-2": "Waste-water treatment",
+         "Research-Area-3": "Carbon capture and storage",
+         "Research-Area-4": "Waste recycling",
+         "Research-Area-5": "Green reaction/process development",
+         "Research-Area-6": "Waste to Wealth"
+      },
+      "Information": {
+         "Information-para-1": "The CRTDH at IIT Bhilai has been dedicating its knowledge and technological solutions and innovative processes on the development and customization of various technologies for chemical, pharmaceuticals, pigments, textile, dye and dye intermediates, metal and mineral industries. The primary objective of CRTDH at IIT Bhilai is to engage MSMEs to enhance their technical know-how on new material/process development and testing (products/raw materials) etc. The hub's objective is also to reach out to MSMEs and helping them to adapt facile, cost-effective, green and environment-friendly technologies to make globally competitive products. ",
+         "Information-para-2": "The hub is addressing the concern of pharmaceuticals, pigments, textile, dye and dye intermediates, metal and mineral sectors in clusters located at Chhattisgarh and nearby areas.",
+         "Information-para-3": "Area of CRTDH facility: 2,000 SqFt ",
+         "Information-para-4": "Patents filed: 3 ",
+         "Information-para-5": "MSME engaged: 4 "
+      },
+      "SomeFacilities": {
+         "Facility1": "Inductive coupled plasma - Optical Emission Spectrometry (ICP-OES) ",
+         "Facility2": "Four Port Glove Box with Cold Well",
+         "Facility3": "Material Characterization Laboratory.",
+         "Facility4": "MALDI TOF-TOF Mass Spectrometry."
+       },
+       "Contacts": {
+         "POC": {
+            "Name": "Dr. Sanjib Banerjee",
+            "Designation": "PI & Coordinator, CRTDH-IIT Bhilai"
+         },
+         "Address": "Indian Institute of Technology Bhilai, Durg 491001, Chhattisgarh, India",
+         "PhoneNumber": "+91-9674857330",
+         "Email": "sanjib.banerjee@iitbhilai.ac.in"
       }
    }
 ]
