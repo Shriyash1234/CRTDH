@@ -1,54 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
-import { ArrowRight } from 'lucide-react';
+import React from 'react';
 import './CSS/updates.css';
 
 const data = [
-    { id: 1, title: "Workshop/ Training program", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
-    { id: 2, title: "Lorem ipsum dolor sit amet consectetur adipisicing", content: 'Venue: IIT Gandhinagar', info: "Date: 19 - 22 Nov 2023", link: "" },
-    { id: 3, title: 'Card 3', content: 'Content 3' },
-    { id: 4, title: 'Card 4', content: 'Content 3' },
-    { id: 5, title: 'Card 5', content: 'Content 3' },
-    // Add more data as needed
+    "Reducing discharge of hazardous chemicals in dye and textile industries (October 24, 2018)",
+    "Use of ICP-MS to determine the toxic heavy metals in industrial effluents (October 31, 2018)",
+    "HPTLC for Industrial product analysis (February 19, 2020)",
+    "Industry interaction @ Vapi GIDC (February 29, 2020)",
+    "Cluster-wise virtual meet with the members of Salt industry Manufacturing Association (February 05, 2021). The meeting was arranged through CII Gujarat chapter and ISMA.",
+    "Cluster-wise meeting (through video conferencing) with textile industry members Surat GIDC (March 11, 2021) arranged through Southern Gujarat Chamber of Commerce & Industry",
+    "Industry interaction with Pharma industries (Nov 30, 2021) through CII",
+    "Industry interaction @ Nandesari GIDC (December 11, 2021)",
+    "Process Hazard Analysis for Chemical Industries (PHA), December 29-30, 2021",
+    "Industry Connections (iConnect2022) with GCCI, March 03, 2022",
+    "Industry Interaction @ Bharuch (October 12-13, 2022)",
+    "Industry Connections @ IITGN (FEBRUARY 24, 2023)"
 ];
 
 const Recent_Training = () => {
-    const [currentPage, setCurrentPage] = useState(1);
-    const [cardsPerPage, setCardsPerPage] = useState(2);
-
-    const totalCards = data.length;
-    const totalPages = Math.ceil(totalCards / cardsPerPage);
-
-    const startIndex = (currentPage - 1) * cardsPerPage;
-    const endIndex = startIndex + cardsPerPage;
-    const displayedCards = data.slice(startIndex, endIndex);
-
-    const showNextPage = () => {
-        setCurrentPage((prevPage) => (prevPage === totalPages ? 1 : prevPage + 1));
-    };
-
-    const showPreviousPage = () => {
-        setCurrentPage((prevPage) => (prevPage === 1 ? totalPages : prevPage - 1));
-    };
-
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth < 991 && cardsPerPage !== 1) {
-                setCardsPerPage(1);
-            } else if (window.innerWidth >= 991 && cardsPerPage !== 2) {
-                setCardsPerPage(2);
-            }
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        handleResize();
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, [cardsPerPage]);
     return (
         <div
             style={{
@@ -57,31 +25,19 @@ const Recent_Training = () => {
                 display: 'flex',
                 flexDirection: 'column',
             }}
-        >
-            <h2 className='about-us' style={{fontSize:'2.8rem'}}>Upcoming Training/Industry Meet</h2>
-            {/* <div className='separator_left'></div> */}
-            <div className="carousel-container">
-                <div className="carousel-cards">
-                    {displayedCards.map((item) => (
-                        <div key={item.id} className="carousel-card">
-                            <h2 className='card-title'>{item.title}</h2>
-                            <p className='card-content'>{item.content}</p>
-                            {item.info ? <p className='card-info'>{item.info}</p> : ""}
-                            <Link to='' className='know-more'>Know more</Link>
-                        </div>
+        ><h2 className='about-us' style={{ fontSize: '2.8rem' }}>Upcoming Training/Industry Meet</h2>
+            <div className='separator_left'></div>
+            <div className="list-container">
+                <ul className="list">
+                    {data.map((item, index) => (
+                        <li key={index} className="list-item" style={{ fontSize: '1.8rem' }}>
+                            {item}
+                        </li>
                     ))}
-                </div>
-                {/* <div className="carousel-buttons">
-                    <button onClick={showPreviousPage}>Previous</button>
-                    <span className="page-indicator">{`Page ${currentPage}/${totalPages}`}</span>
-                    <button onClick={showNextPage}>Next</button>
-                </div> */}
-                <div className='buttons-carousel'>
-                    <button onClick={showPreviousPage} className='previous-carousel-button'><ArrowLeft /></button>
-                    <button onClick={showNextPage} className='next-carousel-button'><ArrowRight /></button>
-                </div>
+                </ul>
             </div>
         </div>
     );
 };
+
 export default Recent_Training;
