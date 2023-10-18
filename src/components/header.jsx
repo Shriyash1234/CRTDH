@@ -9,71 +9,72 @@ import './CSS/header.css'
 
 const centersOptions = [
   {
-    InstituteName: 'IITGN-CRTDH',
+    InstituteName: 'IITGN',
     Link: "/IITGN"
   },
   {
-    InstituteName: 'IITKGP-CRTDH',
+    InstituteName: 'IITKGP',
     Link: "/IITKGP"
   },
   {
-    InstituteName: 'IITR-CRTDH',
+    InstituteName: 'IITR',
     Link: "/IITR"
   },
   {
-    InstituteName: 'CCMB-CRTDH',
+    InstituteName: 'CCMB',
     Link:"/CCMB"
   },
   {
-    InstituteName: 'IIT Bhilai-CRTDH',
+    InstituteName: 'IIT Bhilai',
     Link:"/IITBHILAI"
   },
   {
-    InstituteName: 'CEERI-CRTDH',
+    InstituteName: 'CEERI',
   },
   {
-    InstituteName: 'CSIO-CRTDH',
+    InstituteName: 'CSIO',
   },
   {
-    InstituteName: 'NITAP-CRTDH',
-  },
-  
-  {
-    InstituteName: 'IHBT-CRTDH',
+    InstituteName: 'NITAP',
   },
   
   {
-    InstituteName: 'DPSRU-CRTDH',
+    InstituteName: 'IHBT',
+  },
+  
+  {
+    InstituteName: 'DPSRU',
   },
   {
-    InstituteName: 'NIIST-CRTDH',
+    InstituteName: 'NIIST',
   },
   {
-    InstituteName: 'IITRes-CRTDH',
+    InstituteName: 'IITRes',
   },
   {
-    InstituteName: 'CMERI-CRTDH',
+    InstituteName: 'CMERI',
   },
   {
-    InstituteName: 'CDRI-CRTDH',
+    InstituteName: 'CDRI',
   },
   {
-    InstituteName: 'IMMT-CRTDH',
+    InstituteName: 'IMMT',
   },
   {
-    InstituteName: 'NCL-CRTDH',
+    InstituteName: 'NCL',
   },
   {
-    InstituteName: 'NIPER-CRTDH',
+    InstituteName: 'NIPER',
   },
   {
-    InstituteName: 'IITG-CRTDH',
+    InstituteName: 'IITG',
   },
 ];
 
 function Header(props) {
   const centers = CRTDHdata; 
   const Navigate = useNavigate();
+  const [activeLink, setActiveLink] = useState('Home');
   const [headerBackground, setHeaderBackground] = useState('transparent');
   const color = props.color;
   const anticolor = color === 'white' ? 'black' : 'white'
@@ -96,6 +97,7 @@ function Header(props) {
     };
   }, []);
   const handleAboutLink = () => {
+    setActiveLink('About')
     const element = document.getElementsByClassName('about-us-text')[0];
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -157,6 +159,16 @@ function Header(props) {
   const handleCentersDropdownClick = () => {
     // Toggle the dropdown state
     setIsCentersDropdownOpen(!isCentersDropdownOpen);
+    setActiveLink('CRTDHs')
+  };
+  const handleRDLink = (linkText) => {
+    setActiveLink("R&D");
+  };
+  const handleIndutryLink = (linkText) => {
+    setActiveLink("Industry");
+  };
+  const handleFacilitiesLink = (linkText) => {
+    setActiveLink("Facilities");
   };
 
   const renderCentersDropdown = () => {
@@ -217,26 +229,26 @@ function Header(props) {
           <div className="cm-menu-btn fa fa-bars"></div>
           <div className="cm-menu-inner">
             <ul className="menu-ul clear-all" >
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'Home' ? 'activeHeader' : ''}`}>
                 <div onClick={handleAboutLink1} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>Home</Link></div>
               </li>
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'About' ? 'activeHeader' : ''}`}>
                 <div onClick={handleAboutLink} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>About</Link></div>
               </li>
-              <li className="has-child" onClick={handleCentersDropdownClick}>
+              <li className={`has-child ${activeLink === 'CRTDHs' ? 'activeHeader' : ''}`} onClick={handleCentersDropdownClick}>
                 <div className='about-link links CRTDHs-link' style={{ color: "black" }}>CRTDHs</div>
                 {renderCentersDropdown()} {/* Render the dropdown menu */}
               </li>
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'R&D' ? 'activeHeader' : ''}`} onClick={handleRDLink}>
                 <Link to="/Research" className='links' style={{ color: "black" }}>R&D</Link>
               </li>
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'Industry' ? 'activeHeader' : ''}`} onClick={handleIndutryLink}>
                 <Link to="/Industry" className='links' style={{ color: "black" }}>Industry</Link>
               </li>
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'Facilities' ? 'activeHeader' : ''}`} onClick={handleFacilitiesLink}>
                 <Link to="/Facilities" className='links' style={{ color: "black" }}>Facilites</Link>
               </li>
-              <li className="has-child">
+              <li className={`has-child ${activeLink === 'ContactUs' ? 'activeHeader' : ''}`}>
                 <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact us</div>
               </li>
               {/* <li className="has-child">

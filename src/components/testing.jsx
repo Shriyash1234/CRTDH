@@ -7,7 +7,7 @@ const Testing = () => {
             <h2 className='about-us'>Testing at CRTDH Labs</h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>
-            In addition to the above, other institute facilities of host institutes such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc(as per availability) and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose.
+            There are a lot of instrument facilities under the DSIR - CRTDHs. The exhaustive list is provided here. You can check your required instrument from the list by contacting the CRTDH and booking the required tests. 
                 <br />
                 <hr />
             <Link to="/facilities" className='instruments-btn' style={{top:"0px"}}>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH CRTDHS</Link>
