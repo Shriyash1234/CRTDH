@@ -103,12 +103,11 @@
       },
       "Services":"CRTDH at IIT Roorkee, is providing various services to MSMEs/Startups. Following are the major services. However for any other services for industires/MSMEs kindly reach us at crtdh@iitgn.ac.in.",
        "ListOfServices": {
-         "service1": "Incubation/Startups",
-         "service2": "Technology development & transfer",
-         "service3": "Joint IP creation",
-         "service4": "Training/Workshop programs for MSMEs",
-         "service5": "Testing facilities for MSMEs/Startups",
-         "service6": "Industry-Academia partnership support"
+         "service1": "Availability of specialized testing facilities to MSMEs for R&D results in the absorption/shielding characteristics of the MAMs.",
+         "service2": "Identify, collaborate, approach and support MSMEs working in the microwave absorber development with cost effective methods.",
+         "service3": "Provide customized R&D troubleshooting for MSMEs in the absorber development.",
+         "service4": "Development of indigenous R&D and proprietary technology for the testing with reduced costs and upgraded production systems.",
+         "service5": "Reduce outsourcing of technology and products."
        },
       "Facilities": "In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose. Here is the list of items that are available with CRTDH IITGN.",
       "SomeFacilities":{
@@ -128,20 +127,12 @@
       "FacilitiesLink": "http://localhost:3000/CRTDH#/Facilities",
       "ServiceChargesLink": "https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2019/11/Service_charges_DSIR.pdf",
       "CurrentResearch": {
-         "Research-1": "Physical Treatment followed by Catalytic Oxidation Treatment of Industrial effluent.",
-         "Research-2": "Bio/Electro Coagulation Treatment followed by adsorption technique for complex dye industrial effluent.",
-         "Research-3": "Flocculation and Coagulation followed by Fenton.",
-         "Research-4": "Coagulation of STP/ETP effluent by using waste utilized chemical.",
-         "Research-5": "Color Removal by using Bio-Polymer.",
-         "Research-6": "Continuous Manufacturing scheme for Reactive Dye/Pigment.",
-         "Research-7": "Continuous washing process for Benzene based its derivative.",
-         "Research-8": "Chlorination based effluent treatment technique.",
-         "Research-9": "Microbubble followed by Ozonation for the treatment of Hospital wastewater.",
-         "Research-10": "Organic and Inorganic salt separation by using fractional crystallization.",
-         "Research-11": "Separation of Acid gas by using Counter Current Packed Absorption Column",
-         "Research-12": "Sewage Water Treatment by using phytoremediation",
-         "Research-13": "Anode preparation for advance Li-Ion Battery.",
-         "Research-14": "Metal Recovery from Li-Ion Battery using Liquid-Liquid Extraction."
+         "Research-1": "Microwave Absorbing Materials (MAMs) have a vital role in stealth and communication field.",
+         "Research-2": "The adverse health effects of electromagnetic waves on human body turned the attention of researchers towards a possible solution through the coating of microwave absorbing shield.",
+         "Research-3": "To develop and characterize cost effective advanced materials and techniques that can be used for shielding the microwave radiation and for stealth applications.",
+         "Research-4": "To generate skilled manpower in the area of material testing, RCS measurement and EM radiation measurements.",
+         "Research-5": "To encourage the enterprises to participate in R&D for bringing innovative ideas into marketable product or processing.",
+         "Research-6": "Set up experimental facility for the measurement of electromagnetic parameters through free space, Radar Cross Section (RCS) measurement, EM radiation level from different communication devices, Specific Absorption Rate (SAR), thermal absorption of camouflage network and Radar Imaging."
       },
       "Contacts": {
          "POC": {
