@@ -78,19 +78,19 @@ const Center = () => {
           <br/>
           {
             data["FacilitiesLink"] && (
-              <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-CRTDH-{CenterCode}</Link>
+              <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-CRTDH, {CenterCode}</Link>
             )
           }
           <br/>
           {
             data["ServiceChargesLink"] && (
-              <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-CRTDH-{CenterCode} FACILITIES</Link>
+              <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-CRTDH, {CenterCode} FACILITIES</Link>
             )
           }
           <br/>
           {
             data["PilotPlantLink"] && (
-              <Link to={data.PilotPlantLink} className='pilot-plant-btn'>PILOT PLANT FACILITIES AVAILABLE WITH DSIR-IITGN-CRTDH</Link>
+              <Link to={data.PilotPlantLink} className='pilot-plant-btn'>PILOT PLANT FACILITIES AVAILABLE WITH DSIR-CRTDH, {CenterCode}</Link>
             )
           }
         </p>
@@ -210,12 +210,12 @@ const Center = () => {
         <h2 className='about-us'>Contacts </h2>
         <div className='separator_left'></div>
         <p className='about-us-text'>
-          Here is the list of contacts at CRTDH IITGN.
+          Here is the list of contacts at CRTDH {CenterCode}.
           <br />
           <hr />
-          <ol>
+          <div>
             {
-              data.Contacts ? <li>
+              data.Contacts ? <div>
                 {data.Contacts.POC.Name}
                 <br />
                 {data.Contacts.POC.Designation}
@@ -225,11 +225,11 @@ const Center = () => {
                 <br />
                 <span style={{ fontWeight: 600 }}>Phone Number:</span> {data.Contacts.PhoneNumber}
                 <br />
-                <span style={{ fontWeight: 600 }}>Email:</span> {data.Contacts.Email}
-              </li> : ""
+                <span style={{ fontWeight: 600 }}>Email:</span><a href={`mailto:${data.Contacts.Email}`}>{data.Contacts.Email}</a> 
+              </div> : ""
             }
 
-          </ol>
+          </div>
           <hr />
         </p>
       </section>

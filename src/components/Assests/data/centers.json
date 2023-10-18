@@ -54,6 +54,15 @@
          "Research-17": "Materials for CO2 Capture",
          "Research-18": "Materials for water purification"
       },
+      "Services":"CRTDH at IIT Gandhinagar, is providing various services to MSMEs/Startups. Following are the major services. However for any other services for industires/MSMEs kindly reach us at crtdh@iitgn.ac.in.",
+       "ListOfServices": {
+         "service1": "Incubation/Startups",
+         "service2": "Technology development & transfer",
+         "service3": "Joint IP creation",
+         "service4": "Training/Workshop programs for MSMEs",
+         "service5": "Testing facilities for MSMEs/Startups",
+         "service6": "Industry-Academia partnership support"
+       },
       "ResearchLink":"https://crtdh.iitgn.ac.in/wp/wp-content/uploads/2022/07/DSIR-IIT-Gandhinagar-CRTDH-for-Startups.pdf",
       "Workshops":"CRTDH IIT Gandhinagar has been actively organizing workshops and events to promote collaboration between the academic and industrial sectors. These workshops cover a wide range of topics, including high-performance thin-layer chromatography (HPTLC) for industrial product analysis, process hazard analysis for chemical industries, and industry interactions. These initiatives aim to enhance the capabilities of MSMEs and other chemical industries in areas such as effluent treatment, waste reduction, process improvement, and research on new products. The recent Exhibition in Green & Sustainable Chemistry Conference showcased the Common Research & Technology Development Hub (CRTDH) at Bharuch, further highlighting CRTDH IIT Gandhinagar's commitment to advancing sustainable and green chemistry practices in collaboration with industry partners",
       "WorkShopsLink":"/WorkshopIITGN",
@@ -82,17 +91,25 @@
       "CenterName": "CRTDH IIT Roorkee",
       "ImagePath": "IITR.jpg",
       "ResearchAreas": {
-         "Research-Area-1": "Nanomaterials",
-         "Research-Area-2": "Advanced Polymers",
-         "Research-Area-3": "Materials for Energy Storage",
-         "Research-Area-4": "Sustainable Chemistry",
-         "Research-Area-5": "Additive Manufacturing (3D Printing)"
+         "Research-Area-1": "Microwave Absorbing Materials (MAMs)",
+         "Research-Area-2": "Coating of microwave absorbing shield.",
+         "Research-Area-3": "Cost effective advanced materials and techniques",
+         "Research-Area-4": "Facility for the measurement of electromagnetic parameters",
+         "Research-Area-5": "Manpower in the area of material testing,RCS and EM measurements"
       },
       "Information": {
-         "Information-para-1": "Gujarat is home to number of chemical based Micro, Small and Medium Enterprises (MSMEs). However, there is no institutional mechanism for industries to interact with academic institutions for Research and Technology Development. The establishment of the Common Research and Technology Development Hub sponsored by Department of Scientific and Industrial Research (DSIR) and Indian Institute of Technology Gandhinagar, IITGN (DSIR-IITGN-CRTDH) on Chemical Processes is one of the important initiatives for chemical industries.",
-         "Information-para-2": "Dyes, dye intermediates and textile are core chemical industries in India and mostly located in Gujarat. It is also the second highest export segment in the chemical industry and shares about 7% in the global market. Nearly 80% of the total dye production capacity of India is in the state of Gujarat due to the availability of raw materials and dominance of textile industry in the regions. Approximately 70% of the dye products from Gujarat are being exported to different countries. Gujarat have about 1000 dyestuff units in Ahmedabad, Vatva, Naroda, Odhav, Vadodara, Ankleshwar, Surat, Valsad and Vapi. However, the sector is performing very badly in terms of waste generation and its treatment. The environmental issue is also preventing manufacturer to produce new products as per market demand and expansion of existing products. The dye effluent contains very high COD and TDS. The release of untreated wastewater poses a threat to the environment and causes serious problem to groundwater and surface water. In addition, it is also water intensive industry (requires approximately 800 liters of water per kg of dye). Moreover, MSMEs are using age-old manufacturing processes without any effort to improve the water usage in the process. As water is one of the major problems in the changed climatic condition, reduction in process water will benefit the industry and society. To achieve aggressive growth of the industry, we are working on this major problem. Also, any improvement in manufacturing processes, reduction in water usage and waste generation will be a great contribution to our environment.",
-         "Information-para-3": "The DSIR-IITGN-CRTDH is working towards the development and customization of different dye and textile industries. A Process Technology Lab along with the pilot plant facility is developed for the dye and textile MSMEs. A multidisciplinary approach is taking to enhance the capabilities of MSMEs. The CRTDH is developing technological know-how for effluent treatment, waste reduction, process improvement, and testing products/raw materials. The help from CRTDH will strengthen MSME in the competitive market and expand their business. The DSIR-IITGN-CRTDH is expected to leverage the existence of different centres, high-quality labs, and Research Park at IITGN. The facility is a one-stop solution for many of chemical industries in the country."
+         "Information-para-1": "In our country many new Start-ups/MSMEs with innovative ideas has come up recently, unfortunately all face difficulties in translation in to a marketable product/ process due to lack of an ecosystem for innovation including the sophisticated testing facilities, equipment/ infrastructure, intellectual support etc. The Common Research and Technology Development Hubs (CRTDHs) have been established by the Department of Scientific and Industrial Research (DSIR) with an objective to foster industry-institution interaction and address the above problems faced in translational research by the MSMEs thereby providing an eco-system for research and innovation in the country. Thus, one of the Hub under DSIR-CRTDH have been started up in IIT Roorkee on Jan 20, 2017",
+         "Information-para-2": "Microwave Absorber Development: Various methods like sol-gel auto combustion method, mechanical ball milling, Solid state reaction method, electroless coating technique, polymerization etc. are adopted for the development of microwave absorber development. Further electromagnetic techniques like frequency selective surfaces and multilayering are also incorporated."
       },
+      "Services":"CRTDH at IIT Roorkee, is providing various services to MSMEs/Startups. Following are the major services. However for any other services for industires/MSMEs kindly reach us at crtdh@iitgn.ac.in.",
+       "ListOfServices": {
+         "service1": "Incubation/Startups",
+         "service2": "Technology development & transfer",
+         "service3": "Joint IP creation",
+         "service4": "Training/Workshop programs for MSMEs",
+         "service5": "Testing facilities for MSMEs/Startups",
+         "service6": "Industry-Academia partnership support"
+       },
       "Facilities": "In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose. Here is the list of items that are available with CRTDH IITGN.",
       "SomeFacilities":{
          "Facility1":"ICP-MS- Trace elements",
@@ -202,12 +219,12 @@
        "SocialImpact":"DSIR-CRTDH at IIT Kharagpur, Kharagpur has greatly contributed to society and nation building by offering bouquet of services to the MSMEs, Startups, rural entrepreneurs and frontline workers engaged in the healthcare delivery space. The specific supports include: enterprise incubation, technology-centric mentoring and training, technology transfer and facilitation towards lab-to- market translation. Till date, 18 MSMEs/enterprises and more than 140 rural entrepreneurs have been trained on different technologies at CRTDH. The  various initiatives under CRTDH have thus promised to create a variety of new jobs and self-employment opportunities locally, thereby reducing the need for mass migration of the population to centralized hotspots for machinery manufacturing, consumables and pharmaceutics, software, information systems and analytics etc. CRTDH not only developed several healthcare technologies but as a part of the activities, several health products including sanitizers, face masks etc. were also developed to strengthen the revenue streams of e-health clinics at rural settings.By engaging women power as frontline health workers in a sustainable ecosystem and bringing them in the ambit of rural employment generation, the CRTDH has shown a specific approach of establishing gender equality in the underserved community by promoting healthy and economically- supportive livelihood for all, with a dream of nullifying any differential access to quality primary healthcare of the haves’ and the have-nots’.",
        "Contacts": {
          "POC": {
-            "Name": "",
-            "Designation": ""
+            "Name": "Suman Chakraborty",
+            "Designation": "Professor, Mechanical Engineering"
          },
-         "Address": "",
-         "PhoneNumber": "",
-         "Email": ""
+         "Address": "Mechanical Engineering, IIT Kharagpur",
+         "PhoneNumber": " +91-3222-282990",
+         "Email": "suman@mech.iitkgp.ac.in"
       }
    }
 ]
