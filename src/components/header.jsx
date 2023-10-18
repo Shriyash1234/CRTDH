@@ -21,6 +21,10 @@ const centersOptions = [
     Link: "/IITR"
   },
   {
+    InstituteName: 'CCMB-CRTDH',
+    Link:"/CCMB"
+  },
+  {
     InstituteName: 'IIT Bhilai-CRTDH',
     Link:"/IITBHILAI"
   },
@@ -33,9 +37,7 @@ const centersOptions = [
   {
     InstituteName: 'NITAP-CRTDH',
   },
-  {
-    InstituteName: 'CCMB-CRTDH',
-  },
+  
   {
     InstituteName: 'IHBT-CRTDH',
   },

@@ -201,7 +201,7 @@ const Center = () => {
       {
         data["SocialImpact"] && (
           <section className='CRTDH-center-SocialImpact about tarining'>
-            <h2 className='about-us'>SocialImpact </h2>
+            <h2 className='about-us'>Social Impact</h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>
               {data.SocialImpact}
