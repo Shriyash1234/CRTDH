@@ -7,11 +7,11 @@ const Statistics = () => {
       <div className='statistics'>
         <div className='statistics-div stat-3'>
           <img src={require('./Assests/Images/icons/patent.png')} className='stat-img'></img>
-          <p className='stat-text'>Patents filed<br/> 73</p>
+          <p className='stat-text'>Patents Filed<br/> 73</p>
         </div>
         <div className='statistics-div stat-5'>
           <img src={require('./Assests/Images/icons/technology.png')} className='stat-img'></img>
-          <p className='stat-text'>Technologies Created<br/> 102</p>
+          <p className='stat-text'>Technologies Deeloped<br/> 102</p>
         </div>
         <div className='statistics-div stat-4'>
           <img src={require('./Assests/Images/icons/projects.png')} className='stat-img'></img>
