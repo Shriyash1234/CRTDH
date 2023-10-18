@@ -16,6 +16,17 @@ const data = [
     "Industry Connections @ IITGN (FEBRUARY 24, 2023)"
 ];
 
+// Convert the date strings to Date objects and sort them in reverse order
+const sortedData = data
+    .map((item) => {
+        // Extract the date part from the string and convert it to a Date object
+        const dateString = item.match(/\(.*\)/)[0].replace(/[()]/g, ''); // Extract date within parentheses
+        const date = new Date(dateString);
+        return { item, date };
+    })
+    .sort((a, b) => b.date - a.date) // Sort in reverse order by date
+    .map((item) => item.item); // Map back to the original format
+
 const Recent_Training = () => {
     return (
         <div
@@ -25,11 +36,12 @@ const Recent_Training = () => {
                 display: 'flex',
                 flexDirection: 'column',
             }}
-        ><h2 className='about-us'>Upcoming Training/Industry Meet</h2>
+        >
+            <h2 className='about-us'>Upcoming Training/Industry Meet</h2>
             <div className='separator_left'></div>
             <div className="list-container">
                 <ul className="list">
-                    {data.map((item, index) => (
+                    {sortedData.map((item, index) => (
                         <li key={index} className="list-item" style={{ fontSize: '1.8rem' }}>
                             {item}
                         </li>
