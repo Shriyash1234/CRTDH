@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './header'
 import Footer1 from './footer1'
 import Footer from './footer'
 import './CSS/research.css'
 const Research = () => {
+    useEffect(()=>{
+        window.scrollTo(0, 0)
+    },[])
   return (
     <section className='reserach-page'>
         <Header color={'black'}/>

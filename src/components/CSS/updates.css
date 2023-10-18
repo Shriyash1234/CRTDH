@@ -154,6 +154,10 @@
     overflow-y: scroll;
     padding: 30px 20px;
   }
+  .previous-carousel-button,
+  .next-carousel-button {
+   bottom:200px;
+}
 }
 @media all and (max-width:576px) {
   .carousel-card {

@@ -17,7 +17,7 @@ const Center = () => {
   }
   useEffect(() => {
     collectCRTDHdata()
-  }, [])
+  }, [CenterCode])
   return (
     <section className='center'>
       <Header color="black" />
@@ -78,13 +78,13 @@ const Center = () => {
           <br/>
           {
             data["FacilitiesLink"] && (
-              <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-IITGN-CRTDH</Link>
+              <Link to={data.FacilitiesLink} className='instruments-btn'>DETAILED LIST OF INSTRUMENTS AVAILABLE WITH DSIR-CRTDH-{CenterCode}</Link>
             )
           }
           <br/>
           {
             data["ServiceChargesLink"] && (
-              <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-IITGN-CRTDH FACILITIES</Link>
+              <Link to={data.ServiceChargesLink} className='service-charges-btn'>THE SERVICE CHARGES FOR DSIR-CRTDH-{CenterCode} FACILITIES</Link>
             )
           }
           <br/>
@@ -98,7 +98,7 @@ const Center = () => {
       {
           data["CurrentResearch"] && (
             <section className='Current Research about training' style={{marginTop:"50px"}}>
-            <h2 className='about-us'>Current Research </h2>
+            <h2 className='about-us'>Research Projects </h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>
               CRTDH {CenterCode} is currently working on:

@@ -91,7 +91,7 @@
         height: 100px;
     }
     .statistics-page{
-        bottom: 7vh;
+        bottom: 5vh;
         left:5vw;
         width: 90vw;
         border-radius: 15px;
@@ -112,6 +112,7 @@
         width: 27%;
         margin: 15px;
         height: 150px;
+        overflow-y: scroll;
     }
     .stat-img{
         height: 45px;

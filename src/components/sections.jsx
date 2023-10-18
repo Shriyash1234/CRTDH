@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './CSS/section.css';
 import { Link } from 'react-router-dom';
+import {X} from 'lucide-react'
 
 const Sections = () => {
     // Define state to keep track of which circle is clicked
@@ -120,6 +121,7 @@ const Sections = () => {
                     <div className="list-popup">
                         <h2>{selectedCircle}</h2>
                         <ul>
+                            <X className='close-button-centers'onClick={closePopup}/>
                             {circleToListMap[selectedCircle].map((item, index) => (
                                 <li key={index} className='CRTDH-logo-name'>
                                    <Link to={item.Link} >{item.InstituteName}</Link> 

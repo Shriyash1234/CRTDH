@@ -68,7 +68,9 @@ const Update = () => {
                             item.img?
                             <>
                                 <img src={item.img} className="update-img" alt="" />
-                                <a href={item.Link}>Click Here</a>
+                                {
+                                    item.Link?<a href={item.Link}>Click Here</a>:""
+                                }
                                 
                             </>
                             :""

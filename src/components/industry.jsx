@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from './header'
 import Carousel1 from './carousel1'
 import Footer from './footer'
@@ -10,7 +10,11 @@ import Testing from './testing'
 import Projects from './projects'
 import ChatboxLogo from './Chatbox/chatboxLogo'
 
+
 const Industry = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+},[])
   return (
     <section className='Industry'>
       <Header color="black"/>
