@@ -137,22 +137,8 @@ function Header(props) {
       }, 500);
     }
   };
-  const handleSearch = () => {
-    const element = document.getElementsByClassName('list-text')[0];
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      Navigate('/Facilities');
-      setTimeout(() => {
-        const updatedElement = document.getElementsByClassName('list-text')[0];
-        console.log(updatedElement)
-        if (updatedElement) {
-          updatedElement.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 500);
-    }
-  };
-  const [isCentersDropdownOpen, setIsCentersDropdownOpen] = useState(false); // Add dropdown state
+
+  const [isCentersDropdownOpen, setIsCentersDropdownOpen] = useState(true); // Add dropdown state
 
   const handleCentersDropdownClick = () => {
     // Toggle the dropdown state
@@ -204,8 +190,6 @@ function Header(props) {
     return null;
   };
   
-  
-
   return (
     <section className='header'>
       <div className='logos'>
