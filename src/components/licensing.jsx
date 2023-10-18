@@ -97,10 +97,14 @@ const data = [
 
 const Licensing = () => {
     const [currentPage, setCurrentPage] = useState(1);
-    const cardsPerPage = 1; // Display only one card per page
+    const [cardsPerPage, setCardsPerPage] = useState(2);
 
     const totalCards = data.length;
     const totalPages = Math.ceil(totalCards / cardsPerPage);
+
+    const startIndex = (currentPage - 1) * cardsPerPage;
+    const endIndex = startIndex + cardsPerPage;
+    const displayedCards = data.slice(startIndex, endIndex);
 
     const showNextPage = () => {
         setCurrentPage((prevPage) => (prevPage === totalPages ? 1 : prevPage + 1));
@@ -112,7 +116,11 @@ const Licensing = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            // Handle resizing logic if needed
+            if (window.innerWidth < 991 && cardsPerPage !== 1) {
+                setCardsPerPage(1);
+            } else if (window.innerWidth >= 991 && cardsPerPage !== 1) {
+                setCardsPerPage(1);
+            }
         };
 
         window.addEventListener('resize', handleResize);
@@ -122,11 +130,7 @@ const Licensing = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
-
-    const startIndex = (currentPage - 1) * cardsPerPage;
-    const endIndex = startIndex + cardsPerPage;
-    const displayedCards = data.slice(startIndex, endIndex);
+    }, [cardsPerPage]);
 
     return (
         <div
@@ -155,7 +159,7 @@ const Licensing = () => {
                         >
                             <h2 className='card-title'>{item.title} at {item.CRTDH} </h2>
                             <p className='card-content1'>{item.content}</p>
-                            <img src={item.img} alt={item.title} />
+                            <img src={item.img} alt={item.title} className='update-img1' />
                         </div>
                     ))}
                 </div>
