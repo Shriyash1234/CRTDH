@@ -4,7 +4,7 @@ import './CSS/about.css'
 const Training = () => {
     return (
         <section className='about training' style={{ marginTop: '80px' }}>
-            <h2 className='about-us'>Training at CRTDHs</h2>
+            <h2 className='about-us'>Business Model of N-CRTDH</h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>
                 1. Flexible/ Virtual Model:
