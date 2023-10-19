@@ -4,10 +4,11 @@ import './CSS/about.css'
 const Projects = () => {
     return (
         <section className='about training' style={{marginTop:'80px'}}>
-            <h2 className='about-us'>R&D Projects with CRTDH Labs</h2>
+            <h2 className='about-us'>R&D Projects in CRTDH Labs</h2>
             <div className='separator_left'></div>
-            <p className='about-us-text'>
-            In addition to the above, other institute facilities of IITGN such as X-ray diffraction, SEM- EDS, LC-MS, AFM, Confocal Microscopy, NMR etc and to do large scale simulation and modeling of various bio-treatment processes we have a commercial software called SIMBA, standard modelling software like ASPEN, ASPEN Dynamics, COMSOL, ANSYS and Matlab etc. which will also be accessible for research and development purpose.
+            <p className='about-us-text' style={{fontSize:"3rem",color:"red"}}>
+                Here we want to include all important industy projects from CRTDHs. Kindly prvide that data.
+                Give list of projects and 2-3 lines of description.
                 <br />
                 <hr />
             </p>

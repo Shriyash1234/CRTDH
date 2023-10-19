@@ -7,9 +7,9 @@ import './CSS/updates.css';
 const data = [
     {
         id: 1,
-        title: 'Product optimization and scale up',
-        CRTDH: 'IITGN',
-        content: 'Sewage water treatment by aluminium hydroxide chloride (AHC) as coagulant: We are also helping industry members to test the performance of AHC product for sewage water treatment. The aluminium hydroxide chloride (AHC) produced from the member industry has been tested in Lab and also pilot scale in 200 L and 400 L to check the efficiency of the product for decreasing the TSS in the STP water. We have tested the two products in various effluents from STPs (Bhavnagar, IITGN, Ahmedabad and Nadiad). Upon successful runs in the pilot scale plant, we tried in Nadiad 0.38 MLD batch and the product is found to reduce the TSS, TOC, COD and increase the DO of STP water.',
+        title: 'Title of the Technology developed',
+        CRTDH: 'CRTDH-XXX',
+        content: 'Provide 3-4 lines of description along with pictures/video.',
         img: require('./Assests/Images/technologies/1.png'),
         link: ''
     },
@@ -141,7 +141,7 @@ const Licensing = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us licensing'>Licences/Technology avaliable with CRTDHs</h2>
+            <h2 className='about-us licensing'>Licences/Technologies avaliable with CRTDHs</h2>
             <div className='separator_left'></div>
             <div className="carousel-container">
                 <div className="carousel-cards">
@@ -158,7 +158,7 @@ const Licensing = () => {
                             }}
                         >
                             <h2 className='card-title'>{item.title} at {item.CRTDH} </h2>
-                            <p className='card-content1'>{item.content}</p>
+                            <p className='card-content1' style={{color:"red",fontSize:"3rem"}}>{item.content}</p>
                             <img src={item.img} alt={item.title} className='update-img1' />
                         </div>
                     ))}

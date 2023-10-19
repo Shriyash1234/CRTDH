@@ -4,7 +4,7 @@ import './CSS/about.css'
 const Training = () => {
     return (
         <section className='about training' style={{ marginTop: '80px' }}>
-            <h2 className='about-us'>Business Model of N-CRTDH</h2>
+            <h2 className='about-us'>Business Model of CRTDH</h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>
                 1. Flexible/ Virtual Model:
@@ -17,7 +17,7 @@ const Training = () => {
                 MSMEs in any industrial sector facing issues in dye manufacturing may approach IITGN-CRTDH for developing solutions. IITGN-CRTDH may undertake the development for problems that are common to a sector and carry out prototype / pilot / demonstration plant in collaboration with a MSMEs lead user unit. After proving, the technology will be available on license to other user units or to MSMEs for implementation in user units. The Intellectual Property remains with IITGN.
                 <br />
                 <hr />
-                3. The Joint Venture Model:
+                3. The Joint Venture (Co-developement) Model :
                 <br />
                 Two or more MSMEs can agree to pool their resources for the purpose of development of a new product/process/service. DSIR-IITGN-CRTDH will provide R&D support to MSMEs for developing innovative products and to build confidence, strengthening and competitiveness by extending technical assistance. The IP will be jointly shared by the MSMEs and DSIR-IITGN-CRTDH for joint development of the product/ process.
             </p>

@@ -9,7 +9,8 @@ import Licensing from './licensing'
 import Testing from './testing'
 import Projects from './projects'
 import ChatboxLogo from './Chatbox/chatboxLogo'
-
+import UpcomingEvents from './upcomingEvents'
+import Startups from './startups'
 
 const Industry = () => {
   useEffect(()=>{
@@ -21,8 +22,10 @@ const Industry = () => {
       {/* <Carousel1 /> */}
       <Projects/>
       <Licensing />
+      <Startups/>
       <Training />
       <Recent_Training />
+      <UpcomingEvents/>
       <Testing/>
       <ChatboxLogo />
       <Footer1 />

@@ -11,7 +11,7 @@ const Statistics = () => {
         </div>
         <div className='statistics-div stat-5'>
           <img src={require('./Assests/Images/icons/technology.png')} className='stat-img'></img>
-          <p className='stat-text'>Technologies Deeloped<br/> 102</p>
+          <p className='stat-text'>Technologies Developed<br/> 102</p>
         </div>
         <div className='statistics-div stat-4'>
           <img src={require('./Assests/Images/icons/projects.png')} className='stat-img'></img>

@@ -37,7 +37,7 @@ const Recent_Training = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us'>Upcoming Training/Industry Meet</h2>
+            <h2 className='about-us'>Events at CRTDHs</h2>
             <div className='separator_left'></div>
             <div className="list-container">
                 <ul className="list">
@@ -47,6 +47,7 @@ const Recent_Training = () => {
                         </li>
                     ))}
                 </ul>
+                <p style={{fontSize:"3rem",color:"red"}}>Plese Provide the list of events</p>
             </div>
         </div>
     );

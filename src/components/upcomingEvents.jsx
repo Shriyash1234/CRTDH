@@ -13,7 +13,7 @@ const data = [
 ];
 
 
-const Update = () => {
+const UpcomingEvents = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [cardsPerPage, setCardsPerPage] = useState(2);
 
@@ -58,7 +58,7 @@ const Update = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us'>Updates</h2>
+            <h2 className='about-us'>Upcoming events at CRTDHs</h2>
             <div className='separator_left'></div>
             <div className="carousel-container">
                 <div className="carousel-cards">
@@ -118,8 +118,9 @@ const Update = () => {
                     <button onClick={showPreviousPage} className='previous-carousel-button'><ArrowLeft /></button>
                     <button onClick={showNextPage} className='next-carousel-button'><ArrowRight /></button>
                 </div>
+                <p style={{color:"red",fontSize:"3rem"}}>Kindly Provide Upcoming events.</p>
             </div>
         </div>
     );
 };
-export default Update;
+export default UpcomingEvents;
