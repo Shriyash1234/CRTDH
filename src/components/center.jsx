@@ -55,6 +55,22 @@ const Center = () => {
                 <hr />
               </div>
             ))}
+            
+              { data["Outcomes"]?
+              <div className='Expected-Outcomes-div'>
+                <p className='Expected-Outcomes'>Expected Outcomes</p>
+                <ul>
+                {
+                  Object.values(data["Outcomes"]).map((info, index) => (
+                    <li key={index}>
+                      {info}
+                    </li>
+                  ))
+                }
+                </ul>
+              </div>
+              :""}
+            
           </p>
         )}
 

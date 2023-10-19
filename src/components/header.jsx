@@ -29,13 +29,14 @@ const centersOptions = [
     Link:"/IITBHILAI"
   },
   {
+    InstituteName: 'NITAP',
+    Link:"/NITAP"
+  },
+  {
     InstituteName: 'CEERI',
   },
   {
     InstituteName: 'CSIO',
-  },
-  {
-    InstituteName: 'NITAP',
   },
   
   {
@@ -168,8 +169,8 @@ function Header(props) {
     };
 
     if (isCentersDropdownOpen) {
-      const visibleItems = centersOptions.slice(0, 5); // Display the first 5 items
-      const scrollableItems = centersOptions.slice(5); // The rest of the items are scrollable
+      const visibleItems = centersOptions.slice(0, 18); // Display the first 5 items
+      const scrollableItems = centersOptions.slice(18); // The rest of the items are scrollable
   
       return (
         <ul className="centers-dropdown" style={dropdownStyles}>

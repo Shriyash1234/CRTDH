@@ -301,5 +301,66 @@
          "PhoneNumber": "040-27195610",
          "Email": "viji@ccmb.res.in"
       }
+   },
+   {
+      "CenterCode": "NITAP",
+      "CenterName": "CRTDH NIT Andhra",
+      "ImagePath": "NITANDHRA.webp",
+      "ResearchAreas": {
+         "Research-Area-1": "System Modelling",
+         "Research-Area-2":"Design and Sizing",
+         "Research-Area-3":"Programming Algorithms",
+         "Research-Area-4":"Simulation Studies",
+         "Research-Area-5":"Analysis & Control",
+         "Research-Area-6":"Forecasting & Management",
+         "Research-Area-7":"Development & Planning",
+         "Research-Area-8":"Rapid Prototyping"
+      },
+      "Outcomes":{
+         "Outcome1":"To deliver first hand R & D technological solutions to the MSEs' in Renewable Energy sector including testing services",
+         "Outcome2":"Development of data driven simulation and design tools for assessment of renewable resource potential, cost assessment, operation-maintenance planning and risk assessment through testing and characterising of renewable resources.",
+         "Outcome3":"Design and development solutions to the decentralised power generation and to increase the penetration of renewable energies to the grid.",
+         "Outcome4":"Development of optimal sizing and power control strategies for hybrid renewable systems consisting of photovoltaic, wind, hydro, fuel cells including battery management.",
+         "Outcome5":"Analysing the power converters efficiency and reliability by developing loss models and mission profile parameters taken at MSE's location towards selection of suitable power converters in renewable systems.",
+         "Outcome6":"Supporting MSEs in technological solutions towards Power quality enhancement in off-grid and on-grid renewable energy systems.",
+         "Outcome7":"Skill development of manpower of MSEs through training and capacity building programmes",
+         "Outcome8":"Incubate Startups in the area of Renewable Energy at CRTDH."
+      },
+      "Information": {
+         "Information-para-1": "The Department of Scientific & Industrial Research (DSIR), one of the departments under Ministry of Science and Technology *(MoST) has launched the Scheme 'Building Industrial Research & Development and Common Research Facilities (BIRD-crf)' in 12th Plan. The BIRD-crf supports creation of Common Research and Technology Development Hubs (CRTDH) with the objective to enhance productivity and competitiveness of Micro and Small Enterprises (MSEs) by providing assistance to them in technological problem-solving and capacity building.",
+         "Information-para-2": "DSIR has approved setting up of CRTDH in the sector of Electronic and Renewable Energy at National Institute of Technology, Tadepalligudem, Andhra Pradesh (NIT-AP). The objectives of the hub are to undertake research of both fundamental and applied nature and enhance the capabilities of MSMEs in the sector of electronics and renewable energy so as to meet the industrial requirements for efficient power converter technologies, cost-effective power generation, improving reliability in the renewable energy system by applying IoT, edge computing technologies etc. and to disseminate first-hand research information to MSE's for product innovation.",
+         "Information-para-3": "The specific areas of the NIT AP DSIR-CRTDH are:Designing and development of intelligent micro-grid using renewable energy systems; and battery management systems.Testing/Analyzing/charactering the renewable energy system/components.Design for reliability in meeting industry demands and development of power converter topologies for renewable applications.Development and deployment of intelligent smart control systems in meeting demands of respective interest of renewable based MSE's."
+      },
+      "SomeFacilities": {
+         "Facility1": "36V 3A, 108 W Programmable High precision DC power supply (GW Instek PPX- 3603)",
+         "Facility2":"375 W, 3 Channel Linear DC Power Supply (GW Instek GPC - 6030D)",
+         "Facility3":"180 W, 2 Channel Programmable Linear Power Supply ( GW Instek GPD 2303S)",
+         "Facility4":"1500 W, Programmable Switching DC Power Supply (GW Instek PSU 300-5)",
+         "Facility5":"1kVA Programmable AC, DC power source (GW Instek ASR-2100)",
+         "Facility6":"350 V, 18A, 1875W AC, DC Electronic Load (GW Instek AEL 5002-350-18.75)",
+         "Facility7":"Yokogawa precission power analyzer WT1804E",
+         "Facility8":"Fluke Norma 6004+/ APC Power Quality Analyzer",
+         "Facility9":"Fluke 1550C FC Insulation tester",
+         "Facility10":"Solar Emulator System with Software",
+         "Facility11":"Wind energy system 2500W",
+         "Facility12":"Three phase isolation transformers 2KVA and 12 KVA",
+         "Facility13":"Solar Energy Setup 2500W",
+         "Facility14":"Load Bank",
+         "Facility15":"Lead Acid battery bank",
+         "Facility16":"EV Charging Setup",
+         "Facility17":"Capacitors inuctors filters auto transformers and other accessories",
+         "Facility18":"IGBT based power converters",
+         "Facility19":"Microgrid Controller and Software",
+         "Facility20":"OPAL RT Real time simulator HIL model no: OP4512"
+       },
+       "Contacts": {
+         "POC": {
+            "Name": "Dr. V. Sandeep & Dr. Sankar Peddapati",
+            "Designation": "DSIR - CRTDH, NIT Andhra Pradesh"
+         },
+         "Address": "DSIR-CRTDH, NIT Andhra",
+         "PhoneNumber": "8861290060,8897983939",
+         "Email": "sandeep@nitandhra.ac.in"
+      }
    }
 ]

@@ -7,13 +7,16 @@
 }
 .CRTDH-center-research-areas{
     width: fit-content;
-    padding: 30px;
+    padding:20px 30px;
     background-color: #fff;
     position: absolute;
     font-family: 'open sans';
     bottom: 100px;
     left: 50px;
     border-radius: 5px;
+}
+.CRTDH-center-name{
+    font-size: 3rem;
 }
 .research-area-name{
     font-size: 2rem;
@@ -56,6 +59,10 @@
 .service-charges-btn:hover{
     border: 2px solid #0ca6d1;
 }
+.Expected-Outcomes{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
 @media all and (max-width:768px) {
     .instruments-btn,.service-charges-btn,.pilot-plant-btn{
         border: none;
@@ -66,5 +73,21 @@
         }
     .instruments-btn{
         background-color: #eee;
+    }
+    .CRTDH-center-research-areas{
+        width: 90%;
+        padding: 10px 30px;
+        bottom: 30px;
+        height: 250px;
+        overflow-y: scroll;
+        left:5%;
+        
+    }
+    .CRTDH-center-name{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .research-areas{
+        font-size: 2.3rem;
     }
 }

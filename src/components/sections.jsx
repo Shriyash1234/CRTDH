@@ -20,7 +20,8 @@ const Sections = () => {
             },
             {
                 InstituteName: 'National Institute of Technology-Andhra Pradesh, Tadepalligudem',
-                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
+                Link:"/NITAP"
             },
         ],
         'Affordable Health': [
