@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2e360a9.css",
+    "main.css": "/static/css/main.7a5143af.css",
     "main.js": "/static/js/main.9871bd42.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
@@ -62,12 +62,12 @@
     "static/media/CRTDH_logo.png": "/static/media/CRTDH_logo.650d3df6968c861d32c0.png",
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/index.html",
-    "main.b2e360a9.css.map": "/static/css/main.b2e360a9.css.map",
+    "main.7a5143af.css.map": "/static/css/main.7a5143af.css.map",
     "main.9871bd42.js.map": "/static/js/main.9871bd42.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2e360a9.css",
+    "static/css/main.7a5143af.css",
     "static/js/main.9871bd42.js"
   ]
 }
