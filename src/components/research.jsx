@@ -11,7 +11,7 @@ const Research = () => {
     <section className='reserach-page'>
         <Header color={'black'}/>
          <div className='research'>
-            <h2 className='about-us'>Research</h2>
+            <h2 className='about-us'>R&D for MSMEs/Startups</h2>
             <div className='yt-video-div'>
                 <iframe width="868"  className="research-video" src="https://www.youtube.com/embed/AUf4pJS9UEw" title="CRTDH Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
