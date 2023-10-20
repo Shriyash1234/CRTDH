@@ -24,6 +24,7 @@ const Home = () => {
       </section>
       <Statistics />
       <Update />
+      <div className='break'></div>
       <About />
       <Sections />
       <ChatboxLogo />

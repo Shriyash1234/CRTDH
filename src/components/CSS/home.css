@@ -116,3 +116,7 @@ transform: scale(0.95);
         top: 18vh;
     }
 }
+
+.break{
+    height: 2.8rem;
+}
