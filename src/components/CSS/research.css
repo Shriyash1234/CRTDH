@@ -58,6 +58,17 @@
     margin: auto;
     padding: 30px;
 }
+.research-video{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    aspect-ratio: 1/0.5 !important;
+}
+.yt-video-div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
 @media all and (max-width:768px) {
     .research-div{
         width: 400px;
@@ -73,10 +84,15 @@
         width: 90vw;
         padding: 10px;
     }
+    
 }
 @media all and (max-width:479px) {
     .research-div{
         width: 350px;
         height: 400px;
+    }
+    .research-video{
+        height: 280px;
+        width: 100%;
     }
 }
