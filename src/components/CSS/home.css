@@ -35,6 +35,13 @@
     margin-bottom: 0px;
     font-family: 'Inclusive Sans';
 }
+.JoinUs{
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden !important;
+    margin-top: 100px;
+    height: fit-content;
+}
 @media all and (max-width:1200px) {
     .CRTDH-name {
         top: 22vh;

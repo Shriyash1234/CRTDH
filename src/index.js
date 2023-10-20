@@ -11,6 +11,7 @@ import Research from './components/research';
 import Contact_Us from './components/contact';
 import WorkshopPost from './components/workshopPost';
 import Center from './components/center';
+import Join from './components/join';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route index path="/:CenterCode" element={<Center />} />
         <Route index path="/workshopIITGn" element={<WorkshopPost />} />
         <Route index path="/Contact" element={<Contact_Us />} />
+        <Route index path="/Join" element={<Join />} />
       </Routes>
     </HashRouter>
   );
