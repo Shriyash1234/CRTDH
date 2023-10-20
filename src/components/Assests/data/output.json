@@ -1,7 +1,7 @@
 [
     {
         "Sr. No": 1,
-        "Instruments": "Fluorescence Spectrophotometer",
+        "Instruments ": "Fluorescence Spectrophotometer",
         "Brand \/ Model": "Jasco FP-8300, Japan",
         "Function": "Optical properties",
         "Location": "CRTDH, IITGN ",
@@ -9,7 +9,7 @@
     },
     {
         "Sr. No": 2,
-        "Instruments": "Multimode Plate Reader",
+        "Instruments ": "Multimode Plate Reader",
         "Brand \/ Model": "Cytation 5, USA",
         "Function": "Quantification of biological samples ",
         "Location": "CRTDH, IITGN ",
@@ -17,7 +17,7 @@
     },
     {
         "Sr. No": 3,
-        "Instruments": "HPTLC",
+        "Instruments ": "HPTLC",
         "Brand \/ Model": "CAMAG, Switzerland",
         "Function": "Qualitative and quantitative analysis of organics ",
         "Location": "CRTDH, IITGN ",
@@ -25,7 +25,7 @@
     },
     {
         "Sr. No": 4,
-        "Instruments": "ICP-MS System",
+        "Instruments ": "ICP-MS System",
         "Brand \/ Model": "PerkinElmer NexION 2000, Avio200, USA",
         "Function": "Detection of trace metals and isotope analysis",
         "Location": "CRTDH, IITGN ",
@@ -33,7 +33,7 @@
     },
     {
         "Sr. No": 5,
-        "Instruments": "UV-Vis Spectrophotometer\t",
+        "Instruments ": "UV-Vis Spectrophotometer\t",
         "Brand \/ Model": "Analytik Jena Specord 210 plus, Germany",
         "Function": "Optical properties",
         "Location": "CRTDH, IITGN ",
@@ -41,7 +41,7 @@
     },
     {
         "Sr. No": 6,
-        "Instruments": "TOC & TNb",
+        "Instruments ": "TOC & TNb",
         "Brand \/ Model": "Analytik Jena Multi N\/C 21005 BU, Germany",
         "Function": "Total organic carbon analyzer",
         "Location": "CRTDH, IITGN ",
@@ -49,7 +49,7 @@
     },
     {
         "Sr. No": 7,
-        "Instruments": "BOD Incubator",
+        "Instruments ": "BOD Incubator",
         "Brand \/ Model": "VELP Scientifica BOD system 6, Italy",
         "Function": "Biological Oxygen demand analyzer",
         "Location": "CRTDH, IITGN ",
@@ -57,7 +57,7 @@
     },
     {
         "Sr. No": 8,
-        "Instruments": "Fermentater",
+        "Instruments ": "Fermentater",
         "Brand \/ Model": "Murhopye Scientific Co., Karnataka",
         "Function": "Bioreactor to study the bioprocess",
         "Location": "CRTDH, IITGN ",
@@ -65,7 +65,7 @@
     },
     {
         "Sr. No": 9,
-        "Instruments": "Spray Dryer ",
+        "Instruments ": "Spray Dryer ",
         "Brand \/ Model": "Techno Search Pvt.Ltd. SPD-P-111, Maharastra",
         "Function": "Slury to dry particle formaiton ",
         "Location": "CRTDH, IITGN ",
@@ -73,7 +73,7 @@
     },
     {
         "Sr. No": 10,
-        "Instruments": "Hot Air Oven",
+        "Instruments ": "Hot Air Oven",
         "Brand \/ Model": "JSGW",
         "Function": "Sterilization and decontamination of laboratory equipment and materials through dry heat.",
         "Location": "CRTDH, CSIR-IITR",
@@ -81,7 +81,7 @@
     },
     {
         "Sr. No": 11,
-        "Instruments": "Vertical Autoclave ",
+        "Instruments ": "Vertical Autoclave ",
         "Brand \/ Model": "IGENE Labserve ",
         "Function": "Sterilizing equipment and materials through high-pressure steam",
         "Location": "CRTDH, CSIR-IITR",
@@ -89,7 +89,7 @@
     },
     {
         "Sr. No": 12,
-        "Instruments": "Vaccum Oven",
+        "Instruments ": "Vaccum Oven",
         "Brand \/ Model": "IGENE Labserve ",
         "Function": "Used for drying, heating, and de-gassing materials through low atmospheric pressure and controlled temperature condition",
         "Location": "CRTDH, CSIR-IITR",
@@ -97,7 +97,7 @@
     },
     {
         "Sr. No": 13,
-        "Instruments": "3D Printer",
+        "Instruments ": "3D Printer",
         "Brand \/ Model": "TesserAct - Juila Pro",
         "Function": "Creates three-dimensional objects by layering material in accordance with a digital 3D model.",
         "Location": "CRTDH, CSIR-IITR",
@@ -105,7 +105,7 @@
     },
     {
         "Sr. No": 14,
-        "Instruments": "COD Reactor",
+        "Instruments ": "COD Reactor",
         "Brand \/ Model": "Rocker - CR25",
         "Function": " To measure the amount of oxygen required for the chemical oxidation of organic and inorganic substances in water samples",
         "Location": "CRTDH, CSIR-IITR",
@@ -113,7 +113,7 @@
     },
     {
         "Sr. No": 15,
-        "Instruments": "Referigerated Centrifuge",
+        "Instruments ": "Referigerated Centrifuge",
         "Brand \/ Model": "Neuation; iFUGE UCO2",
         "Function": "Used for separating components of various samples based on density, shape, and size by spinning them at high speeds ",
         "Location": "CRTDH, CSIR-IITR",
@@ -121,7 +121,7 @@
     },
     {
         "Sr. No": 16,
-        "Instruments": "PCR Machine",
+        "Instruments ": "PCR Machine",
         "Brand \/ Model": "Blue-Ray BIOTECH TurboCycler",
         "Function": " Used for amplifying and generating multiple copies of a specific DNA ",
         "Location": "CRTDH, CSIR-IITR",
@@ -129,7 +129,7 @@
     },
     {
         "Sr. No": 17,
-        "Instruments": "Ultrasonic Cell Crusher Noise Isolating Chamber",
+        "Instruments ": "Ultrasonic Cell Crusher Noise Isolating Chamber",
         "Brand \/ Model": "LABMAN-Scientific Instruments",
         "Function": "Minimizes noise during cell disruption in a controlled laboratory environment.",
         "Location": "CRTDH, CSIR-IITR",
@@ -137,7 +137,7 @@
     },
     {
         "Sr. No": 18,
-        "Instruments": "Probe Sonicator",
+        "Instruments ": "Probe Sonicator",
         "Brand \/ Model": "LABMAN-Scientific Instruments",
         "Function": "Disrupts cells and particles for various applications including homogenization and sample preparation.",
         "Location": "CRTDH, CSIR-IITR",
@@ -145,7 +145,7 @@
     },
     {
         "Sr. No": 19,
-        "Instruments": "pH Meter-5 point",
+        "Instruments ": "pH Meter-5 point",
         "Brand \/ Model": "LABMAN-Scientific Instruments",
         "Function": "Determines acidity or alkalinity of a solution accurately at multiple calibration points.",
         "Location": "CRTDH, CSIR-IITR",
@@ -153,7 +153,7 @@
     },
     {
         "Sr. No": 20,
-        "Instruments": "Colorimeter",
+        "Instruments ": "Colorimeter",
         "Brand \/ Model": "PHOTOCHEM LT-CO2-LINCO-AIMIL",
         "Function": "Measures the absorbance of specific wavelengths of light, aiding in quantitative analysis of colored compounds.",
         "Location": "CRTDH, CSIR-IITR",
@@ -161,7 +161,7 @@
     },
     {
         "Sr. No": 21,
-        "Instruments": "Over Head Stirrer",
+        "Instruments ": "Over Head Stirrer",
         "Brand \/ Model": "Neuation iSTIR OH JR.",
         "Function": "Facilitates the efficient mixing and stirring of substances in various laboratory applications.",
         "Location": "CRTDH, CSIR-IITR",
@@ -169,7 +169,7 @@
     },
     {
         "Sr. No": 22,
-        "Instruments": "Cooling Centrifuge",
+        "Instruments ": "Cooling Centrifuge",
         "Brand \/ Model": "REMI C-24 Plus",
         "Function": "Cools samples during centrifugation to prevent heat-related degradation or alteration.",
         "Location": "CRTDH, CSIR-IITR",
@@ -177,7 +177,7 @@
     },
     {
         "Sr. No": 23,
-        "Instruments": "Programmable Bench-top Steam Sterilizer",
+        "Instruments ": "Programmable Bench-top Steam Sterilizer",
         "Brand \/ Model": "DAIHAN Scientific ",
         "Function": "Sterilizes laboratory equipment and materials using steam in a controlled and programmable manner.",
         "Location": "CRTDH, CSIR-IITR",
@@ -185,7 +185,7 @@
     },
     {
         "Sr. No": 24,
-        "Instruments": "Analytical Balance",
+        "Instruments ": "Analytical Balance",
         "Brand \/ Model": "ACZEL CY 224C",
         "Function": "Measures the mass of samples accurately and precisely for analytical and quantitative purposes.",
         "Location": "CRTDH, CSIR-IITR",
@@ -193,7 +193,7 @@
     },
     {
         "Sr. No": 25,
-        "Instruments": "Fume Hood",
+        "Instruments ": "Fume Hood",
         "Brand \/ Model": "Science Tech (India)",
         "Function": "Provides a controlled environment for handling hazardous or noxious fumes, ensuring safety in the laboratory.",
         "Location": "CRTDH, CSIR-IITR",
@@ -201,7 +201,7 @@
     },
     {
         "Sr. No": 26,
-        "Instruments": "Stackable Incubator Shaker",
+        "Instruments ": "Stackable Incubator Shaker",
         "Brand \/ Model": "INFORS AG CH-4103 BOTTMINGEN",
         "Function": "Provides controlled temperature and agitation for cell culturing and biological research.",
         "Location": "CRTDH, CSIR-IITR",
@@ -209,7 +209,7 @@
     },
     {
         "Sr. No": 27,
-        "Instruments": "BIO Safety Cabinet",
+        "Instruments ": "BIO Safety Cabinet",
         "Brand \/ Model": "MEHROTRA Biotech Model No. CBS 1200",
         "Function": "Provides a sterile and safe working environment for handling potentially hazardous biological materials.",
         "Location": "CRTDH, CSIR-IITR",
@@ -217,7 +217,7 @@
     },
     {
         "Sr. No": 28,
-        "Instruments": "Incubator Shaker",
+        "Instruments ": "Incubator Shaker",
         "Brand \/ Model": "IGENE Labserve ",
         "Function": "Combined controlled temperature and agitation for optimal cell culture and biological research conditions.",
         "Location": "CRTDH, CSIR-IITR",
@@ -225,7 +225,7 @@
     },
     {
         "Sr. No": 29,
-        "Instruments": "Sonicator Bath",
+        "Instruments ": "Sonicator Bath",
         "Brand \/ Model": "LABQUEST WLS020",
         "Function": "Uses ultrasonic waves to uniformly clean, mix, or disperse samples in a temperature-controlled bath.",
         "Location": "CRTDH, CSIR-IITR",
@@ -233,7 +233,7 @@
     },
     {
         "Sr. No": 30,
-        "Instruments": "UV-VIS Spectrophotometer",
+        "Instruments ": "UV-VIS Spectrophotometer",
         "Brand \/ Model": "LABINDIA UV 3200",
         "Function": "Analyzes the absorption and transmission of ultraviolet and visible light by substances, aiding in quantitative analysis and characterization.",
         "Location": "CRTDH, CSIR-IITR",
@@ -241,7 +241,7 @@
     },
     {
         "Sr. No": 31,
-        "Instruments": "In vivo imaging system (Small Animal live imaging)",
+        "Instruments ": "In vivo imaging system (Small Animal live imaging)",
         "Brand \/ Model": "IVIS Lumina LT \/ PerkinElmer, USA.",
         "Function": "Non-Invasive Optical imaging in live animals.",
         "Location": "CRTDH,DPSRU",
@@ -249,7 +249,7 @@
     },
     {
         "Sr. No": 32,
-        "Instruments": "Hot Melt Extruder",
+        "Instruments ": "Hot Melt Extruder",
         "Brand \/ Model": "ThermoFisher Scientific, USA.",
         "Function": "Molecular level mixing of thermoplastic binders and\/or polymers and active compunds.",
         "Location": "CRTDH,DPSRU",
@@ -257,7 +257,7 @@
     },
     {
         "Sr. No": 33,
-        "Instruments": "Differential scanning calorimeter (DSC)",
+        "Instruments ": "Differential scanning calorimeter (DSC)",
         "Brand \/ Model": "Shimadzu, Japan.",
         "Function": "Measuring how physical properties of a sample change along with temperature against time.",
         "Location": "CRTDH,DPSRU",
@@ -265,7 +265,7 @@
     },
     {
         "Sr. No": 34,
-        "Instruments": "High performance liquid chromatography (HPLC)",
+        "Instruments ": "High performance liquid chromatography (HPLC)",
         "Brand \/ Model": "ThermoFisher Scientific, USA.",
         "Function": "Qualitative and Quantitative analysis of compounds.",
         "Location": "CRTDH,DPSRU",
@@ -273,7 +273,7 @@
     },
     {
         "Sr. No": 35,
-        "Instruments": "Fourier transform infrared (FT-IR)",
+        "Instruments ": "Fourier transform infrared (FT-IR)",
         "Brand \/ Model": "Alpha-II\/ Bruker, USA.",
         "Function": "Scan test samples and observe chemical properties of compounds.",
         "Location": "CRTDH,DPSRU",
@@ -281,7 +281,7 @@
     },
     {
         "Sr. No": 36,
-        "Instruments": "Malvern Zetasizer\/Particle sizer",
+        "Instruments ": "Malvern Zetasizer\/Particle sizer",
         "Brand \/ Model": "Litesizer-500, Anton paar,Austria.",
         "Function": "Determine the size and distribution of particles making up a material.",
         "Location": "CRTDH,DPSRU",
@@ -289,7 +289,7 @@
     },
     {
         "Sr. No": 37,
-        "Instruments": "Fluorescence Imaging system",
+        "Instruments ": "Fluorescence Imaging system",
         "Brand \/ Model": "Logos biosystems, South korea.",
         "Function": "Investigate virtually any cellular process under the microscope.",
         "Location": "CRTDH,DPSRU",
@@ -297,7 +297,7 @@
     },
     {
         "Sr. No": 38,
-        "Instruments": "UV-Spectrophotometer",
+        "Instruments ": "UV-Spectrophotometer",
         "Brand \/ Model": "Shimadzu, Japan.",
         "Function": "Measure Optical properties.",
         "Location": "CRTDH,DPSRU",
@@ -305,7 +305,7 @@
     },
     {
         "Sr. No": 39,
-        "Instruments": "ICP-OES ",
+        "Instruments ": "ICP-OES ",
         "Brand \/ Model": "Agilent technologies ",
         "Function": "detection of metal ions at trace (ppb and ppm) level from various  industrial and academic samples",
         "Location": "CRTDH, IIT Bhilai ",
@@ -313,7 +313,7 @@
     },
     {
         "Sr. No": 40,
-        "Instruments": "Glove box ",
+        "Instruments ": "Glove box ",
         "Brand \/ Model": "Vacuum technologies , India",
         "Function": "provides inert environment for carrying out air sensitive reaction ",
         "Location": "CRTDH, IIT Bhilai. ",
@@ -321,7 +321,7 @@
     },
     {
         "Sr. No": 41,
-        "Instruments": "Paper Shearing \/ Forming Machine",
+        "Instruments ": "Paper Shearing \/ Forming Machine",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -329,7 +329,7 @@
     },
     {
         "Sr. No": 42,
-        "Instruments": "Motorised Conveyor for Assembly line",
+        "Instruments ": "Motorised Conveyor for Assembly line",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -337,7 +337,7 @@
     },
     {
         "Sr. No": 43,
-        "Instruments": "Moulding Machine for Paper Edge Preparation",
+        "Instruments ": "Moulding Machine for Paper Edge Preparation",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -345,7 +345,7 @@
     },
     {
         "Sr. No": 44,
-        "Instruments": "Conveyor for dispensing reagent with dryer",
+        "Instruments ": "Conveyor for dispensing reagent with dryer",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -353,7 +353,7 @@
     },
     {
         "Sr. No": 45,
-        "Instruments": "Electronic Dispenser",
+        "Instruments ": "Electronic Dispenser",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -361,7 +361,7 @@
     },
     {
         "Sr. No": 46,
-        "Instruments": "Vacuum Packaging Machine",
+        "Instruments ": "Vacuum Packaging Machine",
         "Brand \/ Model": "I & B Engineers",
         "Function": "Pilot scale paper based kit manufacturing",
         "Location": "CRTDH, IIT KGP",
@@ -369,7 +369,7 @@
     },
     {
         "Sr. No": 47,
-        "Instruments": "Cryogenic Refrigerators ( -80c)",
+        "Instruments ": "Cryogenic Refrigerators ( -80c)",
         "Brand \/ Model": "CryoCube F570 Upright",
         "Function": "Storage of biological samples",
         "Location": "CRTDH, IIT KGP",
@@ -377,7 +377,7 @@
     },
     {
         "Sr. No": 48,
-        "Instruments": "Cryogenic Refrigerators ( -20c)",
+        "Instruments ": "Cryogenic Refrigerators ( -20c)",
         "Brand \/ Model": "Vestfrost Solutions",
         "Function": "Storage of biological samples",
         "Location": "CRTDH, IIT KGP",
@@ -385,7 +385,7 @@
     },
     {
         "Sr. No": 49,
-        "Instruments": "Refrigerators",
+        "Instruments ": "Refrigerators",
         "Brand \/ Model": "Elanpro",
         "Function": "Storage of biological samples",
         "Location": "CRTDH, IIT KGP",
@@ -393,7 +393,7 @@
     },
     {
         "Sr. No": 50,
-        "Instruments": "Wave Soldering Machine",
+        "Instruments ": "Wave Soldering Machine",
         "Brand \/ Model": "Voltera V1",
         "Function": "Rapid PCB prototyping",
         "Location": "CRTDH, IIT KGP",
@@ -401,7 +401,7 @@
     },
     {
         "Sr. No": 51,
-        "Instruments": "Infrared Laser (300-1500 nm) cutter",
+        "Instruments ": "Infrared Laser (300-1500 nm) cutter",
         "Brand \/ Model": "boxford",
         "Function": "Rapid Prototyping ",
         "Location": "CRTDH, IIT KGP",
@@ -409,7 +409,7 @@
     },
     {
         "Sr. No": 53,
-        "Instruments": "Elanpro Refrigerator",
+        "Instruments ": "Elanpro Refrigerator",
         "Brand \/ Model": "Elanpro",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -417,7 +417,7 @@
     },
     {
         "Sr. No": 54,
-        "Instruments": "Hot Air Oven",
+        "Instruments ": "Hot Air Oven",
         "Brand \/ Model": "Stericox",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -425,7 +425,7 @@
     },
     {
         "Sr. No": 55,
-        "Instruments": "Nanodrop one",
+        "Instruments ": "Nanodrop one",
         "Brand \/ Model": "Thermo Scientific",
         "Function": "Reagent dispensing Unit",
         "Location": "CRTDH, IIT KGP",
@@ -433,7 +433,7 @@
     },
     {
         "Sr. No": 56,
-        "Instruments": "Analytical Balance",
+        "Instruments ": "Analytical Balance",
         "Brand \/ Model": "Wensar",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -441,7 +441,7 @@
     },
     {
         "Sr. No": 57,
-        "Instruments": "Blood Tube Package",
+        "Instruments ": "Blood Tube Package",
         "Brand \/ Model": "Thermo Scientific",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -449,7 +449,7 @@
     },
     {
         "Sr. No": 58,
-        "Instruments": "High Speed Guillotine Cutter",
+        "Instruments ": "High Speed Guillotine Cutter",
         "Brand \/ Model": "Werfen Automation Equipment",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -457,7 +457,7 @@
     },
     {
         "Sr. No": 59,
-        "Instruments": "DC Power Supply",
+        "Instruments ": "DC Power Supply",
         "Brand \/ Model": "TENMA",
         "Function": "Testing of electronic equipment",
         "Location": "CRTDH, IIT KGP",
@@ -465,7 +465,7 @@
     },
     {
         "Sr. No": 60,
-        "Instruments": "Digital Oscilloscope",
+        "Instruments ": "Digital Oscilloscope",
         "Brand \/ Model": "MULTICOMP PRO\u00a0MP720105, MP720011",
         "Function": "Testing of electronic equipment",
         "Location": "CRTDH, IIT KGP",
@@ -473,7 +473,7 @@
     },
     {
         "Sr. No": 61,
-        "Instruments": "6.5 Digit Multimeter with Graphical Touchscreen\u00a0",
+        "Instruments ": "6.5 Digit Multimeter with Graphical Touchscreen\u00a0",
         "Brand \/ Model": "Keithley DMM6500",
         "Function": "Testing of electronic equipment",
         "Location": "CRTDH, IIT KGP",
@@ -481,7 +481,7 @@
     },
     {
         "Sr. No": 62,
-        "Instruments": "Data Acquistion Multimeter",
+        "Instruments ": "Data Acquistion Multimeter",
         "Brand \/ Model": "Keithley DAQ6510",
         "Function": "Testing of electronic equipment",
         "Location": "CRTDH, IIT KGP",
@@ -489,7 +489,7 @@
     },
     {
         "Sr. No": 63,
-        "Instruments": "Arb Wavefrorm Genetaror",
+        "Instruments ": "Arb Wavefrorm Genetaror",
         "Brand \/ Model": "MULTICOMP PRO\u00a0MP750511",
         "Function": "Testing of electronic equipment",
         "Location": "CRTDH, IIT KGP",
@@ -497,7 +497,7 @@
     },
     {
         "Sr. No": 64,
-        "Instruments": "Fluroscence Microscope",
+        "Instruments ": "Fluroscence Microscope",
         "Brand \/ Model": "MSX11-C",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -505,7 +505,7 @@
     },
     {
         "Sr. No": 65,
-        "Instruments": "3D Printer",
+        "Instruments ": "3D Printer",
         "Brand \/ Model": "Bambu Lab X1-Carbon",
         "Function": "Rapid prototyping",
         "Location": "CRTDH, IIT KGP",
@@ -513,7 +513,7 @@
     },
     {
         "Sr. No": 66,
-        "Instruments": "Compressor",
+        "Instruments ": "Compressor",
         "Brand \/ Model": "ELGI",
         "Function": null,
         "Location": "CRTDH, IIT KGP",
@@ -521,7 +521,7 @@
     },
     {
         "Sr. No": 67,
-        "Instruments": "Real Time Simulator HIL",
+        "Instruments ": "Real Time Simulator HIL",
         "Brand \/ Model": "OPAL RT\/ OP4512",
         "Function": "Rapid control prototyping and HIL simulator",
         "Location": "CRTDH, NITANDHRA",
@@ -529,7 +529,7 @@
     },
     {
         "Sr. No": 68,
-        "Instruments": "Solar Emulator System with Software",
+        "Instruments ": "Solar Emulator System with Software",
         "Brand \/ Model": "ITECH-IT6424C  and SAS1000",
         "Function": "Solar emulator",
         "Location": "CRTDH, NITANDHRA",
@@ -537,7 +537,7 @@
     },
     {
         "Sr. No": 69,
-        "Instruments": "Real time Controller & Software",
+        "Instruments ": "Real time Controller & Software",
         "Brand \/ Model": "WAVECT-300\/WAVECT HD WCU 300",
         "Function": "Real time controller and software",
         "Location": "CRTDH, NITANDHRA",
@@ -545,7 +545,7 @@
     },
     {
         "Sr. No": 70,
-        "Instruments": "Power Quality Analyzer",
+        "Instruments ": "Power Quality Analyzer",
         "Brand \/ Model": "YOKOGAWA\/WT1804E",
         "Function": "Power quality Analyzer",
         "Location": "CRTDH, NITANDHRA",
@@ -553,7 +553,7 @@
     },
     {
         "Sr. No": 71,
-        "Instruments": "Three Power Quality Analyzer with accessories",
+        "Instruments ": "Three Power Quality Analyzer with accessories",
         "Brand \/ Model": "FLUKE  \/NORMA6004+",
         "Function": "Power quality Analyzer",
         "Location": "CRTDH, NITANDHRA",
@@ -561,7 +561,7 @@
     },
     {
         "Sr. No": 72,
-        "Instruments": "Insulation Tester",
+        "Instruments ": "Insulation Tester",
         "Brand \/ Model": "FLUKE\/1500C\/15KV",
         "Function": "Insulation resistance",
         "Location": "CRTDH, NITANDHRA",
@@ -569,7 +569,7 @@
     },
     {
         "Sr. No": 73,
-        "Instruments": "108W Programmable High precision DC power supply",
+        "Instruments ": "108W Programmable High precision DC power supply",
         "Brand \/ Model": "GW INSTEK \/PPX-3603",
         "Function": "Programmable DC power supply",
         "Location": "CRTDH, NITANDHRA",
@@ -577,7 +577,7 @@
     },
     {
         "Sr. No": 74,
-        "Instruments": "375W, 3- Channel liner DC power supply",
+        "Instruments ": "375W, 3- Channel liner DC power supply",
         "Brand \/ Model": "GW INSTEK \/GPC-6030D",
         "Function": "Programmable DC power supply",
         "Location": "CRTDH, NITANDHRA",
@@ -585,7 +585,7 @@
     },
     {
         "Sr. No": 75,
-        "Instruments": "180W, 2- Channel programmable linear power supply",
+        "Instruments ": "180W, 2- Channel programmable linear power supply",
         "Brand \/ Model": " GW INSTEK \/GPO-2303S",
         "Function": "Programmable DC power supply",
         "Location": "CRTDH, NITANDHRA",
@@ -593,7 +593,7 @@
     },
     {
         "Sr. No": 76,
-        "Instruments": "1500W Programmable switching DC power supply",
+        "Instruments ": "1500W Programmable switching DC power supply",
         "Brand \/ Model": "GW INSTEK\/PSU 300-5",
         "Function": "Programmable DC power supply",
         "Location": "CRTDH, NITANDHRA",
@@ -601,7 +601,7 @@
     },
     {
         "Sr. No": 77,
-        "Instruments": "1 KVA Programmable AC\/DC power source",
+        "Instruments ": "1 KVA Programmable AC\/DC power source",
         "Brand \/ Model": " GW INSTEK \/ASR-2100",
         "Function": "Programmable AC\/DC power supply",
         "Location": "CRTDH, NITANDHRA",
@@ -609,7 +609,7 @@
     },
     {
         "Sr. No": 78,
-        "Instruments": "350V 18A 1875W AC\/DC Electronic load",
+        "Instruments ": "350V 18A 1875W AC\/DC Electronic load",
         "Brand \/ Model": "GW INSTEK\/AEL-5002-350-18.75",
         "Function": "Electronic Load",
         "Location": "CRTDH, NITANDHRA",
@@ -617,7 +617,7 @@
     },
     {
         "Sr. No": 79,
-        "Instruments": "PCB prototype machine",
+        "Instruments ": "PCB prototype machine",
         "Brand \/ Model": "ROBOKITS INDIA\/RMCS-3502",
         "Function": "PCB fabircation",
         "Location": "CRTDH, NITANDHRA",
@@ -625,7 +625,7 @@
     },
     {
         "Sr. No": 80,
-        "Instruments": "3D Printer ",
+        "Instruments ": "3D Printer ",
         "Brand \/ Model": "Ultimaker \/S5",
         "Function": "Rapid prototyping",
         "Location": "CRTDH-CSIR-CCMB",
@@ -633,7 +633,7 @@
     },
     {
         "Sr. No": 81,
-        "Instruments": "Nano fibre electrospinning unit ",
+        "Instruments ": "Nano fibre electrospinning unit ",
         "Brand \/ Model": "Kato Tech \/NEU ",
         "Function": "To, generate nanofibers from various types of materials",
         "Location": "CRTDH- CSIR-CCMB",
@@ -641,7 +641,7 @@
     },
     {
         "Sr. No": 82,
-        "Instruments": "Gel Rocker",
+        "Instruments ": "Gel Rocker",
         "Brand \/ Model": null,
         "Function": "used for biological mixing ",
         "Location": "CRTDH- CSIR-CCMB",
@@ -649,7 +649,7 @@
     },
     {
         "Sr. No": 83,
-        "Instruments": "Semidry blotter ",
+        "Instruments ": "Semidry blotter ",
         "Brand \/ Model": "Hoefer\/TE 77PWR  ",
         "Function": "semi-dry transfer of proteins from polyacrylamide gels to nitrocellulose or PVDF membranes",
         "Location": "CRTDH- CSIR-CCMB",
@@ -657,7 +657,7 @@
     },
     {
         "Sr. No": 84,
-        "Instruments": "Microvolumespectometer ",
+        "Instruments ": "Microvolumespectometer ",
         "Brand \/ Model": "Implen \/Nanophotometer ",
         "Function": "Optical properties",
         "Location": "CRTDH- CSIR-CCMB",
@@ -665,7 +665,7 @@
     },
     {
         "Sr. No": 85,
-        "Instruments": "Tangential flow filtration system with hallow fibre& cassette holder ",
+        "Instruments ": "Tangential flow filtration system with hallow fibre& cassette holder ",
         "Brand \/ Model": "Spectrum lab\/KR2i  ",
         "Function": "used for separation, concentration, and purification of biomolecules and particles in solution",
         "Location": "CRTDH- CSIR-CCMB",
@@ -673,7 +673,7 @@
     },
     {
         "Sr. No": 86,
-        "Instruments": "Ultra centrifuge ",
+        "Instruments ": "Ultra centrifuge ",
         "Brand \/ Model": "Beckman Coulter \/Optimar L-100XP",
         "Function": "used to separate particles, molecules, or cells based on their density. ",
         "Location": "CRTDH- CSIR-CCMB",
@@ -681,7 +681,7 @@
     },
     {
         "Sr. No": 87,
-        "Instruments": "Protein Purifier ",
+        "Instruments ": "Protein Purifier ",
         "Brand \/ Model": "GE \/AKTA",
         "Function": "used for purification of the proteins",
         "Location": "CRTDH- CSIR-CCMB",
@@ -689,7 +689,7 @@
     },
     {
         "Sr. No": 88,
-        "Instruments": "Electronic balance ",
+        "Instruments ": "Electronic balance ",
         "Brand \/ Model": "Afcoset\/FX 300  ",
         "Function": "Measures the mass of samples for analytical and quantitative purposes",
         "Location": "CRTDH- CSIR-CCMB",
@@ -697,7 +697,7 @@
     },
     {
         "Sr. No": 89,
-        "Instruments": "Inverted microscope ",
+        "Instruments ": "Inverted microscope ",
         "Brand \/ Model": "Nikon\/TS-2",
         "Function": "observing cells",
         "Location": "CRTDH- CSIR-CCMB",
@@ -705,7 +705,7 @@
     },
     {
         "Sr. No": 90,
-        "Instruments": "Analytical Ultra centrifuge ",
+        "Instruments ": "Analytical Ultra centrifuge ",
         "Brand \/ Model": "Beckman Coulter \/Proteome lab XL-1 ",
         "Function": " analysis of biological macromolecules and their interactions",
         "Location": "CRTDH- CSIR-CCMB",
@@ -713,7 +713,7 @@
     },
     {
         "Sr. No": 91,
-        "Instruments": "Type-I,II water ",
+        "Instruments ": "Type-I,II water ",
         "Brand \/ Model": "Rephile \/Direct Pure ",
         "Function": "Water Quality Analyzer",
         "Location": "CRTDH- CSIR-CCMB",
@@ -721,7 +721,7 @@
     },
     {
         "Sr. No": 92,
-        "Instruments": "Protein Purifier with cold cabinet ",
+        "Instruments ": "Protein Purifier with cold cabinet ",
         "Brand \/ Model": "GE \/AKTA Pure ",
         "Function": "cold cabinet for purification of the proteins",
         "Location": "CRTDH- CSIR-CCMB",
@@ -729,7 +729,7 @@
     },
     {
         "Sr. No": 93,
-        "Instruments": "Rotavapor ",
+        "Instruments ": "Rotavapor ",
         "Brand \/ Model": "Heidolph\/Hei-Vap Core  ",
         "Function": "used for efficient and gentle removal of solvents from samples by evaporation",
         "Location": "CRTDH- CSIR-CCMB",
@@ -737,7 +737,7 @@
     },
     {
         "Sr. No": 94,
-        "Instruments": "Microscope ",
+        "Instruments ": "Microscope ",
         "Brand \/ Model": "Olympus \/CX41 ",
         "Function": "used to observe small objects such as  cells",
         "Location": "CRTDH- CSIR-CCMB",
@@ -745,7 +745,7 @@
     },
     {
         "Sr. No": 95,
-        "Instruments": "Electrocell manipulator ",
+        "Instruments ": "Electrocell manipulator ",
         "Brand \/ Model": "Bio-Rad\/GenePulser cell  ",
         "Function": "suitable for electro cell fusion, embryo manipulation and\/or electroporation",
         "Location": "CRTDH- CSIR-CCMB",
@@ -753,7 +753,7 @@
     },
     {
         "Sr. No": 96,
-        "Instruments": "Fluorimeter ",
+        "Instruments ": "Fluorimeter ",
         "Brand \/ Model": "Hitachi \/F-7000",
         "Function": "measures the fluorescence or light emitted by different fluorescing objects. ",
         "Location": "CRTDH- CSIR-CCMB",
@@ -761,7 +761,7 @@
     },
     {
         "Sr. No": 97,
-        "Instruments": "Microfluidic Controler System ",
+        "Instruments ": "Microfluidic Controler System ",
         "Brand \/ Model": "Fluigent \/MFCS-EV ",
         "Function": "allow to recreate in vitro cell-cell, cell-substrate and cell-medium interactions with high accuracy.",
         "Location": "CRTDH- CSIR-CCMB",
@@ -769,7 +769,7 @@
     },
     {
         "Sr. No": 98,
-        "Instruments": "Speedvac concentrator ",
+        "Instruments ": "Speedvac concentrator ",
         "Brand \/ Model": "Labogene\/Scan Vac  ",
         "Function": "removing solvents and concentrating samples while maintaining sample integrity.",
         "Location": "CRTDH- CSIR-CCMB",
@@ -777,7 +777,7 @@
     },
     {
         "Sr. No": 99,
-        "Instruments": "Bio reactor ",
+        "Instruments ": "Bio reactor ",
         "Brand \/ Model": "Eppendorf \/Bioflo 120 ",
         "Function": "provides the optimal conditions by providing optimum temperature",
         "Location": "CRTDH- CSIR-CCMB",
@@ -785,7 +785,7 @@
     },
     {
         "Sr. No": 100,
-        "Instruments": "Type-I Water ",
+        "Instruments ": "Type-I Water ",
         "Brand \/ Model": "EvoQua \/ROEDI 55 ",
         "Function": " water purification system",
         "Location": "CRTDH- CSIR-CCMB",
@@ -793,7 +793,7 @@
     },
     {
         "Sr. No": 101,
-        "Instruments": "Thermal cycler ",
+        "Instruments ": "Thermal cycler ",
         "Brand \/ Model": "Eppendorf \/Thermomixer-C ",
         "Function": "Used for amplifying and generating multiple copies of a specific DNA ",
         "Location": "CRTDH- CSIR-CCMB",
@@ -801,7 +801,7 @@
     },
     {
         "Sr. No": 102,
-        "Instruments": "Microvolumespectometer ",
+        "Instruments ": "Microvolumespectometer ",
         "Brand \/ Model": "Thermofisher\/Naonodrop one  ",
         "Function": "optical properties",
         "Location": "CRTDH- CSIR-CCMB",
@@ -809,7 +809,7 @@
     },
     {
         "Sr. No": 103,
-        "Instruments": "Conductivity meter ",
+        "Instruments ": "Conductivity meter ",
         "Brand \/ Model": "Eutech\/CON 700 ",
         "Function": "measures the amount of electric current or conductivity in a solution",
         "Location": "CRTDH- CSIR-CCMB",
@@ -817,7 +817,7 @@
     },
     {
         "Sr. No": 104,
-        "Instruments": "Inverted microscope ",
+        "Instruments ": "Inverted microscope ",
         "Brand \/ Model": "Nikon \/Ecllipse-TS-100 ",
         "Function": "to study live cells",
         "Location": "CRTDH- CSIR-CCMB",
@@ -825,7 +825,7 @@
     },
     {
         "Sr. No": 105,
-        "Instruments": "Realtime PCR",
+        "Instruments ": "Realtime PCR",
         "Brand \/ Model": "Roche\/Lightcycle 480 II  ",
         "Function": "rapid and sensitive determination and quantitation of nucleic acid in various biological samples",
         "Location": "CRTDH- CSIR-CCMB",
@@ -833,7 +833,7 @@
     },
     {
         "Sr. No": 106,
-        "Instruments": "HPLC ",
+        "Instruments ": "HPLC ",
         "Brand \/ Model": "Agilent Technologies\/120 Infinity ",
         "Function": "Qualitative and Quantitative analysis of compounds.",
         "Location": "CRTDH- CSIR-CCMB",
@@ -841,7 +841,7 @@
     },
     {
         "Sr. No": 107,
-        "Instruments": "Ultasonic cell crusher ",
+        "Instruments ": "Ultasonic cell crusher ",
         "Brand \/ Model": "Unigenetics\/SKL-500D ",
         "Function": "used for crushing various cells",
         "Location": "CRTDH- CSIR-CCMB",
@@ -849,7 +849,7 @@
     },
     {
         "Sr. No": 108,
-        "Instruments": "Bar code printer with Reader ",
+        "Instruments ": "Bar code printer with Reader ",
         "Brand \/ Model": "Zebra\/GT820 ",
         "Function": "capture and translate barcodes into numbers and\/or letters for translation by computer",
         "Location": "CRTDH- CSIR-CCMB",
@@ -857,7 +857,7 @@
     },
     {
         "Sr. No": 109,
-        "Instruments": "Multiplate reader ",
+        "Instruments ": "Multiplate reader ",
         "Brand \/ Model": "TECAN\/Infinite M200PRO  ",
         "Function": "measures the  absorbance, luminescence, fluorescence, ",
         "Location": "CRTDH- CSIR-CCMB",
@@ -865,7 +865,7 @@
     },
     {
         "Sr. No": 110,
-        "Instruments": "Ulrasonic cleaner",
+        "Instruments ": "Ulrasonic cleaner",
         "Brand \/ Model": "Unigenetics\/UC 5200TPA  ",
         "Function": "facilitate or enhance the removal of foreign contaminants from surfaces submerged in an ultrasonically activated liquid.",
         "Location": "CRTDH- CSIR-CCMB",
@@ -873,7 +873,7 @@
     },
     {
         "Sr. No": 111,
-        "Instruments": "True RMS Multimeter ",
+        "Instruments ": "True RMS Multimeter ",
         "Brand \/ Model": "Fluke \/87V ",
         "Function": "measure the \"heating\" potential of an applied voltage.",
         "Location": "CRTDH- CSIR-CCMB",
@@ -881,7 +881,7 @@
     },
     {
         "Sr. No": 112,
-        "Instruments": "Multi parameter Portable meter\/ Water Quality Analyzer ",
+        "Instruments ": "Multi parameter Portable meter\/ Water Quality Analyzer ",
         "Brand \/ Model": "Eutech\/PCD650  ",
         "Function": "quality testing of water",
         "Location": "CRTDH- CSIR-CCMB",
@@ -889,7 +889,7 @@
     },
     {
         "Sr. No": 113,
-        "Instruments": "FPLC in cold cabinet",
+        "Instruments ": "FPLC in cold cabinet",
         "Brand \/ Model": "Bio-Rad",
         "Function": "protein purification",
         "Location": "CRTDH- CSIR-CCMB",
