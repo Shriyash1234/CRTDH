@@ -77,7 +77,8 @@ const Sections = () => {
             },
             {
                 InstituteName: 'CSIR- Institute of Minerals & Materials Technology (IMMT), Bhubaneswar',
-                Img:require('./Assests/Images/CRTDH-logos/IMMT.jpg')
+                Img:require('./Assests/Images/CRTDH-logos/IMMT.jpg'),
+                Link:"/IMMT"
             },
             {
                 InstituteName: 'CSIR- National Chemical Laboratory (NCL), Pune',

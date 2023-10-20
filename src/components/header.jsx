@@ -33,6 +33,10 @@ const centersOptions = [
     Link:"/NITAP"
   },
   {
+    InstituteName: 'IMMT',
+    Link:"/IMMT"
+  },
+  {
     InstituteName: 'CEERI',
   },
   {
@@ -58,9 +62,7 @@ const centersOptions = [
   {
     InstituteName: 'CDRI',
   },
-  {
-    InstituteName: 'IMMT',
-  },
+  
   {
     InstituteName: 'NCL',
   },

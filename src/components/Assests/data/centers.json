@@ -362,5 +362,74 @@
          "PhoneNumber": "8861290060,8897983939",
          "Email": "sandeep@nitandhra.ac.in"
       }
+   },
+   {
+      "CenterCode": "IMMT",
+      "CenterName": "CRTDH IMMT Bhubaneswar",
+      "ImagePath": "IMMT.jpg",
+      "ResearchAreas": {
+         "Research-Area-1": "Mineral Processing",
+         "Research-Area-2":"New Chemical Processes",
+         "Research-Area-3":"Industrial Waste Utilization",
+         "Research-Area-4":"Metallurgical Processes",
+         "Research-Area-5":"Coatings & Surface Engineering",
+         "Research-Area-6":"New Materials",
+         "Research-Area-7":"Materials Testing"
+      },
+      "Outcomes":{
+         "Outcome1":"Find a market for our innovations in the MSME sector",
+         "Outcome2":"Mentor, nurture, collaborate, or hand-hold MSMEs to develop innovations",
+         "Outcome3":"Provide enabling services such as IPR support, Laboratory facilities, Testing and analysis support for quality assurance, Auditing of existing production processes etc."
+      },
+      "Information": {
+         "Information-para-1": "In order to provide, technological solution, to mentor entrepreneurs/startups, alongside facilitating incubation of startups, the Common Research and Technology Development Hub (CRTDH) has been established at CSIR-IMMT, by the joint effort of CSIR-IMMT and Department of Scientific and Industrial Research (DSIR), Government of India. It’s primary objective is to nurture and promote innovations in MSMEs and provide them R&D or knowledge-based support in the area of new materials and chemical processes."
+      },
+      "Technologies":"Here is the List of Technologies at IMMT Bhubaneshwar",
+      "ListOfTechnologies": {
+         "Technology1": "Nutrient enriched biochar for organic based fertilizer",
+         "Technology2":"Automated chemical dosing system",
+         "Technology3":"Wireless temperature sensing and recording",
+         "Technology4":"Design of disposable infant tooth cleaning device.",
+         "Technology5":"Utilization of PCB wastes in manufacture of Bricks.",
+         "Technology6":"Utilization of waste related to agricultural,plastic , biomass etc",
+         "Technology7":"Process development for treatment of metal pickling solutions to achieve Zero Liquid Discharge (ZLD) through integrated online approach",
+         "Technology8":"Pull cord addressing system: An embedded system with wireless connectivity is being developed for the industry.",
+         "Technology9":"Powder preparation of fused mullite, silicon carbide for indigenous production",
+         "Technology10":"Wireless Thermocouple (lab level demonstration)",
+         "Technology11":"Two channel Wireless thermocouple for process testing research (system prototype given to them for their trial in industry)",
+         "Technology12":"Moisture sensing in iron and coal",
+         "Technology13":"Bell metal and Brass casting (temple articles, idols etc.), sheet metal work(utensils), AI alloy based hollow products, Sheet metal engraving and embossing",
+         "Technology14":"Dokra casting, Bell metal and Brass casting, Lost wax process",
+         "Technology15":"Conducting coatings on phosphor bronze pins.",
+         "Technology16":"WC-Co coated samples for continuous casting parts"
+       },
+      "SomeFacilities": {
+         "Facility1": "Corrosion testing facility established to evaluate the corrosion, aberration, erosion etc of the materials/coating being developed.",
+         "Facility2":"Metal craft processing- polishing, energy efficient brass melting furnace and cutting tools facility",
+         "Facility3":"Metallurgical processing including controlled atmospheres heating furnaces etc.",
+         "Facility4":"Mechanical properties testing facility to examine the fatigue, stress etc properties.",
+         "Facility5":"Universal Testing Machine (UTM 8801)",
+         "Facility6":"Tribometer (Nanovea, T-2000)",
+         "Facility7":"TGA-DTA",
+         "Facility8":"Furnaces",
+         "Facility9":"RF power supply",
+         "Facility10":"Semi automatic variable speed polishing machine",
+         "Facility11":"Precision Cutting Machine"
+       },
+       "ListOfServices": {
+         "service1": "R&D & Knowledge based Support to MSMEs & Start-ups",
+         "service2": "Mentor, nurture, collaborate, or hand-hold MSMEs to develop innovations",
+         "service3": "Providing enabling services such as IPR support, Laboratory facilities, testing and analysis support for quality assurance, auditing of existing production processes etc."
+       },
+       "SocialImpact":"CSIR- Institute of Minerals and Material Technology, Bhubaneswar has made significant social impacts through various initiatives, including the development of an Automated Chemical Dosing System for the Iron Ore Industry, the revitalization of the Brass-bell metal handicraft sector, the creation of value-added materials from waste lithium batteries, the extraction of silicon carbide from rice husk, and the introduction of a chemical additive and dosing system for high-concentration slurry transportation of iron ore. Moreover, the center has transferred ten crucial know-hows related to sanitizers, disinfecting devices, hospital assistive devices, and personnel protective devices to 14 MSMEs, fostering innovation and growth in these sectors while positively impacting society.",
+       "Contacts": {
+         "POC": {
+            "Name": "Dr. V. Sandeep & Dr. Sankar Peddapati",
+            "Designation": "DSIR - CRTDH, NIT Andhra Pradesh"
+         },
+         "Address": "DSIR-CRTDH, NIT Andhra",
+         "PhoneNumber": "8861290060,8897983939",
+         "Email": "sandeep@nitandhra.ac.in"
+      }
    }
 ]
