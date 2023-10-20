@@ -48,8 +48,7 @@ const Footer1 = () => {
                 <p className='head-office-address'>+91-11 26590463,+91-11 26590696</p>
                 <hr></hr>
                 <p className='Head-office'><Mail />&nbsp;&nbsp;Email</p>
-                <p className='head-office-address'><a href="mailto:vipin.shukla@gov.in">vipin.shukla@gov.in</a></p>
-                <p className='head-office-address'><a href="mailto:crtdh@iitgn.ac.in">crtdh@iitgn.ac.in</a></p>
+                <p className='head-office-address'><a href="mailto:dsir@ncrtdh.in">dsir@ncrtdh.in</a></p>
 
             </div>
         </footer1>

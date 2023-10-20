@@ -234,7 +234,10 @@ function Header(props) {
                 <Link to="/Facilities" className='links' style={{ color: "black" }}>Facilites</Link>
               </li>
               <li className={`has-child ${activeLink === 'ContactUs' ? 'activeHeader' : ''}`}>
-                <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact us</div>
+                <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact</div>
+              </li>
+              <li className={`has-child ${activeLink === 'Join' ? 'activeHeader' : ''}`}>
+                <Link to="/Join" className='about-link links CRTDHs-link' style={{ color: "black" }}> Join us</Link>
               </li>
               {/* <li className="has-child">
                 <div onClick={handleSearch} className='about-link links ' style={{ color: "black" }}><Link to="/Facilities" className='links'>

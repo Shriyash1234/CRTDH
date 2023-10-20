@@ -35,6 +35,42 @@
     margin-bottom: 0px;
     font-family: 'Inclusive Sans';
 }
+.JoinUs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.form-buttons{
+    display: flex;
+    justify-content:space-evenly;
+    width: 40%;
+    margin: 100px auto 0px;
+    flex-wrap: wrap;
+}
+.joinUsButton{
+    width: fit-content;
+    min-width: 100px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2.5px solid #E0E1E4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.joinUsButtonn:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+.joinUsButton:active {
+transform: scale(0.95);
+}
 @media all and (max-width:1200px) {
     .CRTDH-name {
         top: 22vh;
