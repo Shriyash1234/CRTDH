@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a5143af.css",
-    "main.js": "/static/js/main.9871bd42.js",
+    "main.js": "/static/js/main.4d5107d8.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
     "static/media/banner-1.jpg": "/static/media/banner-1.7f77f7ab2d0fe40c2629.jpg",
@@ -58,16 +58,18 @@
     "static/media/chemical-processes.jpg": "/static/media/chemical-processes.9219b298dc714a383730.jpg",
     "static/media/CRTDH-IITGN.png": "/static/media/CRTDH-IITGN.ce65042645cb93bbf267.png",
     "static/media/IMMT.jpg": "/static/media/IMMT.5afc78020aed8691f46a.jpg",
+    "static/media/CRTDH-Equipments.xlsx": "/static/media/CRTDH-Equipments.550ea1434c8ee73d3e77.xlsx",
     "static/media/CMERI.jpg": "/static/media/CMERI.74b2cc4fbd551c2de111.jpg",
     "static/media/CRTDH_logo.png": "/static/media/CRTDH_logo.650d3df6968c861d32c0.png",
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/index.html",
+    "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.7a5143af.css.map": "/static/css/main.7a5143af.css.map",
-    "main.9871bd42.js.map": "/static/js/main.9871bd42.js.map",
+    "main.4d5107d8.js.map": "/static/js/main.4d5107d8.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a5143af.css",
-    "static/js/main.9871bd42.js"
+    "static/js/main.4d5107d8.js"
   ]
 }
