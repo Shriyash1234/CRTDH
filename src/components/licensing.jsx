@@ -141,7 +141,7 @@ const Licensing = () => {
                 flexDirection: 'column',
             }}
         >
-            <h2 className='about-us licensing'>Licences/Technologies avaliable with CRTDHs</h2>
+            <h2 className='about-us licensing'>Licences/Technologies available with CRTDHs</h2>
             <div className='separator_left'></div>
             <div className="carousel-container">
                 <div className="carousel-cards">
