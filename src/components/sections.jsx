@@ -21,14 +21,14 @@ const Sections = () => {
             {
                 InstituteName: 'National Institute of Technology-Andhra Pradesh, Tadepalligudem',
                 Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
-                Link:"/NITAP"
+                Link:"/CRTDH/NITAP"
             },
         ],
         'Affordable Health': [
             {
                 InstituteName: 'CSIR- Centre for Cellular and Molecular Biology (CCMB), Hyderabad',
                 Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
-                Link:"/CCMB"
+                Link:"/CRTDH/CCMB"
             },
             {
                 InstituteName: 'CSIR- Institute of Himalayan Bioresource Technology (IHBT), Palampur',
@@ -37,7 +37,7 @@ const Sections = () => {
             {
                 InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',
                 Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
-                Link:"/IITKGP"
+                Link:"/CRTDH/IITKGP"
             },
             {
                 InstituteName: 'Delhi Pharmaceutical Sciences and Research University (DPSRU), New Delhi',
@@ -64,12 +64,12 @@ const Sections = () => {
             {
                 InstituteName: 'Indian Institute of Technology Roorkee, Roorkee',
                 Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
-                Link:"/IITR"
+                Link:"/CRTDH/IITR"
             },
             {
                 InstituteName: 'Indian Institute of Technology Gandhinagar, Gandhinagar',
                 Img:require('./Assests/Images/CRTDH-logos/CRTDH-IITGN.png'),
-                Link:"/IITGN"
+                Link:"/CRTDH/IITGN"
             },
             {
                 InstituteName: 'CSIR- Central Drug Research Institute (CDRI), Lucknow',
@@ -78,7 +78,7 @@ const Sections = () => {
             {
                 InstituteName: 'CSIR- Institute of Minerals & Materials Technology (IMMT), Bhubaneswar',
                 Img:require('./Assests/Images/CRTDH-logos/IMMT.jpg'),
-                Link:"/IMMT"
+                Link:"/CRTDH/IMMT"
             },
             {
                 InstituteName: 'CSIR- National Chemical Laboratory (NCL), Pune',
@@ -91,7 +91,7 @@ const Sections = () => {
             {
                 InstituteName: 'Indian Institute of Technology Bhilai, Bhilai',
                 Img:require('./Assests/Images/CRTDH-logos/IIT-Bhilai.jpg'),
-                Link:"/IITBHILAI"
+                Link:"/CRTDH/IITBHILAI"
             },
             {
                 InstituteName: 'Indian Institute of Technology Guwahati, Guwahati',

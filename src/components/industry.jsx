@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
 import Header from './header'
-import Carousel1 from './carousel1'
 import Footer from './footer'
 import Footer1 from './footer1'
 import Recent_Training from './recent_training'
@@ -8,7 +7,6 @@ import Training from './training'
 import Licensing from './licensing'
 import Testing from './testing'
 import Projects from './projects'
-import ChatboxLogo from './Chatbox/chatboxLogo'
 import UpcomingEvents from './upcomingEvents'
 import Startups from './startups'
 
@@ -27,7 +25,6 @@ const Industry = () => {
       <Recent_Training />
       <UpcomingEvents/>
       <Testing/>
-      <ChatboxLogo />
       <Footer1 />
       <Footer />
     </section>

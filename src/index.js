@@ -21,7 +21,7 @@ export default function App() {
         <Route index path="/Industry" element={<Industry />} />
         <Route index path="/Facilities" element={<Facilities />} />
         <Route index path="/Research" element={<Research />} />
-        <Route index path="/:CenterCode" element={<Center />} />
+        <Route index path="/CRTDH/:CenterCode" element={<Center />} />
         <Route index path="/workshopIITGn" element={<WorkshopPost />} />
         <Route index path="/Contact" element={<Contact_Us />} />
         <Route index path="/Join" element={<Join />} />

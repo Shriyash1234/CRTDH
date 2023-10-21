@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Search } from 'lucide-react';
+import { Link, useNavigate,NavLink,useLocation } from 'react-router-dom';
 import CRTDHdata from './Assests/data/centers.json'; // Import your data here
 
 
@@ -10,31 +9,31 @@ import './CSS/header.css'
 const centersOptions = [
   {
     InstituteName: 'IITGN',
-    Link: "/IITGN"
+    Link: "/CRTDH/IITGN"
   },
   {
     InstituteName: 'IITKGP',
-    Link: "/IITKGP"
+    Link: "/CRTDH/IITKGP"
   },
   {
     InstituteName: 'IITR',
-    Link: "/IITR"
+    Link: "/CRTDH/IITR"
   },
   {
     InstituteName: 'CCMB',
-    Link:"/CCMB"
+    Link:"/CRTDH/CCMB"
   },
   {
     InstituteName: 'IIT Bhilai',
-    Link:"/IITBHILAI"
+    Link:"/CRTDH/IITBHILAI"
   },
   {
     InstituteName: 'NITAP',
-    Link:"/NITAP"
+    Link:"/CRTDH/NITAP"
   },
   {
     InstituteName: 'IMMT',
-    Link:"/IMMT"
+    Link:"/CRTDH/IMMT"
   },
   {
     InstituteName: 'CEERI',
@@ -75,13 +74,14 @@ const centersOptions = [
 ];
 
 function Header(props) {
-  const centers = CRTDHdata; 
+  const location = useLocation();
   const Navigate = useNavigate();
-  const [activeLink, setActiveLink] = useState('Home');
   const [headerBackground, setHeaderBackground] = useState('transparent');
   const color = props.color;
   const anticolor = color === 'white' ? 'black' : 'white'
   const [linkbg, setLinkbg] = useState(color);
+  const isCRTDHsActive = /^\/CRTDH\/\w+/.test(location.pathname);
+  console.log(isCRTDHsActive)
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
@@ -100,7 +100,6 @@ function Header(props) {
     };
   }, []);
   const handleAboutLink = () => {
-    setActiveLink('About')
     const element = document.getElementsByClassName('break')[0];
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -146,18 +145,7 @@ function Header(props) {
   const [isCentersDropdownOpen, setIsCentersDropdownOpen] = useState(true); // Add dropdown state
 
   const handleCentersDropdownClick = () => {
-    // Toggle the dropdown state
     setIsCentersDropdownOpen(!isCentersDropdownOpen);
-    setActiveLink('CRTDHs')
-  };
-  const handleRDLink = (linkText) => {
-    setActiveLink("R&D");
-  };
-  const handleIndutryLink = (linkText) => {
-    setActiveLink("Industry");
-  };
-  const handleFacilitiesLink = (linkText) => {
-    setActiveLink("Facilities");
   };
 
   const renderCentersDropdown = () => {
@@ -215,42 +203,47 @@ function Header(props) {
         <div className="cm-menu-wrap">
           <div className="cm-menu-btn fa fa-bars"></div>
           <div className="cm-menu-inner">
-            <ul className="menu-ul clear-all" >
-              <li className={`has-child ${activeLink === 'Home' ? 'activeHeader' : ''}`}>
-                <div onClick={handleAboutLink1} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>Home</Link></div>
-              </li>
-              <li className={`has-child ${activeLink === 'About' ? 'activeHeader' : ''}`}>
+          <ul className="menu-ul clear-all">
+            <li className={`has-child`}>
+              <div className='links' style={{ color: "black", marginRight: "10px" }}>
+                <NavLink to="/" exact activeClassName="activeHeader" style={{ color: "black" }}>
+                  Home
+                </NavLink>
+              </div>
+            </li>
+            <li className={`has-child `}>
                 <div onClick={handleAboutLink} className='links' style={{ color: "black",marginRight:"10px" }}><Link to="/" style={{ color: "black" }}>About</Link></div>
-              </li>
-              <li className={`has-child ${activeLink === 'CRTDHs' ? 'activeHeader' : ''}`} onClick={handleCentersDropdownClick}>
-                <div className='about-link links CRTDHs-link' style={{ color: "black" }}>CRTDHs</div>
-                {renderCentersDropdown()} {/* Render the dropdown menu */}
-              </li>
-              <li className={`has-child ${activeLink === 'R&D' ? 'activeHeader' : ''}`} onClick={handleRDLink}>
-                <Link to="/Research" className='links' style={{ color: "black" }}>R&D</Link>
-              </li>
-              <li className={`has-child ${activeLink === 'Industry' ? 'activeHeader' : ''}`} onClick={handleIndutryLink}>
-                <Link to="/Industry" className='links' style={{ color: "black" }}>Industry</Link>
-              </li>
-              <li className={`has-child ${activeLink === 'Facilities' ? 'activeHeader' : ''}`} onClick={handleFacilitiesLink}>
-                <Link to="/Facilities" className='links' style={{ color: "black" }}>Facilites</Link>
-              </li>
-              <li className={`has-child ${activeLink === 'ContactUs' ? 'activeHeader' : ''}`}>
+            </li>
+            <li className={`has-child`}>
+              <div className={`about-link links CRTDHs-link ${isCRTDHsActive ? 'activeHeader' : ''}`} style={{ color: "black" }}>
+                CRTDHs
+              </div>
+              {renderCentersDropdown()} {/* Render the dropdown menu */}
+            </li>
+            <li className={`has-child`}>
+              <NavLink to="/Research" activeClassName="activeHeader" style={{ color: "black" }}>
+                R&D
+              </NavLink>
+            </li>
+            <li className={`has-child`}>
+              <NavLink to="/Industry" activeClassName="activeHeader" style={{ color: "black" }}>
+                Industry
+              </NavLink>
+            </li>
+            <li className={`has-child`}>
+              <NavLink to="/Facilities" activeClassName="activeHeader" style={{ color: "black" }}>
+                Facilities
+              </NavLink>
+            </li>
+            <li className={`has-child`}>
                 <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact</div>
-              </li>
-              <li className={`has-child ${activeLink === 'Join' ? 'activeHeader' : ''}`}>
-                <Link to="/Join" className='about-link links CRTDHs-link' style={{ color: "black" }}> Join us</Link>
-              </li>
-              {/* <li className="has-child">
-                <div onClick={handleSearch} className='about-link links ' style={{ color: "black" }}><Link to="/Facilities" className='links'>
-                  <div className='searchbar'>
-                    <Search style={{ color: "black" }} />
-                    <p className='search-text' style={{ color: "black" }}>&nbsp;&nbsp;&nbsp;Search</p>
-                  </div>
-                </Link>
-                </div>
-              </li> */}
-            </ul>
+            </li>
+            <li className={`has-child`}>
+              <NavLink to="/Join" activeClassName="activeHeader" style={{ color: "black" }}>
+                Join us
+              </NavLink>
+            </li>
+          </ul>
           </div>
         </div>
       </div>

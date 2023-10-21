@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import Header from './header';
 import Footer1 from './footer1';
 import Footer from './footer';
@@ -9,6 +9,9 @@ const Join = () => {
   const toggleForm = (isIndividual) => {
     setShowIndividualForm(isIndividual);
   };
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
 
   return (
     <section className="JoinUs-page">
