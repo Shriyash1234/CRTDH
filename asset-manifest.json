@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dfef88d.css",
-    "main.js": "/static/js/main.32049828.js",
+    "main.css": "/static/css/main.5a9769e7.css",
+    "main.js": "/static/js/main.c7b1dcc8.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
     "static/media/banner-1.jpg": "/static/media/banner-1.7f77f7ab2d0fe40c2629.jpg",
@@ -15,6 +15,7 @@
     "static/media/banner-8.jpg": "/static/media/banner-8.e38442b94231c8d3bf4e.jpg",
     "static/media/environmental-itervention.jpg": "/static/media/environmental-itervention.cd400836501aee0c2595.jpg",
     "static/media/IITGN-workshop-4.png": "/static/media/IITGN-workshop-4.c9e81477c88dec479524.png",
+    "static/media/Biofilter.png": "/static/media/Biofilter.250a003ad25787fc9924.png",
     "static/media/IITR.jpg": "/static/media/IITR.d7e4c4fdc47662ef7fdb.jpg",
     "static/media/banner-5.jpg": "/static/media/banner-5.ea0ba58ad4c0a9b4a79c.jpg",
     "static/media/banner-3.jpg": "/static/media/banner-3.9e3c4c0a1df569724727.jpg",
@@ -29,6 +30,7 @@
     "static/media/IITGN-workshop-7.png": "/static/media/IITGN-workshop-7.bc881680e475aa3e767b.png",
     "static/media/renewable-energy.webp": "/static/media/renewable-energy.defaaa2f56622d015023.webp",
     "static/media/IITGN-workshop-3.jpg": "/static/media/IITGN-workshop-3.00b85b73cca4460733cd.jpg",
+    "static/media/BFBR.png": "/static/media/BFBR.94f7060f558494f6156f.png",
     "static/media/IITGN-workshop-8.png": "/static/media/IITGN-workshop-8.8ed710b5c10d4385c6ac.png",
     "static/media/DPSRU.jpg": "/static/media/DPSRU.82b71f6a432b5684d164.jpg",
     "static/media/IITGN-workshop-1.jpg": "/static/media/IITGN-workshop-1.17f354834f00495248f7.jpg",
@@ -64,12 +66,12 @@
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
-    "main.7dfef88d.css.map": "/static/css/main.7dfef88d.css.map",
-    "main.32049828.js.map": "/static/js/main.32049828.js.map",
+    "main.5a9769e7.css.map": "/static/css/main.5a9769e7.css.map",
+    "main.c7b1dcc8.js.map": "/static/js/main.c7b1dcc8.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfef88d.css",
-    "static/js/main.32049828.js"
+    "static/css/main.5a9769e7.css",
+    "static/js/main.c7b1dcc8.js"
   ]
 }
