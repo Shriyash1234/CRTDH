@@ -27,6 +27,7 @@ function Facilities() {
       <div className="Facilities">
         <p className='list-text'>CRTDH Facilities</p>
       <p className='about-us-text'>DSIR undertakes programs to support industrial R&D through various state-of-the-art facilities in different CRTDH Labs. .The CRTDHs are making them globally competitive in technology, commercializing the Lab scale R&D, augmenting technology transfer capabilities, enhancing the share of technology-intensive exports, strengthening industrial consultancy and establishing a user-friendly informational network to facilitate industrial research in the country. There are multiple facilities across CRTDHs</p>
+      <hr></hr>  
         {
           majorFacilities.map((project,index)=>(
             <div className='about-us-text project-div'>

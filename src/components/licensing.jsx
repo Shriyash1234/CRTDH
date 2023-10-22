@@ -7,9 +7,9 @@ import './CSS/updates.css';
 const data = [
     {
         id: 1,
-        title: 'Title of the Technology developed',
-        CRTDH: 'CRTDH-XXX',
-        content: 'Provide 3-4 lines of description along with pictures/video.',
+        title: 'New Technology for Industrial Effluent Treatment',
+        CRTDH: 'CRTDH-IIT Gandhinagar',
+        content: '',
         img: require('./Assests/Images/technologies/1.png'),
         link: ''
     },
