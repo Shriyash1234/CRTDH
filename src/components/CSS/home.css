@@ -94,6 +94,12 @@ transform: scale(0.95);
 .active{
     text-decoration: underline !important;
 }
+.events-container{
+    display: flex;
+}
+.event-img{
+    width: 500px;
+}
 @media all and (max-width:1200px) {
     .CRTDH-name {
         top: 22vh;
@@ -103,6 +109,13 @@ transform: scale(0.95);
         text-align: justify;
     }
     .project-picture{
+        margin: auto;
+    }
+    .events-container{
+        flex-wrap: wrap;
+    }
+    .event-img{
+        width: 500px;
         margin: auto;
     }
 }
@@ -121,6 +134,9 @@ transform: scale(0.95);
     }
     .project-info{
         padding-right: 0px;
+    }
+    .event-img{
+        width: 100%;
     }
 }
 

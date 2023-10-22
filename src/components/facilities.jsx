@@ -15,7 +15,7 @@ function Facilities() {
     <div className='facilites-page'>
       <Header color={'black'} />
       <div className="Facilities">
-        <p className='list-text'>CRTDH facilities</p>
+        <p className='list-text'>CRTDH Facilities</p>
         <SearchBar />
         <div className='excel-table'>
           <JsonToTable jsonData={jsonData} />

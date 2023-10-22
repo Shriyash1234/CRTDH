@@ -10,11 +10,8 @@ const Startups = () => {
         <ul >
             {StartupsData.map((startup, index) => (
                 <li className='startup-info about-us-text' key={index}>
-                <h3>{startup.title}</h3>
                 <p>
-                    <strong>Company Name:</strong> {startup.companyName} <br />
-                    <strong>CRTDH with which the Company associated:</strong> {startup.associatedCRTDH} <br />
-                    <strong>Product or technology developed at/with the CRTDH:</strong> {startup.productOrTechnology} <br />
+                    <strong>{startup.companyName}</strong> {startup.productOrTechnology} <br />
                 </p>
                 </li>
             ))}

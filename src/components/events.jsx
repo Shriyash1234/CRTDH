@@ -39,16 +39,17 @@ const Recent_Training = () => {
         >
             <h2 className='about-us'>Events at CRTDHs</h2>
             <div className='separator_left'></div>
-            <div className="list-container">
+            <div className="list-container events-container">
                 <ul className="list">
                     {sortedData.map((item, index) => (
-                        <li key={index} className="list-item" style={{ fontSize: '1.8rem' }}>
+                        <li key={index} className="list-item about-us-text">
                             {item}
                         </li>
                     ))}
                 </ul>
-                <p style={{fontSize:"3rem",color:"red"}}>Plese Provide the list of events</p>
+                <img src={require('./Assests/Images/conclave2022.JPG')} className='event-img'></img>
             </div>
+            <p style={{fontSize:"3rem",color:"red"}}>Plese Provide the list of events</p>
         </div>
     );
 };

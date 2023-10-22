@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import Header from './header'
 import Footer from './footer'
 import Footer1 from './footer1'
-import Recent_Training from './recent_training'
+import Events from './events'
 import Training from './training'
 import Licensing from './licensing'
 import Testing from './testing'
@@ -22,7 +22,7 @@ const Industry = () => {
       <Licensing />
       <Startups/>
       <Training />
-      <Recent_Training />
+      <Events />
       <UpcomingEvents/>
       <Testing/>
       <Footer1 />
