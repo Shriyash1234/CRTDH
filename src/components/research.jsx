@@ -12,6 +12,14 @@ const Research = () => {
         <Header color={'black'}/>
          <div className='research'>
             <h2 className='about-us'>R&D for MSMEs/Startups</h2>
+            <p className='about-us-text' style={{margin:"0px 5%",textAlign:"justify"}}>The CRTDH program was launched during FY 2014-15. 18 CRTDHs are being established in
+            sectors such as Electronics and Renewable Energy, Affordable Health, Environmental
+            Interventions, Low Cost Machining and New Materials and Chemical Process. The DSIR-CRTDHs
+            have presence in 14 states of the country. These hubs facilitate MSMEs to undertake
+            new and improved product and process development and skill enhancement activities.
+            The collaborating institutions extend hands-on training, skill development and research
+            facilities to the MSMEs.Creating these CRTDHs enhanced productivity, increased the innovative skills of the MSMEs/Startups, helped them become globally competitive, and generated more employment.</p>
+            <p className='about-us-text'style={{margin:"0px 5%",textAlign:"justify"}}>DSIR has extended funding support to 18 CRTDHs, focusing on sectors such as electronics/Renewable Energy, Affordable healthcare, Environmental intervention, Low-cost Machining, and New Materials/Chemical Processes. These CRTDH are located at IITs, NITs, CSIR research Labs, and Universities based on the geographical location and evaluating their expertise and capability to create a conducive ecosystem for MSME clusters around them to support R&D efforts. Over the years, the 18 CRTDHs supported by DSIR have made an excellent impact by developing an infrastructure for R&D, sensitizing and engaging a large number of MSMEs/Startups for R&D activities, developing /transforming technologies, generating intellectual properties, fulfilling last-mile societal needs. These networks CRTDHs are impact the MSME sector and Startups to bring positive outcomes.</p>
             <div className='yt-video-div'>
                 <iframe width="868"  className="research-video" src="https://www.youtube.com/embed/AUf4pJS9UEw" title="CRTDH Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
@@ -73,13 +81,7 @@ const Research = () => {
                 </div>
             </div>
          </div>
-         <p className='about-us-text research-text'>The CRTDH program was launched during FY 2014-15. 18 CRTDHs are being established in
-            sectors such as Electronics and Renewable Energy, Affordable Health, Environmental
-            Interventions, Low Cost Machining and New Materials and Chemical Process. The DSIR-CRTDHs
-            have presence in 14 states of the country. These hubs facilitate MSMEs to undertake
-            new and improved product and process development and skill enhancement activities.
-            The collaborating institutions extend hands-on training, skill development and research
-            facilities to the MSMEs.Creating these CRTDHs enhanced productivity, increased the innovative skills of the MSMEs/Startups, helped them become globally competitive, and generated more employment.
+         <p className='about-us-text research-text'>
             <br></br>
             <hr></hr>
             During the COVID-19 pandemic, our CRTDHs repurposed their activities and focused on developing novel technologies to treat and diagnose COVID-19. All our CRTDHs encouraged MSMEs to engage in R & D activities and helped them by providing the necessary infrastructure/intellectual inputs. DSIR aims to expand the network of CRTDHs across the country to make India a global Industrial and innovation hub.</p>
