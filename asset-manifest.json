@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.61c2e8c9.css",
-    "main.js": "/static/js/main.43f78b00.js",
+    "main.css": "/static/css/main.ecfbe30a.css",
+    "main.js": "/static/js/main.a9f988be.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
+    "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
+    "static/media/iitgnlab.png": "/static/media/iitgnlab.db64e59f2f3164e8a18b.png",
     "static/media/banner-1.jpg": "/static/media/banner-1.7f77f7ab2d0fe40c2629.jpg",
     "static/media/banner-7.jpg": "/static/media/banner-7.4dfa53146eeabcf24047.jpg",
+    "static/media/pilot1.png": "/static/media/pilot1.3d5a0cc70331d0836595.png",
     "static/media/IITGN.jpeg": "/static/media/IITGN.571824b778999971b30c.jpeg",
     "static/media/conclave2022.JPG": "/static/media/conclave2022.59a1220f587970af0877.JPG",
     "static/media/update3.jpg": "/static/media/update3.751ddfe9e118a1ba446b.jpg",
@@ -31,7 +34,6 @@
     "static/media/IITGN-workshop-7.png": "/static/media/IITGN-workshop-7.bc881680e475aa3e767b.png",
     "static/media/renewable-energy.webp": "/static/media/renewable-energy.defaaa2f56622d015023.webp",
     "static/media/IITGN-workshop-3.jpg": "/static/media/IITGN-workshop-3.00b85b73cca4460733cd.jpg",
-    "static/media/BFBR.png": "/static/media/BFBR.94f7060f558494f6156f.png",
     "static/media/IITGN-workshop-8.png": "/static/media/IITGN-workshop-8.8ed710b5c10d4385c6ac.png",
     "static/media/DPSRU.jpg": "/static/media/DPSRU.82b71f6a432b5684d164.jpg",
     "static/media/IITGN-workshop-1.jpg": "/static/media/IITGN-workshop-1.17f354834f00495248f7.jpg",
@@ -41,6 +43,7 @@
     "static/media/CRTDH logo.png": "/static/media/CRTDH logo.5d3727228f4f0ec1def6.png",
     "static/media/IITGN-workshop-5.png": "/static/media/IITGN-workshop-5.33e6d10056a6efdab340.png",
     "static/media/9.png": "/static/media/9.747033e09c7cbde7e439.png",
+    "static/media/BFBR.png": "/static/media/BFBR.04626b0124740abe410b.png",
     "static/media/11.png": "/static/media/11.c67de8a047fde8be64ec.png",
     "static/media/NITANDHRA.webp": "/static/media/NITANDHRA.b127b3a871fe613d35cc.webp",
     "static/media/IITGN-workshop-6.jpg": "/static/media/IITGN-workshop-6.dd78432d41fb27756349.jpg",
@@ -58,6 +61,7 @@
     "static/media/12.png": "/static/media/12.abafd73fcb618a11c160.png",
     "static/media/CRTDH_labs.JPG": "/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/banner-4.jpg": "/static/media/banner-4.670c32220cd7acc2ae33.jpg",
+    "static/media/flowdia.png": "/static/media/flowdia.4cb82078498eaf134697.png",
     "static/media/areas.JPG": "/static/media/areas.ff639e084f6e99876a92.JPG",
     "static/media/chemical-processes.jpg": "/static/media/chemical-processes.9219b298dc714a383730.jpg",
     "static/media/CRTDH-IITGN.png": "/static/media/CRTDH-IITGN.ce65042645cb93bbf267.png",
@@ -67,12 +71,12 @@
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
-    "main.61c2e8c9.css.map": "/static/css/main.61c2e8c9.css.map",
-    "main.43f78b00.js.map": "/static/js/main.43f78b00.js.map",
+    "main.ecfbe30a.css.map": "/static/css/main.ecfbe30a.css.map",
+    "main.a9f988be.js.map": "/static/js/main.a9f988be.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61c2e8c9.css",
-    "static/js/main.43f78b00.js"
+    "static/css/main.ecfbe30a.css",
+    "static/js/main.a9f988be.js"
   ]
 }
