@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a9769e7.css",
-    "main.js": "/static/js/main.e3560ae2.js",
+    "main.css": "/static/css/main.61c2e8c9.css",
+    "main.js": "/static/js/main.43f78b00.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
     "static/media/banner-1.jpg": "/static/media/banner-1.7f77f7ab2d0fe40c2629.jpg",
     "static/media/banner-7.jpg": "/static/media/banner-7.4dfa53146eeabcf24047.jpg",
     "static/media/IITGN.jpeg": "/static/media/IITGN.571824b778999971b30c.jpeg",
+    "static/media/conclave2022.JPG": "/static/media/conclave2022.59a1220f587970af0877.JPG",
     "static/media/update3.jpg": "/static/media/update3.751ddfe9e118a1ba446b.jpg",
     "static/media/banner-6.jpg": "/static/media/banner-6.448c123f1251b7eec43a.jpg",
     "static/media/1.png": "/static/media/1.8fbb9a3f0ffb76fc5317.png",
@@ -66,12 +67,12 @@
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
-    "main.5a9769e7.css.map": "/static/css/main.5a9769e7.css.map",
-    "main.e3560ae2.js.map": "/static/js/main.e3560ae2.js.map",
+    "main.61c2e8c9.css.map": "/static/css/main.61c2e8c9.css.map",
+    "main.43f78b00.js.map": "/static/js/main.43f78b00.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a9769e7.css",
-    "static/js/main.e3560ae2.js"
+    "static/css/main.61c2e8c9.css",
+    "static/js/main.43f78b00.js"
   ]
 }
