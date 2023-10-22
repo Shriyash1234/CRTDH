@@ -65,9 +65,18 @@
     aspect-ratio: 1/0.5 !important;
 }
 .yt-video-div{
-    width: 90%;
+    width: calc(90vw - 60px);
     display: flex;
     justify-content: center;
+}
+.research-video{
+    margin: 0px 20px;
+}
+.research-divs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-evenly;
 }
 @media all and (max-width:768px) {
     .research-div{

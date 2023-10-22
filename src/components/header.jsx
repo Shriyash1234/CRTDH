@@ -81,7 +81,6 @@ function Header(props) {
   const anticolor = color === 'white' ? 'black' : 'white'
   const [linkbg, setLinkbg] = useState(color);
   const isCRTDHsActive = /^\/CRTDH\/\w+/.test(location.pathname);
-  console.log(isCRTDHsActive)
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {

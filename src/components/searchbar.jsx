@@ -44,6 +44,7 @@ window.addEventListener("scroll", function() {
 });
 
 const handleSearch = () => {
+  console.log(searchTerm)
   const inputText = searchTerm.trim().toLowerCase();
 
   // Get all elements with IDs and their IDs as an array
@@ -151,16 +152,28 @@ useEffect(() => {
     }
   };
 }, []);
-
+document.addEventListener('DOMContentLoaded', function () {
+  const searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('keypress', function (event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        handleSearch();
+      }
+    });
+  }
+});
+  useEffect(()=>{},[searchTerm])
   return (
     <div className='search-div'>
       <MDBInput
         className='search-input'
+        id="search-input"
         type="text"
         placeholder="Enter the name of the instrument"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        onKeyPress={handleSearch}
+        // onKeyPress={handleSearch}
       />
       <button onClick={handleSearch} className='search-btn'>Search</button>
       {/* <button onClick={scrollToNextMatch} className='search-btn'>Next</button> */}

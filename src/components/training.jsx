@@ -3,7 +3,7 @@ import React from 'react'
 import './CSS/about.css'
 const Training = () => {
     return (
-        <section className='about training' style={{ marginTop: '80px' }}>
+        <section className='about training'>
             <h2 className='about-us'>Business Model of CRTDH</h2>
             <div className='separator_left'></div>
             <p className='about-us-text'>

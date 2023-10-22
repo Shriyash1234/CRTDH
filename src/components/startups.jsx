@@ -4,7 +4,7 @@ import './CSS/about.css'
 
 const Startups = () => {
     return (
-        <section className='about training' style={{ marginTop: '80px' }}>
+        <section className='about training'>
         <h2 className='about-us'>Success stories with startups in CRTDHs</h2>
         <div className='separator_left'></div>
         <ul >
