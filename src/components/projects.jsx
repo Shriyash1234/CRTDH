@@ -29,7 +29,11 @@ const Projects = () => {
                                     </p>
                                     )}
                                 </div>
-                                <img src={require(`${project.ImageLink}`)} className='project-picture'></img>
+                                {
+                                    project.ImageLink?
+                                    <img src={require(`${project.ImageLink}`)} className='project-picture'></img>:""
+                                }
+                                
                             </div>
                             
                         )

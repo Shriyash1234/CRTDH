@@ -29,7 +29,7 @@ window.addEventListener("scroll", function() {
   const stickyElement = document.querySelector(".search-div");
 
   // Calculate the threshold position where the element should become sticky
-  const threshold = 30;
+  const threshold = 1000;
  if(stickyElement){
     if (this.scrollY > threshold) {
       // Element becomes sticky

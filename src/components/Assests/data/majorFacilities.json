@@ -1,0 +1,12 @@
+[
+    {
+        "Name":"Dioxin Analysis Facility",
+        "Info":"DSIR CRTDH at CSIR-NIIST has established an NABL accredited and MoEFCC recommended unique dioxin analysis facility under the CRTDH project. Dioxins, furans and dioxin-like PCBs are a class of highly toxic persistent organic pollutants which are unintentionally generated during various combustion processes such as waste incineration, metallurgical processes, pesticide manufacture, open burning etc. The most challenging analysis requires highly training analytical chemists and technicians to carry out the sampling and analysis. In India, previously there were no analytical facilities for the research and monitoring of dioxin-like POPs. Currently NIIST validated the various steps involved in the analysis such as extraction, clean up, concentration and GC-MS/MS determination and have been accredited by NABL as per ISO/IEC 17025: 2017 as well as recommended by MoEFCC for environmental clearances. We could reduce the cost and time of analysis using automated extraction, clean up and state-of-the-art GC-MS/MS-based confirmatory analysis.",
+        "ImageLink":"./Assests/Images/Projects/Biofilter.png"
+    },
+    {
+        "Name":"Pilot Plant Facility at IIT Gandhinagar ",
+        "Info":"CRTDH pilot plant at IIT Gandhinagar has several set ups for process scale-up. Some of the equipment available in the facility are 20 L distillation column (glass), high-pressure reactor, Rotating disc extraction column (glass), 1100 L SS Reactor (Teflon coated) with agitator, 50 L jacketed reactor with heating and cooling arrangement, SS 316 Basket Centrifuge, Spray dryer, 30 L Teflon coated two stage SS reactors, 1000 L skid mounted STP plant, Skid for Membrane Distillation and Forward Osmosis (FO), 1 kL MBR Plant, Reverse Osmosis set up (~10 LPM flow rate) for TDS reduction, 5 L sequential continuous stirred tank reactor, 1000 L HDPE tank, 150 L Glass Line reactor (yet to install). Facilities are open to industry partners for testing and process development against nominal charges depending upon the service.",
+        "ImageLink":"./Assests/Images/Projects/pilot1.png"
+    }
+]
