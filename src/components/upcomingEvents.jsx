@@ -118,7 +118,6 @@ const UpcomingEvents = () => {
                     <button onClick={showPreviousPage} className='previous-carousel-button'><ArrowLeft /></button>
                     <button onClick={showNextPage} className='next-carousel-button'><ArrowRight /></button>
                 </div>
-                <p style={{color:"red",fontSize:"3rem"}}>Kindly Provide Upcoming events.</p>
             </div>
         </div>
     );

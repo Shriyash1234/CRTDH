@@ -158,7 +158,7 @@ const Licensing = () => {
                             }}
                         >
                             <h2 className='card-title'>{item.title} at {item.CRTDH} </h2>
-                            <p className='card-content1' style={{color:"red",fontSize:"3rem"}}>{item.content}</p>
+                            <p className='card-content1' >{item.content}</p>
                             <img src={item.img} alt={item.title} className='update-img1' />
                         </div>
                     ))}

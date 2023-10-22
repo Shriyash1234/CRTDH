@@ -39,14 +39,6 @@ const Projects = () => {
                         )
                     )
                 }
-            
-            
-            <p className='about-us-text' style={{fontSize:"3rem",color:"red"}}>
-                Here we want to include all important industy projects from CRTDHs. Kindly prvide that data.
-                Give list of projects and 2-3 lines of description.
-                <br />
-                <hr />
-            </p>
         </section>
     )
 }

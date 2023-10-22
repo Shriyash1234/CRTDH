@@ -26,11 +26,12 @@ function Facilities() {
       <Header color={'black'} />
       <div className="Facilities">
         <p className='list-text'>CRTDH Facilities</p>
+      <p className='about-us-text'>DSIR undertakes programs to support industrial R&D through various state-of-the-art facilities in different CRTDH Labs. .The CRTDHs are making them globally competitive in technology, commercializing the Lab scale R&D, augmenting technology transfer capabilities, enhancing the share of technology-intensive exports, strengthening industrial consultancy and establishing a user-friendly informational network to facilitate industrial research in the country. There are multiple facilities across CRTDHs</p>
         {
           majorFacilities.map((project,index)=>(
             <div className='about-us-text project-div'>
                 <div className='project-info'>
-                    <p style={{fontWeight:"700"}}>{project.Name}</p> 
+                    <p style={{fontWeight:"500"}}>{project.Name}</p> 
                     <p>{projectVisibility[index] ? project.Info : project.Info.slice(0, 400)}</p>
                     {project.Info.length > 400 && (
                     <p className="read-more-link" onClick={() => toggleProjectVisibility(index)}>

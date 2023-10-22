@@ -163,7 +163,7 @@ useEffect(() => {
         onKeyPress={handleSearch}
       />
       <button onClick={handleSearch} className='search-btn'>Search</button>
-      <button onClick={scrollToNextMatch} className='search-btn'>Next</button>
+      {/* <button onClick={scrollToNextMatch} className='search-btn'>Next</button> */}
     </div>
   );
 };
