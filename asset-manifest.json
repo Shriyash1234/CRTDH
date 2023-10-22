@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ecfbe30a.css",
-    "main.js": "/static/js/main.b5ace4f6.js",
+    "main.js": "/static/js/main.9aa0dd60.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
@@ -43,11 +43,11 @@
     "static/media/CRTDH logo.png": "/static/media/CRTDH logo.5d3727228f4f0ec1def6.png",
     "static/media/IITGN-workshop-5.png": "/static/media/IITGN-workshop-5.33e6d10056a6efdab340.png",
     "static/media/9.png": "/static/media/9.747033e09c7cbde7e439.png",
-    "static/media/BFBR.png": "/static/media/BFBR.04626b0124740abe410b.png",
     "static/media/11.png": "/static/media/11.c67de8a047fde8be64ec.png",
     "static/media/NITANDHRA.webp": "/static/media/NITANDHRA.b127b3a871fe613d35cc.webp",
     "static/media/IITGN-workshop-6.jpg": "/static/media/IITGN-workshop-6.dd78432d41fb27756349.jpg",
     "static/media/healthcare.webp": "/static/media/healthcare.91846f17433ea86bc274.webp",
+    "static/media/BFBR.png": "/static/media/BFBR.022e0b5ada3c3a1e589e.png",
     "static/media/IITKGP.jpeg": "/static/media/IITKGP.5b7ec5cb90d4026424c3.jpeg",
     "static/media/IITGN.jpg": "/static/media/IITGN.a85c1f837ec1f8aacd94.jpg",
     "static/media/3.png": "/static/media/3.ebcb2e8c0cad05439044.png",
@@ -72,11 +72,11 @@
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.ecfbe30a.css.map": "/static/css/main.ecfbe30a.css.map",
-    "main.b5ace4f6.js.map": "/static/js/main.b5ace4f6.js.map",
+    "main.9aa0dd60.js.map": "/static/js/main.9aa0dd60.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecfbe30a.css",
-    "static/js/main.b5ace4f6.js"
+    "static/js/main.9aa0dd60.js"
   ]
 }
