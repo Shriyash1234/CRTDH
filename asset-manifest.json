@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff7a2ed6.css",
-    "main.js": "/static/js/main.d0cee975.js",
+    "main.js": "/static/js/main.3c2ea7bb.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
@@ -30,6 +30,7 @@
     "static/media/update1.jpg": "/static/media/update1.fea40d8c12a95b53aeda.jpg",
     "static/media/6.png": "/static/media/6.3f09c8c93c71b51f2b5b.png",
     "static/media/CCMB.jpg": "/static/media/CCMB.caa84b7cb04d81b3971d.jpg",
+    "static/media/IHBT.jpg": "/static/media/IHBT.29e0c9244ebf520bbe71.jpg",
     "static/media/5.png": "/static/media/5.4b79e60d03e2107e34e8.png",
     "static/media/IITGN-workshop-7.png": "/static/media/IITGN-workshop-7.bc881680e475aa3e767b.png",
     "static/media/renewable-energy.webp": "/static/media/renewable-energy.defaaa2f56622d015023.webp",
@@ -72,11 +73,11 @@
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.ff7a2ed6.css.map": "/static/css/main.ff7a2ed6.css.map",
-    "main.d0cee975.js.map": "/static/js/main.d0cee975.js.map",
+    "main.3c2ea7bb.js.map": "/static/js/main.3c2ea7bb.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff7a2ed6.css",
-    "static/js/main.d0cee975.js"
+    "static/js/main.3c2ea7bb.js"
   ]
 }
