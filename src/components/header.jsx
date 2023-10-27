@@ -36,14 +36,14 @@ const centersOptions = [
     Link:"/CRTDH/IMMT"
   },
   {
+    InstituteName: 'IHBT',
+    Link:"CRTDH/IHBT"
+  },
+  {
     InstituteName: 'CEERI',
   },
   {
     InstituteName: 'CSIO',
-  },
-  
-  {
-    InstituteName: 'IHBT',
   },
   
   {
