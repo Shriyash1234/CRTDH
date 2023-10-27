@@ -12,6 +12,14 @@ const Startups = () => {
                 <li className='startup-info about-us-text' key={index}>
                 <p>
                     <strong>{startup.companyName}</strong> {startup.productOrTechnology} <br />
+                    {
+                        startup.id==="CannedFood"?
+                        <div className='yt-video-industry-div'>
+                            <iframe width="868" height="488" className="yt-video-industry" src="https://www.youtube.com/embed/SayXSVoI6xI" title="Ready to Eat traditional canned food without chemical preservatives | Kangri Dham | CSIR IHBT (GOI)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                            </iframe>
+                        </div>
+                        :""
+                    }
                 </p>
                 </li>
             ))}
