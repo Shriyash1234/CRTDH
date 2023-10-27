@@ -431,5 +431,73 @@
          "PhoneNumber": "8861290060,8897983939",
          "Email": "sandeep@nitandhra.ac.in"
       }
+   },
+   {
+      "CenterCode": "IHBT",
+      "CenterName": "CRTDH IMMT Palampur",
+      "ImagePath": "IHBT.jpg",
+      "ResearchAreas": {
+         "Research-Area-1": "Pilot-scale development of nutraceutical extraction.",
+         "Research-Area-2":"Pilot-scale development of natural colorant extraction and purification.",
+         "Research-Area-3":"Quality,stability and functionality assessment of purified ingredients",
+         "Research-Area-4":"Training and demonstration of colorant and nutraceutical ingredients"
+      },
+      "Outcomes":{
+         "Outcome1":"Foster industry-institution interaction",
+         "Outcome2":"Support innovation and translational research",
+         "Outcome3":"Utilize existing technologies from CSIR laboratories",
+         "Outcome4":"Focus on sectors of national importance, like Affordable Healthcare and Environmental Interventions",
+         "Outcome5":"Operate on a non-commercial cost-plus basis for the benefit of MSEs, startups, and innovators"
+      },
+      "Information": {
+         "Information-para-1": "DSIR-IHBT-CRTDH has been established with the objective to carry out further value addition and enrichment of under-utilized and by-product of various food processing industry, develop natural and valuable colorant or nutraceutical for health management, set up a central facility for extraction of natural compounds such as colorant and nutraceutical, process other rich bio resources for similar activities as per industry/SMEs need."
+      },
+      "Technologies":"Here is the List of Technologies at IMMT Bhubaneshwar",
+      "ListOfTechnologies": {
+         "Technology1": "An eco-friendly green process has been developed for the extraction of natural colors from plant and vegetable sources.",
+         "Technology2":"Standardized processing technology for the development of Nutraceutical and their application.",
+         "Technology3":"Indigenous technology for commercial production of ready-to-eat food and",
+         "Technology4":"Production of crispy fruits/vegetables to reduce post harvest losses."
+       },
+      "SomeFacilities": {
+         "Facility1": "Sparkler filter",
+         "Facility2":"Encapsulation Unit",
+         "Facility3":"Pulveriser wet/dry",
+         "Facility4":"Centrifugal separator",
+         "Facility5":"Sorter and washer",
+         "Facility6":"Helicoloidal Juice extractor",
+         "Facility7":"Rotavapour Unit",
+         "Facility8":"Adsorption Column",
+         "Facility9":"Vaccum Packaging unit",
+         "Facility10":"Dehumidifier",
+         "Facility11":"Cold storage room",
+         "Facility12":"NIR composition Analyzer",
+         "Facility13":"Single Screw Extruder",
+         "Facility14":"Brookfield Viscometer",
+         "Facility15":"Ultrasonicator",
+         "Facility16":"Centrifuge separator",
+         "Facility17":"Centri-therm evaporator",
+         "Facility18":"Rotary Rack Oven",
+         "Facility19":"Membrane Filtration",
+         "Facility20":"Multi mill"
+       },
+       "ListOfServices": {
+         "service1": "Advisory services",
+         "service2":"Proof of concept program",
+         "service3":"Incubation program",
+         "service4":"Customized program",
+         "service5":"Training and demonstration hub",
+         "service6":"Equipment usage"
+       },
+       "SocialImpact":"The CSIR-IHBT campus offers major processing facilities to MSMEs, including a canning unit for ready-to-eat food products, a crispy fruit-making pilot-scale unit, and the extraction of steviosides from stevia. Additionally, they have established a complete extraction and drying processing unit for anthocyanin and natural colorants, canning units for ready-to-eat foods, freeze-drying processing units for fruits and vegetables, and packaging and storage facilities for raw materials and final products. They have also developed strong linkages with MSMEs and individual entrepreneurs, such as start-ups and stand-ups, to encourage them to utilize the facilities of the incubation center.",
+       "Contacts": {
+         "POC": {
+            "Name": "",
+            "Designation": "Director"
+         },
+         "Address": "CSIR - CSIR-lnstitute of Himalayan Bioresource Technology, Post Box No. 6 Palampur (H.P.) 176061, INDIA",
+         "PhoneNumber": "+91-1894-230411 | Fax: +91-1894-230433",
+         "Email": "director@ihbt.res.in"
+      }
    }
 ]
