@@ -152,17 +152,6 @@ useEffect(() => {
     }
   };
 }, []);
-document.addEventListener('DOMContentLoaded', function () {
-  const searchInput = document.getElementById('search-input');
-  if (searchInput) {
-    searchInput.addEventListener('keypress', function (event) {
-      if (event.key === 'Enter') {
-        event.preventDefault();
-        handleSearch();
-      }
-    });
-  }
-});
   useEffect(()=>{},[searchTerm])
   return (
     <div className='search-div'>
@@ -171,9 +160,13 @@ document.addEventListener('DOMContentLoaded', function () {
         id="search-input"
         type="text"
         placeholder="Enter the name of the instrument"
-        value={searchTerm}
+        // value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        // onKeyPress={handleSearch}
+        onKeyPress={(e) => {
+          if (e.key === 'Enter') {
+            handleSearch();
+          }
+        }}
       />
       <button onClick={handleSearch} className='search-btn'>Search</button>
       {/* <button onClick={scrollToNextMatch} className='search-btn'>Next</button> */}
