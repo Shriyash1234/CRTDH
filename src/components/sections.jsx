@@ -32,7 +32,8 @@ const Sections = () => {
             },
             {
                 InstituteName: 'CSIR- Institute of Himalayan Bioresource Technology (IHBT), Palampur',
-                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg')
+                Img:require('./Assests/Images/CRTDH-logos/yet-to-arrive.jpg'),
+                Link:"CRTDH/IHBT"
             },
             {
                 InstituteName: 'Indian Institute of Technology Kharagpur, Kharagpur',

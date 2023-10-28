@@ -106,6 +106,13 @@ transform: scale(0.95);
     justify-content: center;
     align-items: center;
 }
+.yt-video-industry-div{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+   
+}
 @media all and (max-width:1200px) {
     .CRTDH-name {
         top: 22vh;
@@ -123,6 +130,9 @@ transform: scale(0.95);
     .event-img{
         width: 500px;
         margin: auto;
+    }
+    .yt-video-industry{
+        width: 100%;
     }
 }
 
@@ -143,6 +153,10 @@ transform: scale(0.95);
     }
     .event-img{
         width: 100%;
+    }
+    .yt-video-industry{
+        width: 100%;
+        height: 200px;
     }
 }
 
