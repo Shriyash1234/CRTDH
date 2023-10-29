@@ -81,10 +81,16 @@ transform: scale(0.95);
 }
 .project-info{
    padding-right:20px ;
+   width: 75%;
+   text-align: justify;
 }
 .project-picture{
     width: 400px !important;
     object-fit: contain;
+}
+.project-picture-ytvideo{
+    /* width: 500px !important; */
+    
 }
 .read-more-link{
     color: blue;

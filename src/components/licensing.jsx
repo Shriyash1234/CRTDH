@@ -13,6 +13,13 @@ const data = [
         img: require('./Assests/Images/technologies/1.png'),
         linkText:"Demonstration video in 100 L scale",
         link: 'https://www.youtube.com/watch?v=Hkg-NfHc8dE&ab_channel=IITGandhinagar'
+    },
+    {
+        id: 2,
+        title: 'One step dry synthesis of nano-biocomposite for controlled drug release',
+        CRTDH: 'CRTDH, IIT Gandhinagar',
+        content: 'CRTDH, IIT Gandhinagar developed a new iron-based magnetic nano bio-composite (nano-Fe-CNB) using a one-step solventless dry process using a seaweed-based biopolymer. The detailed analysis of the developed nano Fe-CNB shows that nano-Fe-CNB consists of nanoparticles of 5–10 nm decorated on 7–8 nm thick 2-D graphitic carbon material. The impregnation of nano-Fe-CNB into the calcium alginate (CA) hydrogel beads is found to have good drug loading capacity as well as pH-responsive control release behavior, which is demonstrated using doxorubicin (DOX) as a model cancer drug. The drug loading experiments exhibit ∼94% loading of DOX, and release shows ∼38% and ∼8% release of DOX at pH 5.4 and 7.4, respectively. The developed nano Fe-CNB facilitates strong electrostatic interactions with cationic DOX molecules at pH 7.4 and thereby restricts the release of the drug at physiological pH. However, at cancer cell pH (5.4), the interaction between the drug and nano-Fe-CNB reduces, which facilitates more drug release at pH 5.4 (cancer cell). Thus, the developed nano-biocomposite has the potential to reduce the undesired side effects associated with faster release of drugs.',
+        img: require('./Assests/Images/technologies/13.png'),
     }
 ];
 
@@ -78,7 +85,7 @@ const Licensing = () => {
                                 margin: '2px',
                             }}
                         >
-                            <h2 className='card-title'>{item.title} at {item.CRTDH} </h2>
+                            <h2 className='card-content1 card-title'>{item.title} at {item.CRTDH} </h2>
                             <p className='card-content1 about-us-text' >{item.content}</p>
                             {
                                 item.link?<a target="_blank" href={item.link} className='about-us-text'>{item.linkText}</a>:""

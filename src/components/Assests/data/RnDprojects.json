@@ -8,5 +8,10 @@
         "Name":"New Technology for Industrial Effluent Treatment",
         "Info":"CRTDH Team at IIT Gandhinagar developed a bio-inspired metal-organic complex that oxidizes organic dye molecules in the effluent under pH 3-11. The newly developed complex generates a highly oxidizing oxo-species as an intermediate that exhibits superior reactivity compared to the existing chemical oxidants. The CRTDH at IIT Gandhinagar demonstrated a two-stage effluent treatment method using conventional coagulation/flocculation followed by advanced oxidation using metal complex in 1000 L scale for several textile/dyes effluent. The results are very promising for textile effluents (>90% COD reduction)",
         "ImageLink":"./Assests/Images/Projects/flowdia.png"
+    },
+    {
+        "Name":"Ready to Eat traditional canned food without chemical preservatives",
+        "ytLink":"https://www.youtube.com/embed/SayXSVoI6xI",
+        "Info":"CSIR- Institute of Himalayan Bioresource Technology (IHBT) has developed indigenous technology for commercial production of ready-to-eat foods specially Kangri Dham which comprises a series of individual relishing dishes like Rajma ka Madra, Retta, Khatte Chane, and more without adding any chemical preservatives. The greatest advantage is that these products remain fresh for seven months without loss in original taste and flavor. "
     }
 ]

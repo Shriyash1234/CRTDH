@@ -6,7 +6,7 @@ import JsonToTable from './jsontotable';
 import SearchBar from './searchbar';
 
 import majorFacilities from './Assests/data/majorFacilities.json'
-import jsonData from './Assests/data/IITGN.json'
+import jsonData from './Assests/data/output.json'
 
 import './CSS/facilities.css'
 function Facilities() {

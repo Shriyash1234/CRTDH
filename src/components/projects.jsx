@@ -33,6 +33,11 @@ const Projects = () => {
                                     project.ImageLink?
                                     <img src={require(`${project.ImageLink}`)} className='project-picture'></img>:""
                                 }
+                                {
+                                    project.ytLink?
+                                    <iframe className="project-picture project-picture-ytvideo" src={project.ytLink} title="Ready to Eat traditional canned food without chemical preservatives | Kangri Dham | CSIR IHBT (GOI)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                                    </iframe>:""
+                                }
                                 
                             </div>
                             
