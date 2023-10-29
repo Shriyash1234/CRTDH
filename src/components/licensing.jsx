@@ -9,8 +9,9 @@ const data = [
         id: 1,
         title: 'New Technology for Industrial Effluent Treatment',
         CRTDH: 'CRTDH, IIT Gandhinagar',
-        content: 'The newly developed metal complex works under a wide range of pH; for industrial textile effluent, the COD reduction is > 90%.',
+        content: 'CRTDH, IIT Gandhinagar developed a two-step method for wastewater treatment. The first step deploys conventional coagulation and flocculation, followed by chemical oxidation using a combination of a bio-inspired molecular metal complex and H2O2 in the second step. The catalytic unit efficiently degrades a versatile array of toxic industrial dyes with varying molecular templates in the aqueous solution at room temperature. Unlike the traditional radical-based Fenton chemistry, the newly developed metal complex forms a metal hydroxo intermediate, which actively destroys the aromatic backbone and decolorizes the effluent. The two-step process is active over a broad pH range (pH 3–11). It exhibits excellent efficiency for textile effluents. The capability of the technology is successfully demonstrated at a 1000-liter scale at the Industry site, showcasing the high technology readiness level (TRL 6) of the process.',
         img: require('./Assests/Images/technologies/1.png'),
+        linkText:"Demonstration video in 100 L scale",
         link: 'https://www.youtube.com/watch?v=Hkg-NfHc8dE&ab_channel=IITGandhinagar'
     }
 ];
@@ -80,7 +81,7 @@ const Licensing = () => {
                             <h2 className='card-title'>{item.title} at {item.CRTDH} </h2>
                             <p className='card-content1 about-us-text' >{item.content}</p>
                             {
-                                item.link?<a target="_blank" href={item.link} className='about-us-text'>Youtube link</a>:""
+                                item.link?<a target="_blank" href={item.link} className='about-us-text'>{item.linkText}</a>:""
                             }
                             <img src={item.img} alt={item.title} className='update-img1' />
                         </div>

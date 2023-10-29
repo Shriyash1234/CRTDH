@@ -54,6 +54,8 @@
   margin: 10px;
   height: 800px;
   font-family: 'open sans';
+  justify-content: flex-start;
+  overflow-y: scroll;
 }
 
 .card-content,
