@@ -17,6 +17,7 @@ const Center = () => {
   }
   useEffect(() => {
     collectCRTDHdata()
+    window.scrollTo(0, 0)
   }, [CenterCode])
   return (
     <section className='center'>
