@@ -56,6 +56,7 @@
   font-family: 'open sans';
   justify-content: flex-start;
   overflow-y: scroll;
+  text-align: justify;
 }
 
 .card-content,
