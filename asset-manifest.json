@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15e3afcf.css",
-    "main.js": "/static/js/main.468a786c.js",
+    "main.js": "/static/js/main.a1ddee58.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
@@ -26,6 +26,7 @@
     "static/media/banner-3.jpg": "/static/media/banner-3.9e3c4c0a1df569724727.jpg",
     "static/media/banner-2.jpg": "/static/media/banner-2.7d6e5aea86791bf940a9.jpg",
     "static/media/7.png": "/static/media/7.4f823c178e58125899b8.png",
+    "static/media/admin-page.png": "/static/media/admin-page.aca9cd1e7073185c6e6e.png",
     "static/media/low-cost-machining.jpg": "/static/media/low-cost-machining.0ab414728f194a32035b.jpg",
     "static/media/4.png": "/static/media/4.0de6e79c24e0260e3de1.png",
     "static/media/update1.jpg": "/static/media/update1.fea40d8c12a95b53aeda.jpg",
@@ -74,11 +75,11 @@
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.15e3afcf.css.map": "/static/css/main.15e3afcf.css.map",
-    "main.468a786c.js.map": "/static/js/main.468a786c.js.map",
+    "main.a1ddee58.js.map": "/static/js/main.a1ddee58.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15e3afcf.css",
-    "static/js/main.468a786c.js"
+    "static/js/main.a1ddee58.js"
   ]
 }
