@@ -49,8 +49,9 @@ class Admin extends React.Component {
 
   render() {
     return (
-      <div style={{display:"flex",justifyContent:"Center",marginTop:"50vh"}}>
-        <button className="btn btn-primary" onClick={this.sendMail}>Submit</button>
+      <div style={{display:"flex",justifyContent:"Center"}}>
+        <img src={require('./Assests/Images/admin-page.png')}></img>
+        <button className="btn btn-primary" onClick={this.sendMail} style={{display:"flex",justifyContent:"Center",position:"Absolute",marginTop:"530px",fontSize:"2rem",fontWeight:"600"}}>Inaugration of Network CRTDH platform</button>
       </div>
     );
   }
