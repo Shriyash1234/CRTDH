@@ -120,7 +120,7 @@
          "Facility8":"Gain Measurement:- Specification: 5-26.5 kHz; Approx. Time Required is 3-5 days.",
          "Facility9":"Return Loss:- Specification: 5-26.5 kHz; Approx. Time Required is 3-5 days.",
          "Facility10":"Radar Cross Section Testing:-Specification: 2-18 GHz; Approx. Time Required is 7 days.",
-         "Facility11":" Free Space Measurement:-Flat Parallel Based samples,Sample in non-reactive region,Beam spot is contained in sample,Known Thickness 20/360",
+         "Facility11":"Free Space Measurement:-Flat Parallel Based samples,Sample in non-reactive region,Beam spot is contained in sample,Known Thickness 20/360",
          "Facility12":"TNb, COD, TDS, TSS and pH measuring units",
          "Facility13":"Upcoming Facility: Radar Cross Section Measurement and Imaging Set-up"
       },
@@ -212,7 +212,7 @@
             "Designation": "Professor, Mechanical Engineering"
          },
          "Address": "Mechanical Engineering, IIT Kharagpur",
-         "PhoneNumber": " +91-3222-282990",
+         "PhoneNumber": "+91-3222-282990",
          "Email": "suman@mech.iitkgp.ac.in"
       }
    },
@@ -478,8 +478,7 @@
          "Facility16":"Centrifuge separator",
          "Facility17":"Centri-therm evaporator",
          "Facility18":"Rotary Rack Oven",
-         "Facility19":"Membrane Filtration",
-         "Facility20":"Multi mill"
+         "Facility19":"Membrane Filtration"
        },
        "ListOfServices": {
          "service1": "Advisory services",
