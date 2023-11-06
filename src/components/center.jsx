@@ -195,7 +195,7 @@ const Center = () => {
         )
         }
         {
-        data["Services"] || data["ListOfServices"] && (
+        data["Services"] && (
           <section className='CRTDH-center-Services about tarining'>
             <h2 className='about-us'>Services </h2>
             <div className='separator_left'></div>

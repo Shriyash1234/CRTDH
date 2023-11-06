@@ -416,6 +416,7 @@
          "Facility10":"Semi automatic variable speed polishing machine",
          "Facility11":"Precision Cutting Machine"
        },
+       "Services":"Here is the list of services offered by CRTDH IMMT Bhubaneswar",
        "ListOfServices": {
          "service1": "R&D & Knowledge based Support to MSMEs & Start-ups",
          "service2": "Mentor, nurture, collaborate, or hand-hold MSMEs to develop innovations",
@@ -480,6 +481,7 @@
          "Facility18":"Rotary Rack Oven",
          "Facility19":"Membrane Filtration"
        },
+       "Services":"Here is the list of services offered by CRTDH IHBT Palampur",
        "ListOfServices": {
          "service1": "Advisory services",
          "service2":"Proof of concept program",
