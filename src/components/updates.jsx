@@ -3,13 +3,15 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 import './CSS/updates.css';
+import video from './Assests/Videos/CRTDH-2023.mp4'
 
 const data = [
     { id: 1, img: require('./Assests/Images/update1.jpg'),Link:"https://crtdh.iitgn.ac.in/conclave2023/" },
-    { id: 2, img: require('./Assests/Images/update2.jpg'),Link:"https://dpsru.edu.in/chintan-shivir/"},
-    { id: 3, title: 'New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
-    { id: 4, title: 'Anaemia Diagnosis At Rs 1: How Does This Paper Strip Test Work? | The Quint', location: 'Technology Development by CRTDH-IIT Kharagpur',ytLink:'yes' },
-    { id: 5, img: require('./Assests/Images/update3.jpg')},
+    { id: 2,title:"CRTDH Concalve 2023",location:"IIT Gandhinagar", video:"Yes" },
+    { id: 3, img: require('./Assests/Images/update2.jpg'),Link:"https://dpsru.edu.in/chintan-shivir/"},
+    { id: 4, title: 'New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
+    { id: 5, title: 'Anaemia Diagnosis At Rs 1: How Does This Paper Strip Test Work? | The Quint', location: 'Technology Development by CRTDH-IIT Kharagpur',ytLink:'yes' },
+    { id: 6, img: require('./Assests/Images/update3.jpg')},
 ];
 
 
@@ -78,12 +80,14 @@ const Update = () => {
                             {
                                 item.img?"":
                                 <>
-                                <h2 className='card-title'>{item.title}</h2>
-                                <p className='card-content'>{item.date}</p>
-                                <p className='card-content'>{item.location}</p>
-                                <p className='card-content'>{item.content}</p>
+                                {item.title?<h2 className='card-title'>{item.title}</h2>:""}
+                                {item.date?<h2 className='card-content'>{item.date}</h2>:""}
+                                {item.location?<h2 className='card-content'>{item.location}</h2>:""}
+                                {item.date?<h2 className='card-content'>{item.date}</h2>:""}
+                                {item.content?<h2 className='card-content'>{item.content}</h2>:""}
                                 {item.info ? <p className='card-info'>{item.info}</p> : ""}
-                                {item.id === 4 ? (
+                                {item.video ?<video height="300px" controls><source src={video} type="video/mp4"/></video>:""}
+                                {item.id === 5 ? (
                             <iframe
                                 width="400"
                                 height="300"
@@ -94,7 +98,7 @@ const Update = () => {
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen
                             ></iframe>
-                            ) : item.id === 3 ? (
+                            ) : item.id === 4 ? (
                             <iframe
                                 width="400"
                                 height="300"
