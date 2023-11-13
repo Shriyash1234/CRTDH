@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.15e3afcf.css",
-    "main.js": "/static/js/main.394c0fa3.js",
+    "main.js": "/static/js/main.c62de834.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
+    "static/media/CRTDH-2023.mp4": "/static/media/CRTDH-2023.77f28c42bcb43d219064.mp4",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
     "static/media/iitgnlab.png": "/static/media/iitgnlab.db64e59f2f3164e8a18b.png",
@@ -75,11 +76,11 @@
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.15e3afcf.css.map": "/static/css/main.15e3afcf.css.map",
-    "main.394c0fa3.js.map": "/static/js/main.394c0fa3.js.map",
+    "main.c62de834.js.map": "/static/js/main.c62de834.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15e3afcf.css",
-    "static/js/main.394c0fa3.js"
+    "static/js/main.c62de834.js"
   ]
 }
