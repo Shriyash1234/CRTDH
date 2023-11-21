@@ -235,6 +235,11 @@ function Header(props) {
               </NavLink>
             </li>
             <li className={`has-child`}>
+              <NavLink to="/Gallery" activeClassName="activeHeader" style={{ color: "black" }}>
+                Gallery
+              </NavLink>
+            </li>
+            <li className={`has-child`}>
                 <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact</div>
             </li>
             <li className={`has-child`}>

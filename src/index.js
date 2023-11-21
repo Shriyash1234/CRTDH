@@ -13,6 +13,7 @@ import WorkshopPost from './components/workshopPost';
 import Center from './components/center';
 import Join from './components/join';
 import Admin from './components/admin';
+import PhotoGallery from './components/photoGallery';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Route index path="/Contact" element={<Contact_Us />} />
         <Route index path="/Join" element={<Join />} />
         <Route index path="/Admin" element={<Admin />} />
+        <Route index path="/Gallery" element={<PhotoGallery />} />
       </Routes>
     </HashRouter>
   );

@@ -7,7 +7,7 @@ import video from './Assests/Videos/CRTDH-2023.mp4'
 
 const data = [
     { id: 1, img: require('./Assests/Images/update1.jpg'),Link:"https://crtdh.iitgn.ac.in/conclave2023/" },
-    { id: 2,title:"CRTDH Concalve 2023",location:"IIT Gandhinagar", video:"Yes" },
+    { id: 2,title:"DSIR-CRTDH Concalve 2023",location:"IIT Gandhinagar", video:"Yes" },
     { id: 3, img: require('./Assests/Images/update2.jpg'),Link:"https://dpsru.edu.in/chintan-shivir/"},
     { id: 4, title: 'New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
     { id: 5, title: 'Anaemia Diagnosis At Rs 1: How Does This Paper Strip Test Work? | The Quint', location: 'Technology Development by CRTDH-IIT Kharagpur',ytLink:'yes' },
