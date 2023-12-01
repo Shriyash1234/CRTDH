@@ -54,6 +54,7 @@ const centersOptions = [
   },
   {
     InstituteName: 'IITRes',
+    Link:"http://csiriitrprograms.in/emih/"
   },
   {
     InstituteName: 'CMERI',
@@ -241,6 +242,11 @@ function Header(props) {
             </li>
             <li className={`has-child`}>
                 <div onClick={handleAboutLink2} className='about-link links CRTDHs-link' style={{ color: "black" }}> Contact</div>
+            </li>
+            <li className={`has-child`}>
+              <NavLink to="/News" activeClassName="activeHeader" style={{ color: "black" }}>
+                News
+              </NavLink>
             </li>
             <li className={`has-child`}>
               <NavLink to="/Join" activeClassName="activeHeader" style={{ color: "black" }}>

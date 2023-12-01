@@ -14,6 +14,7 @@ import Center from './components/center';
 import Join from './components/join';
 import Admin from './components/admin';
 import PhotoGallery from './components/photoGallery';
+import News from './components/news';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route index path="/Join" element={<Join />} />
         <Route index path="/Admin" element={<Admin />} />
         <Route index path="/Gallery" element={<PhotoGallery />} />
+        <Route index path="/News" element={<News />} />
       </Routes>
     </HashRouter>
   );

@@ -10,15 +10,16 @@ const videoUrls = [
   "https://www.youtube.com/embed/cDO4mhMr56s",
   "https://www.youtube.com/embed/jhbE24vq4V4",
   "https://www.youtube.com/embed/jGObYRq1BWg",
-  "https://www.youtube.com/embed/jGObYRq1BWg",
-  "https://www.youtube.com/embed/K-us-rH5WJM",
+  "https://www.youtube.com/embed/Qk9-xpwCFqU",
   "https://www.youtube.com/embed/292R1onJ3aI",
   "https://www.youtube.com/embed/6wbJnCRoPwg",
   "https://www.youtube.com/embed/62PfmqDvzG4",
   "https://www.youtube.com/embed/0S-3hpzzm0I",
   "https://www.youtube.com/embed/QvDfuGPmacg",
   "https://www.youtube.com/embed/Ksb9LP2FyZ4",
-  "https://www.youtube.com/embed/FFQYIyRBQ3A"
+  "https://www.youtube.com/embed/FFQYIyRBQ3A",
+  "https://www.youtube.com/embed/K-us-rH5WJM",
+  "https://www.youtube.com/embed/a6KNz5zHyU0"
 ];
 for (let i = 1; i < 33; i++) {
     const image = require(`./Assests/Images/Gallery/${String(i)}.JPG`);

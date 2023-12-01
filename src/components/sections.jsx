@@ -52,7 +52,8 @@ const Sections = () => {
             },
             {
                 InstituteName: 'CSIR - Indian Institute of Toxicology Research (IITR), Lucknow',
-                Img:require('./Assests/Images/CRTDH-logos/CSIR-IIT.png')
+                Img:require('./Assests/Images/CRTDH-logos/CSIR-IIT.png'),
+                Link:"http://csiriitrprograms.in/emih/"
             },
         ],
         'Low cost Machining': [
