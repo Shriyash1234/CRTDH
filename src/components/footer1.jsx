@@ -34,6 +34,7 @@ const Footer1 = () => {
                 <Link to='/Research' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Research</p></Link>
                 <Link to='/Facilities' className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;Facilities</p></Link>
                 <a href="https://drive.google.com/file/d/1_RZNMAtuBe9MiNe_EQGBCMnagGQQ12j1/view?usp=sharing" target="_blank" className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;CRTDH Compendium 2022</p></a>
+                <a href="https://drive.google.com/file/d/1p5VSbdVc0HvFfVSK9LeRGo_9KGreedLr/view?usp=sharing" target="_blank" className='quick-links-link'><p className='quick-links'><ArrowRight /> &nbsp;10th Year CRTDHs Report</p></a>
             </div>
             <div style={styles.reachUs}>
                 <h4 className='CRTDH-name-footer1'>Reach Us</h4>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from './header'
 import './CSS/news.css'
 import { Link } from 'react-router-dom'
@@ -6,7 +6,9 @@ import NewsData from './Assests/data/news.json'
 import Footer1 from './footer1'
 import Footer from './footer'
 const News = () => {
-
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  },[])
   return (
     <section className='News-page'>
        <Header/>

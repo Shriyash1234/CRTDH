@@ -6,6 +6,12 @@
         "newsLink":"https://twitter.com/DDNewsGujarati/status/1723234374584316059?t=QH5IEJZ7OmuaTRT_QQlvfw&s=19"
     },
     {
+        "media":"THE TIMES OF INDIA",
+        "newsInfo":"Leverage tech to meet industry needs",
+        "newsImg":"11.webp",
+        "newsLink":"https://timesofindia.indiatimes.com/city/lucknow/leverage-tech-to-meet-industry-needs/articleshow/95593043.cms"
+    },
+    {
         "media":"Navjeevan Express",
         "newsInfo":"DSIR - CRTDH Conclave: MSMEs contribute nearly 40% to the GDP, says Dr N Kalaiselvi",
         "newsImg":"2.png",
@@ -58,5 +64,53 @@
         "newsInfo":"DSIR – CRTDH Conclave 2023: Viksit Bharat Abhiyan – Empowering MSMEs & Startups” concludes at IITGN",
         "newsImg":"10.jpg",
         "newsLink":"https://bilkulonline.com/2023/11/07/dsir-crtdh-conclave-2023-viksit-bharat-abhiyan-empowering-msmes-startups-concludes-at-iitgn/"
+    },
+    {
+        "media":"Business Standard",
+        "newsInfo":"IIT-KGP to set up hub to tap MSMEs for affordable healthcare",
+        "newsImg":"12.jpg",
+        "newsLink":"https://www.business-standard.com/article/pti-stories/iit-kgp-to-set-up-hub-to-tap-msmes-for-affordable-healthcare-119020200549_1.html"
+    },
+    {
+        "media":"Humming Bird News",
+        "newsInfo":"DSIR organizes first “Chintan Shivir” to empower MSMEs at IIT, Kharagpur",
+        "newsImg":"13.jpg",
+        "newsLink":"https://hummingbirdnews.in/dsir-organizes-first-chintan-shivir-to-empower-msmes-at-iit-kharagpur/"
+    },
+    {
+        "media":"Orissadiary",
+        "newsInfo":"Inauguration Of Chintan Shivir On “CRTDHs Empowering MSMEs” Tomorrow",
+        "newsImg":"14.jpg",
+        "newsLink":"https://orissadiary.com/inauguration-of-chintan-shivir-on-crtdhs-empowering-msmes-tomorrow/"
+    },
+    {
+        "media":"Rashtranews",
+        "newsInfo":"CSIR-NCL Conducts An Industry Meet Under The DSIR-CRTDH Programme In Aurangabad",
+        "newsImg":"15.png",
+        "newsLink":"https://www.rashtranews.com/csir-ncl-conducts-an-industry-meet-under-the-dsir-crtdh-programme-in-aurangabad-rashtra-news/"
+    },
+    {
+        "media":"TICE",
+        "newsInfo":"From Startup ideas to Success: DSIR's Chintan Shivir To Bridge Gap",
+        "newsImg":"16.webp",
+        "newsLink":"https://www.tice.news/tice-dispatch/dsir-chintan-shivir-to-bridge-startup-gap-1347464"
+    },
+    {
+        "media":"CSIR-IMMT Bhubaneswar",
+        "newsInfo":"CHINTAN SHIVIR | IMMT—DSIR CRTDH",
+        "newsImg":"17.png",
+        "newsLink":"https://www.tice.news/tice-dispatch/dsir-chintan-shivir-to-bridge-startup-gap-1347464"
+    },
+    {
+        "media":"Indian News Diary",
+        "newsInfo":"Chintan Shivir on “CRTDHs Empowering MSMEs” at CSIR-Institute of Minerals and Materials Technology, Bhubaneshwar",
+        "newsImg":"18.png",
+        "newsLink":"https://indianewsdiary.com/chintan-shivir-on-crtdhs-empowering-msmes-at-csir-institute-of-minerals-and-materials-technology-bhubaneshwar/"
+    },
+    {
+        "media":"India Infoline News",
+        "newsInfo":"Deep Polymers Inks Pact With IIT Guwahati For Development Of Biodegradable Plastics",
+        "newsImg":"19.jpg",
+        "newsLink":"https://www.indiainfoline.com/article/news-top-story/deep-polymers-inks-pact-with-iit-guwahati-for-development-of-biodegradable-plastics-122120700255_1.html"
     }
 ]
