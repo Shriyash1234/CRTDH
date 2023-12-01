@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e7b229d.css",
-    "main.js": "/static/js/main.7da6fbb4.js",
+    "main.js": "/static/js/main.253ac4e6.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/CRTDH-2023.mp4": "/static/media/CRTDH-2023.77f28c42bcb43d219064.mp4",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
@@ -21,6 +21,7 @@
     "static/media/banner-8.jpg": "/static/media/banner-8.e38442b94231c8d3bf4e.jpg",
     "static/media/environmental-itervention.jpg": "/static/media/environmental-itervention.cd400836501aee0c2595.jpg",
     "static/media/IITGN-workshop-4.png": "/static/media/IITGN-workshop-4.c9e81477c88dec479524.png",
+    "static/media/17.png": "/static/media/17.c271e40c12f5bb572821.png",
     "static/media/Biofilter.png": "/static/media/Biofilter.250a003ad25787fc9924.png",
     "static/media/IITR.jpg": "/static/media/IITR.d7e4c4fdc47662ef7fdb.jpg",
     "static/media/banner-5.jpg": "/static/media/banner-5.ea0ba58ad4c0a9b4a79c.jpg",
@@ -41,6 +42,7 @@
     "static/media/IITGN-workshop-3.jpg": "/static/media/IITGN-workshop-3.00b85b73cca4460733cd.jpg",
     "static/media/IITGN-workshop-8.png": "/static/media/IITGN-workshop-8.8ed710b5c10d4385c6ac.png",
     "static/media/DPSRU.jpg": "/static/media/DPSRU.82b71f6a432b5684d164.jpg",
+    "static/media/15.png": "/static/media/15.8ca6ee1e46064e660033.png",
     "static/media/IITGN-workshop-1.jpg": "/static/media/IITGN-workshop-1.17f354834f00495248f7.jpg",
     "static/media/IMMT.jpg": "/static/media/IMMT.5afc78020aed8691f46a.jpg",
     "static/media/company-logo.png": "/static/media/company-logo.74fc338f0f530aa9d7ad.png",
@@ -49,6 +51,7 @@
     "static/media/IITGN-workshop-5.png": "/static/media/IITGN-workshop-5.33e6d10056a6efdab340.png",
     "static/media/9.png": "/static/media/9.747033e09c7cbde7e439.png",
     "static/media/7.jpg": "/static/media/7.2a740a776d722a677200.jpg",
+    "static/media/13.jpg": "/static/media/13.3ad93e54677bb6a0af63.jpg",
     "static/media/31.JPG": "/static/media/31.6c9dbdb1f72b857568c8.JPG",
     "static/media/11.png": "/static/media/11.c67de8a047fde8be64ec.png",
     "static/media/1.JPG": "/static/media/1.66c72aee2898b22e4c7f.JPG",
@@ -79,6 +82,7 @@
     "static/media/29.JPG": "/static/media/29.e7a225ad47d49117639e.JPG",
     "static/media/19.JPG": "/static/media/19.8ad64d26e4e41cbfce15.JPG",
     "static/media/20.JPG": "/static/media/20.479462a3eed12972c42a.JPG",
+    "static/media/18.png": "/static/media/18.c6da1f7e193d71205dcc.png",
     "static/media/8.png": "/static/media/8.e2b47ebffb1fec6ac08e.png",
     "static/media/BFBR.png": "/static/media/BFBR.b71e8d9773e95ef642ee.png",
     "static/media/22.JPG": "/static/media/22.e3acd91051350e558aa1.JPG",
@@ -90,6 +94,7 @@
     "static/media/8.jpg": "/static/media/8.08961c6c59dbe8640f76.jpg",
     "static/media/25.JPG": "/static/media/25.55955fcd43f8a46bc87c.JPG",
     "static/media/4.JPG": "/static/media/4.f264115a8f0a679d4eeb.JPG",
+    "static/media/19.jpg": "/static/media/19.00a941e29747a70fdc12.jpg",
     "static/media/24.JPG": "/static/media/24.5b1d12062a400a5221ae.JPG",
     "static/media/update2.jpg": "/static/media/update2.e80e073799ddf911a068.jpg",
     "static/media/10.png": "/static/media/10.ad29a4ea8ad3e95e20dc.png",
@@ -98,11 +103,13 @@
     "static/media/5.jpg": "/static/media/5.c58c4d66d8fe96757068.jpg",
     "static/media/IITKGP.webp": "/static/media/IITKGP.607b10326f738d246afe.webp",
     "static/media/IIT-Bhilai.jpg": "/static/media/IIT-Bhilai.5352b9303c50cd1e1ea7.jpg",
+    "static/media/16.webp": "/static/media/16.c33def69d38db14804aa.webp",
     "static/media/30.JPG": "/static/media/30.294fb400c43559646219.JPG",
     "static/media/12.png": "/static/media/12.abafd73fcb618a11c160.png",
     "static/media/6.jpg": "/static/media/6.ce2f56e922dfa5fece4f.jpg",
     "static/media/CRTDH_labs.JPG": "/static/media/CRTDH_labs.4b579b9b0bc7f0327e66.JPG",
     "static/media/9.jpg": "/static/media/9.dcd6a2e0e72e27ef1f20.jpg",
+    "static/media/12.jpg": "/static/media/12.5b4cf5dc31742883aef8.jpg",
     "static/media/banner-4.jpg": "/static/media/banner-4.670c32220cd7acc2ae33.jpg",
     "static/media/flowdia.png": "/static/media/flowdia.4cb82078498eaf134697.png",
     "static/media/areas.JPG": "/static/media/areas.ff639e084f6e99876a92.JPG",
@@ -113,14 +120,15 @@
     "static/media/CMERI.jpg": "/static/media/CMERI.74b2cc4fbd551c2de111.jpg",
     "static/media/CRTDH_logo.png": "/static/media/CRTDH_logo.650d3df6968c861d32c0.png",
     "static/media/employement1.png": "/static/media/employement1.00dbf753de36d506d417.png",
+    "static/media/11.webp": "/static/media/11.f9d1164e4f99633e77ef.webp",
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "main.0e7b229d.css.map": "/static/css/main.0e7b229d.css.map",
-    "main.7da6fbb4.js.map": "/static/js/main.7da6fbb4.js.map",
+    "main.253ac4e6.js.map": "/static/js/main.253ac4e6.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e7b229d.css",
-    "static/js/main.7da6fbb4.js"
+    "static/js/main.253ac4e6.js"
   ]
 }
