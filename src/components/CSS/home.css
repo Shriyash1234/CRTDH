@@ -122,7 +122,6 @@ transform: scale(0.95);
     margin: 10px;
 }
 .gallery-videos{
-    margin-top: 80px;
     display: flex;
     overflow-x: scroll;
 }

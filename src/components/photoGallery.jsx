@@ -22,10 +22,13 @@ const videoUrls = [
   "https://www.youtube.com/embed/QvDfuGPmacg",
   "https://www.youtube.com/embed/Ksb9LP2FyZ4",
   "https://www.youtube.com/embed/FFQYIyRBQ3A",
-  "https://www.youtube.com/embed/znlm7RjOFP0",
-  "https://www.youtube.com/embed/K-us-rH5WJM",
-  "https://www.youtube.com/embed/a6KNz5zHyU0"
+  "https://www.youtube.com/embed/znlm7RjOFP0"
 ];
+const industryImpactUrls= [
+  "https://www.youtube.com/embed/K-us-rH5WJM",
+  "https://www.youtube.com/embed/a6KNz5zHyU0",
+  "https://www.youtube.com/embed/kOzQ7Kav65Y"
+]
 for (let i = 1; i < 33; i++) {
     const image = require(`./Assests/Images/Gallery/${String(i)}.JPG`);
     photos.push({
@@ -37,8 +40,23 @@ for (let i = 1; i < 33; i++) {
   return (
     <section className='photoGallery'>
       <Header/>
+      <h2 style={{margin:"80px 0px 0px 20px"}}>CRTDH Concalve 2023</h2>
       <div className='gallery-videos' id="style-1">
         {videoUrls.map((url, index) => (
+          <div className='yt-video' key={index}>
+            <iframe
+              className="gallery-video"
+              src={url}
+              title={`Video ${index + 1}`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        ))}
+      </div>
+      <h2 style={{marginLeft:"20px"}}>Impact of CRTDHs on Industries</h2>
+      <div className='gallery-videos' id="style-1" >
+        {industryImpactUrls.map((url, index) => (
           <div className='yt-video' key={index}>
             <iframe
               className="gallery-video"
