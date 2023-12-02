@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e7b229d.css",
-    "main.js": "/static/js/main.253ac4e6.js",
+    "main.css": "/static/css/main.2fcee84b.css",
+    "main.js": "/static/js/main.de61a699.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
+    "static/media/Compendium.pdf": "/static/media/Compendium.c7b88eedff030a60d67a.pdf",
     "static/media/CRTDH-2023.mp4": "/static/media/CRTDH-2023.77f28c42bcb43d219064.mp4",
+    "static/media/CRTDHs_reports.pdf": "/static/media/CRTDHs_reports.5ba5dd500b397e21d921.pdf",
     "static/media/pilot.png": "/static/media/pilot.683a2cfe5d58ca2b8720.png",
     "static/media/banner-9.jpg": "/static/media/banner-9.db53472148faf3f5c10f.jpg",
     "static/media/iitgnlab.png": "/static/media/iitgnlab.db64e59f2f3164e8a18b.png",
@@ -123,12 +125,13 @@
     "static/media/11.webp": "/static/media/11.f9d1164e4f99633e77ef.webp",
     "index.html": "/index.html",
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
-    "main.0e7b229d.css.map": "/static/css/main.0e7b229d.css.map",
-    "main.253ac4e6.js.map": "/static/js/main.253ac4e6.js.map",
+    "static/media/desktop.ini": "/static/media/desktop.1a093aaf5b9374006fe4.ini",
+    "main.2fcee84b.css.map": "/static/css/main.2fcee84b.css.map",
+    "main.de61a699.js.map": "/static/js/main.de61a699.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7b229d.css",
-    "static/js/main.253ac4e6.js"
+    "static/css/main.2fcee84b.css",
+    "static/js/main.de61a699.js"
   ]
 }
