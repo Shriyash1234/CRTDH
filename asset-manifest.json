@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2fcee84b.css",
-    "main.js": "/static/js/main.de61a699.js",
+    "main.js": "/static/js/main.688783f9.js",
     "static/js/787.8364e0a8.chunk.js": "/static/js/787.8364e0a8.chunk.js",
     "static/media/Compendium.pdf": "/static/media/Compendium.c7b88eedff030a60d67a.pdf",
     "static/media/CRTDH-2023.mp4": "/static/media/CRTDH-2023.77f28c42bcb43d219064.mp4",
@@ -127,11 +127,11 @@
     "static/media/1.py": "/static/media/1.c0c05f40ad82e5ebb6e3.py",
     "static/media/desktop.ini": "/static/media/desktop.1a093aaf5b9374006fe4.ini",
     "main.2fcee84b.css.map": "/static/css/main.2fcee84b.css.map",
-    "main.de61a699.js.map": "/static/js/main.de61a699.js.map",
+    "main.688783f9.js.map": "/static/js/main.688783f9.js.map",
     "787.8364e0a8.chunk.js.map": "/static/js/787.8364e0a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2fcee84b.css",
-    "static/js/main.de61a699.js"
+    "static/js/main.688783f9.js"
   ]
 }
