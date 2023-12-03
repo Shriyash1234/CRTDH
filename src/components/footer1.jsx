@@ -41,7 +41,7 @@ const Footer1 = () => {
                 <h4 className='CRTDH-name-footer1'>Reach Us</h4>
                 <p className='Head-office'><Home />&nbsp;&nbsp;Get In Touch</p>
                 <p className='head-office-address'>
-                    Dr Vipin Chandra Shukla, Scientist F<br></br>
+                    Dr Vipin Chandra Shukla, Scientist G<br></br>
                      Department of Scientific & Industrial Research (DSIR)
                     Technology Bhawan, New Mehrauli Road
                     New Delhi-110016. India</p>
