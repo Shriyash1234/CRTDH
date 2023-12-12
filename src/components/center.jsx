@@ -141,7 +141,30 @@ const Center = () => {
           </section>
           )
         }
-      
+      {
+          data["Equipments"] && (
+            <section className='Current Research about training' style={{marginTop:"50px"}}>
+            <h2 className='about-us'>Equipments</h2>
+            <div className='separator_left'></div>
+            <p className='about-us-text'>
+              {data["Equipments"] && (
+                <ol>
+                  {Object.values(data["Equipments"]).map((equipment) => (
+                    <li>
+                      {equipment}
+                    </li>
+                  ))}
+                </ol>
+              )}
+            </p>
+            {
+                data["ResearchLink"] && (
+                  <Link to={data.ResearchLink} className='instruments-btn'style={{width:"fit-content"}}>CRTDH A PLACE FOR INCUBATION</Link>
+                )
+              }
+          </section>
+          )
+        }
       {
         data["Technologies"] && (
           <section className='CRTDH-center-technologies about tarining'>

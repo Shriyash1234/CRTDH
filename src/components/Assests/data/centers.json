@@ -83,7 +83,7 @@
          },
          "Address": "Academic Block 4/405, IIT Gandhinagar, Palaj, Gandhinagar, Gujarat - 382355",
          "PhoneNumber": "+79-2395-2405 (O) +79-2395-2254 (O) +91-9925029889 (M)",
-         "Email": "crtdh.iitgn.ac.in"
+         "Email": "crtdh@iitgn.ac.in"
       }
    },
    {
@@ -403,6 +403,23 @@
          "Technology15":"Conducting coatings on phosphor bronze pins.",
          "Technology16":"WC-Co coated samples for continuous casting parts"
        },
+       "Equipments":{
+         "Equipment1":"Mechanical testing facility - INSTRON",
+         "Equipment2":"1000 kN computerized servo-controlled UTM",
+         "Equipment3":"High temp tribometer with 3d-profilometer/ scratch and associated corrosion testing facility and erosion/abrasion facilities",
+         "Equipment4":"Thermogravimetric analyser (TG-DTA)",
+         "Equipment5":"Heat treatment facility (hot air furnace, controlled atmospheres furnace etc.)",
+         "Equipment6":"Magnetic Heating & Measurement System",
+         "Equipment7":"Photoluminescence spectrophotometer",
+         "Equipment8":"Spray dryer",
+         "Equipment9":"Smokeless brass melting furnace",
+         "Equipment10":"Polishing & buffing machine",
+         "Equipment11":"Cutting machine",
+         "Equipment12":"Die grinder",
+         "Equipment13":"Pyrometer",
+         "Equipment14":"Meal craft casting",
+         "Equipment15":"Other sophisticated equipment in the CCD such as XRD, SEM, EPMA, XPS, FTIR (For structural, phase, elemental analysis etc.)"
+       },
       "SomeFacilities": {
          "Facility1": "Corrosion testing facility established to evaluate the corrosion, aberration, erosion etc of the materials/coating being developed.",
          "Facility2":"Metal craft processing- polishing, energy efficient brass melting furnace and cutting tools facility",
@@ -414,23 +431,36 @@
          "Facility8":"Furnaces",
          "Facility9":"RF power supply",
          "Facility10":"Semi automatic variable speed polishing machine",
-         "Facility11":"Precision Cutting Machine"
+         "Facility11":"Precision Cutting Machine",
+         "Facility12":"Innovation centre for plasma processing",
+         "Facility13":"Large scale iron ore processing facility",
+         "Facility14":"Pilot scale demonstration facility on fly ash and red mud building materials",
+         "Facility15":"National cook stove test centre",
+         "Facility16":"GIS based online vehicle mounded lab for city pollution monitoring",
+         "Facility17":"Pilot plant for seabed minerals extraction",
+         "Facility18":"Low concentration slurry transportation (seabed minerals & ores)",
+         "Facility19":"Setup for vertical hydraulic transport of seabed minerals slurry"
        },
-       "Services":"Here is the list of services offered by CRTDH IMMT Bhubaneswar",
+       "Services":"CRTDH at IMMT Bhaubaneswar is providing various services to MSMEs/Startups. Following are the major services. However, for any other services for industries/MSMEs kindly reach us at crtdh@immt.res.in",
        "ListOfServices": {
-         "service1": "R&D & Knowledge based Support to MSMEs & Start-ups",
-         "service2": "Mentor, nurture, collaborate, or hand-hold MSMEs to develop innovations",
-         "service3": "Providing enabling services such as IPR support, Laboratory facilities, testing and analysis support for quality assurance, auditing of existing production processes etc."
+         "service1": "Incubation/Startups",
+         "service2": "Technology development & transfer",
+         "service3": "Joint IP creation",
+         "service5":"Skill development & Training",
+         "service6":"To provide R&D / know-how support for value addition of their products",
+         "service7":"To provide access to already developed technologies available at CSIR-IMMT for taking their ideas to market.",
+         "service8":"Training/Workshop programs for MSMEs",
+         "service9":"Testing facilities for MSMEs/Startups20"
        },
        "SocialImpact":"CSIR- Institute of Minerals and Material Technology, Bhubaneswar has made significant social impacts through various initiatives, including the development of an Automated Chemical Dosing System for the Iron Ore Industry, the revitalization of the Brass-bell metal handicraft sector, the creation of value-added materials from waste lithium batteries, the extraction of silicon carbide from rice husk, and the introduction of a chemical additive and dosing system for high-concentration slurry transportation of iron ore. Moreover, the center has transferred ten crucial know-hows related to sanitizers, disinfecting devices, hospital assistive devices, and personnel protective devices to 14 MSMEs, fostering innovation and growth in these sectors while positively impacting society.",
        "Contacts": {
          "POC": {
-            "Name": "Dr. V. Sandeep & Dr. Sankar Peddapati",
-            "Designation": "DSIR - CRTDH, NIT Andhra Pradesh"
+            "Name": "Dr. YATENDRA S. CHAUDHARY",
+            "Designation": "COORDINATOR, IMMT-DSIR CRTDH"
          },
-         "Address": "DSIR-CRTDH, NIT Andhra",
-         "PhoneNumber": "8861290060,8897983939",
-         "Email": "sandeep@nitandhra.ac.in"
+         "Address": "DSIR-CRTDH, IMMT-DSIR CRTDH",
+         "PhoneNumber": "0674-237 9401, 0674-237 9248",
+         "Email": "crtdh@immt.res.in,dir@immt.res.in,yschaudhary@immt.res.in"
       }
    },
    {
@@ -453,7 +483,7 @@
       "Information": {
          "Information-para-1": "DSIR-IHBT-CRTDH has been established with the objective to carry out further value addition and enrichment of under-utilized and by-product of various food processing industry, develop natural and valuable colorant or nutraceutical for health management, set up a central facility for extraction of natural compounds such as colorant and nutraceutical, process other rich bio resources for similar activities as per industry/SMEs need."
       },
-      "Technologies":"Here is the List of Technologies at IMMT Bhubaneshwar",
+      "Technologies":"Here is the List of Technologies at IHBT Palampur",
       "ListOfTechnologies": {
          "Technology1": "An eco-friendly green process has been developed for the extraction of natural colors from plant and vegetable sources.",
          "Technology2":"Standardized processing technology for the development of Nutraceutical and their application.",

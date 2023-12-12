@@ -22,7 +22,8 @@ const videoUrls = [
   "https://www.youtube.com/embed/QvDfuGPmacg",
   "https://www.youtube.com/embed/Ksb9LP2FyZ4",
   "https://www.youtube.com/embed/FFQYIyRBQ3A",
-  "https://www.youtube.com/embed/znlm7RjOFP0"
+  "https://www.youtube.com/embed/znlm7RjOFP0",
+  "https://www.youtube.com/embed/20hbi3IbFCM"
 ];
 const industryImpactUrls= [
   "https://www.youtube.com/embed/K-us-rH5WJM",
