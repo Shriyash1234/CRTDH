@@ -41,13 +41,17 @@ const Join = () => {
             Loading…
           </iframe>
         ) : (
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfPG4o3ynZxHOv9spsZbyOn77tQ9atHdXAFH6LXVgKscAJNRg/viewform?embedded=true"
-            width="640"
-            height="288"
-          >
-            Loading…
-          </iframe>
+          <div style={{width:"400px",textAlign:"justify"}}>
+           <b>CRTDH Consortium Membership</b> 
+              <p>Interested Industry/Startup can write to dsir@ncrtdh.in Industry/Startup are encouraged to join as a consortium member (Organizational Membership) of the DSIR-sponsored network CRTDHs to get various benefits such as licensing, co-development of new technologies/products/processes in addition to customized training/workshop programs, organizational access to instrument facilities /pilot plant facilities etc. in network CRTDHs. (Details coming soon)</p>
+          </div>
+          // <iframe
+          //   src="https://docs.google.com/forms/d/e/1FAIpQLSfPG4o3ynZxHOv9spsZbyOn77tQ9atHdXAFH6LXVgKscAJNRg/viewform?embedded=true"
+          //   width="640"
+          //   height="288"
+          // >
+          //   Loading…
+          // </iframe>
         )}
       </div>
 
