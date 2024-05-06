@@ -76,6 +76,14 @@ const Center = () => {
         )}
 
       </section>
+      {data.website &&(
+        <section className='CRTDH-center-facilities about training'>
+          <h2 className='about-us'>Website</h2>
+          <a href={data.website} target="_blank" className='about-us-text'> {data.website} </a>
+        </section>
+        )
+      }
+      
       <section className='CRTDH-center-facilities about training'>
         <h2 className='about-us'>Facilities </h2>
         <div className='separator_left'></div>
