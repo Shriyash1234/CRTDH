@@ -6,12 +6,13 @@ import './CSS/updates.css';
 import video from './Assests/Videos/CRTDH-2023.mp4'
 
 const data = [
-    { id: 1, img: require('./Assests/Images/update1.jpg'),Link:"https://crtdh.iitgn.ac.in/conclave2023/" },
+    { id: 1, img: require('./Assests/Images/inverter.jpg'), info:"Dr. N. Kalaiselvi, the Director General of CSIR-cum-Secretary DSIR, Ministry of Science and Technology, Government of India, visited DSIR funded CRTDH at CSIO Chennai and witness of 30 kVA solar inverter test facility for MSMEs (April 15, 2024)."},
     { id: 2,title:"DSIR-CRTDH Concalve 2023",location:"IIT Gandhinagar", video:"Yes" },
     { id: 3, img: require('./Assests/Images/update2.jpg'),Link:"https://dpsru.edu.in/chintan-shivir/"},
     { id: 4, title: 'New Technology for Industrial Effluent Treatment', location: 'Technology Development by CRTDH-IIT Gandhinagar',ytLink:'yes' },
     { id: 5, title: 'Anaemia Diagnosis At Rs 1: How Does This Paper Strip Test Work? | The Quint', location: 'Technology Development by CRTDH-IIT Kharagpur',ytLink:'yes' },
     { id: 6, img: require('./Assests/Images/update3.jpg')},
+    { id: 7, img: require('./Assests/Images/update1.jpg'),Link:"https://crtdh.iitgn.ac.in/conclave2023/" },
 ];
 
 
@@ -70,6 +71,7 @@ const Update = () => {
                             item.img?
                             <>
                                 <img src={item.img} className="update-img" alt="" />
+                                {item.info ? <p className='card-info' style={{textAlign:"justify"}}>{item.info}</p> : ""}
                                 {
                                     item.Link?<a href={item.Link}>Click Here</a>:""
                                 }
