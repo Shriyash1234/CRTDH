@@ -70,6 +70,7 @@ const Update = () => {
                             item.img?
                             <>
                                 <img src={item.img} className="update-img" alt="" />
+                                {item.info ? <p className='card-info'>{item.info}</p> : ""}
                                 {
                                     item.Link?<a href={item.Link}>Click Here</a>:""
                                 }
