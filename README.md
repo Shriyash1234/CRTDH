@@ -47,7 +47,7 @@ This application serves as a digital gateway for CRTDH, enabling MSEs to:
 
 3.  Start the development server:
     ```bash
-    npm start
+    PORT=5006 npm start
     ```
 
 4.  Open your browser and navigate to `http://localhost:5006` (or the port specified in your terminal).
