@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# N-CRTDH : Network - Common Research & Technology Development Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based platform for the **Common Research & Technology Development Hub (CRTDH)**, an initiative by the **Department of Scientific and Industrial Research (DSIR)**. This application facilitates the connection between Micro, Small, and Medium Enterprises (MSEs) and research institutions to foster innovation and technology development.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The innovation capacity of Indian industry depends crucially on MSEs targeting radical innovation. However, MSEs often lack access to advanced R&D equipment and skills. 
 
-### `npm start`
+This application serves as a digital gateway for CRTDH, enabling MSEs to:
+*   Access research infrastructure and equipment.
+*   Participate in training and skill development programs.
+*   Collaborate on new product and process development.
+*   Stay updated with the latest research news and events.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   **About CRTDH**: Detailed information about the initiative and its goals.
+*   **Facilities & Instruments**: Browse available research facilities and high-end instruments.
+*   **Research & Projects**: Showcase of ongoing research projects and industrial collaborations.
+*   **Events & Workshops**: Information on upcoming training sessions, workshops, and seminars.
+*   **News & Updates**: Latest announcements and developments from the hub.
+*   **Chatbox**: Interactive support for user queries.
+*   **Photo Gallery**: Visual highlights of the hub's activities and infrastructure.
 
-### `npm test`
+## Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   **Frontend**: React.js
+*   **Styling**: CSS3, MDB React UI Kit, Slick Carousel
+*   **Routing**: React Router
+*   **Icons**: Lucide React
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   Node.js (v14 or higher recommended)
+*   npm (Node Package Manager)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1.  Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  Start the development server:
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4.  Open your browser and navigate to `http://localhost:5006` (or the port specified in your terminal).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Scripts
+
+*   `npm start`: Runs the app in development mode.
+*   `npm test`: Launches the test runner.
+*   `npm run build`: Builds the app for production to the `build` folder.
+*   `npm run deploy`: Deploys the app to GitHub Pages.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*   [React Documentation](https://reactjs.org/)
+*   [DSIR Website](https://www.dsir.gov.in/)
